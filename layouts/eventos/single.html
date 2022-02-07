@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang={{ if .Site.IsMultiLingual }}{{.Language}}{{end}}>
+    {{ partial "header-parts/head.html" . }}
+    <body>
+        <h2>{{ .Title }}</h2>
+        <div>Date de creation: {{ .Date | time.Format ":date_long" }}</div>
+        <p>{{ .Params.event_desc_info }}</p>
+        <ul>
+            {{ range (.GetTerms "actors") }}
+                <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+            {{ end }}
+        </ul>
+    </body>
+</html>

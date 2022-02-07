@@ -1,0 +1,21 @@
+---
+title: "Títulos universitarios extranjeros"
+type: sistema-universitario
+section_img: ""
+struc_dep_pic: ""
+---
+- [Reconocimiento de títulos obtenidos en la Unión Europea para el ejercicio de profesiones reguladas en aplicación de la Directiva 2005/36/CE](https://www.universidades.gob.es/portal/site/universidades/menuitem.a9621cf716a24d251662c810026041a0/?vgnextoid=38f9372673680710VgnVCM1000001d04140aRCRD#:~:text=Reconocimiento%20de%20t%C3%ADtulos%20obtenidos%20en%20la%20Uni%C3%B3n%20Europea%20para%20el%20ejercicio%20de%20profesiones%20reguladas%20en%20aplicaci%C3%B3n%20de%20la%20Directiva%202005/36/CE)  
+**************************************************************
+- [Homologación de títulos extranjeros de educación superior a títulos oficiales universitarios españoles de Grado o Máster que den acceso a profesión regulada en España](https://www.universidades.gob.es/portal/site/universidades/menuitem.a9621cf716a24d251662c810026041a0/?vgnextoid=38f9372673680710VgnVCM1000001d04140aRCRD#:~:text=Homologaci%C3%B3n%20de%20t%C3%ADtulos%20extranjeros%20de%20educaci%C3%B3n%20superior%20a%20t%C3%ADtulos%20oficiales%20universitarios%20espa%C3%B1oles%20de%20Grado%20o%20M%C3%A1ster%20que%20den%20acceso%20a%20profesi%C3%B3n%20regulada%20en%20Espa%C3%B1a).
+**************************************************************
+- [Equivalencia de título extranjero de educación superior a nivel académico de Grado o Máster universitarios oficiales en ramas de conocimiento y campos específicos](https://www.universidades.gob.es/portal/site/universidades/menuitem.a9621cf716a24d251662c810026041a0/?vgnextoid=38f9372673680710VgnVCM1000001d04140aRCRD#:~:text=Equivalencia%20de%20t%C3%ADtulo%20extranjero%20de%20educaci%C3%B3n%20superior%20a%20nivel%20acad%C3%A9mico%20de%20Grado%20o%20M%C3%A1ster%20universitarios%20oficiales%20en%20ramas%20de%20conocimiento%20y%20campos%20espec%C3%ADficos). 
+**************************************************************
+- [Convenios sobre Reconocimiento a efectos académicos con Alemania, Italia, Francia, China, Argentina, Chile y Colombia](https://www.universidades.gob.es/portal/site/universidades/menuitem.a9621cf716a24d251662c810026041a0/?vgnextoid=38f9372673680710VgnVCM1000001d04140aRCRD#:~:text=Convenios%20sobre%20Reconocimiento%20a%20efectos%20acad%C3%A9micos%20con%20Alemania%2C%20Italia%2C%20Francia%2C%20China%2C%20Argentina%2C%20Chile%20y%20Colombia). 
+**************************************************************
+- [Convalidación de estudios extranjeros por estudios universitarios españoles parciales](https://www.universidades.gob.es/portal/site/universidades/menuitem.a9621cf716a24d251662c810026041a0/?vgnextoid=38f9372673680710VgnVCM1000001d04140aRCRD#:~:text=Convalidaci%C3%B3n%20de%20estudios%20extranjeros%20por%20estudios%20universitarios%20espa%C3%B1oles%20parciales)
+**************************************************************
+- [Equivalencia de notas medias de estudios universitarios realizados en centros extranjeros](https://www.universidades.gob.es/portal/site/universidades/menuitem.a9621cf716a24d251662c810026041a0/?vgnextoid=38f9372673680710VgnVCM1000001d04140aRCRD#:~:text=Equivalencia%20de%20notas%20medias%20de%20estudios%20universitarios%20realizados%20en%20centros%20extranjeros)
+**************************************************************
+- [Tasa 107 (modelo 790): ingreso para homologaciones, convalidaciones y equivalencias de títulos y estudios extranjeros](https://www.universidades.gob.es/portal/site/universidades/menuitem.a9621cf716a24d251662c810026041a0/?vgnextoid=38f9372673680710VgnVCM1000001d04140aRCRD#:~:text=Tasa%20107%20(modelo%20790)%3A%20ingreso%20para%20homologaciones%2C%20convalidaciones%20y%20equivalencias%20de%20t%C3%ADtulos%20y%20estudios%20extranjeros)  
+**************************************************************
+- [Información adicional ramas y campos específicos del conocimiento (PDF 184.359 KB)](https://www.universidades.gob.es/portal/site/universidades/menuitem.a9621cf716a24d251662c810026041a0/?vgnextoid=38f9372673680710VgnVCM1000001d04140aRCRD#:~:text=Informaci%C3%B3n%20adicional%20ramas%20y%20campos%20espec%C3%ADficos%20del%20conocimiento%20(PDF%20184.359%20KB))

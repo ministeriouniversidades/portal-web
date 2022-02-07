@@ -1,0 +1,89 @@
+<section>
+    <article id="section_sub_title">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 subtitle d-flex align-content-center">
+                    <i class="far fa-calendar-check"></i>
+                    <h4>{{ i18n "AGENDA DEL MES" | upper }}</h4>
+                </div>
+            </div>
+        </div>
+    </article>
+    <article id="schedule_of_month">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 offset-md-3 col-lg-4 offset-lg-0 d-flex align-content-center justify-content-center cnt_calendar">
+                    <!-- used color-calendar, documentation here https://www.npmjs.com/package/color-calendar -->
+                    <div id="color-calendar" class="color-calendar"></div>
+                    {{ $eventsCount := len (where .Site.RegularPages "Section" "eventos") }}
+                    {{ if gt $eventsCount 4 }}
+                        <div class="row">
+                            <div class="col-12 box_buttons">
+                                <button type="button" class="btn btn-lg btn_present" onclick="javaScript:location.href={{ .Site.BaseURL | printf "%s/eventos" }};">{{i18n "Ver toda la agenda" | upper}}</button>
+                            </div>
+                        </div>
+                    {{end}}
+                    
+                </div>
+                <div class="col-lg-8 events">
+                    <div class="row">
+                        {{ range where (.Pages.ByParam "event_desc_date") "Section" "eventos" }}
+                            {{ range first 4  .Pages }}
+                                <div class="col-sm-6 items">
+                                    <a class="card card_calendar {{.Params.event_type}}" href="javascript:void(0);">
+                                        <div class="row g-0 w-100 d-flex h-158">
+                                            <div class="col-4 date_icon">
+                                                <div class="icon">
+                                                    <i class="far fa-calendar-check"></i>
+                                                </div>
+                                                <div class="time">
+                                                    {{ .Params.event_time | time.Format ":time_short" }}
+                                                </div>
+                                            </div>
+                                            <div class="col-8 info box_text">
+                                                <div class="card-body">
+                                                    <p class="card-text">{{ .Params.event_desc_date | time.Format ":date_long" }}</p>
+                                                    <h5 class="card-title">{{ .Params.event_desc_info }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            {{ end }}
+                        {{ end }}
+                    </div>
+                </div>
+                <!-- MOBILE VERSION WITH SLIDER -->
+                <div class="row events_slider">
+                    <div class="swiper" id="slider_eventCalendar">
+                        <div class="swiper-wrapper">
+                            {{ range where (.Pages.ByParam "event_desc_date") "Section" "eventos" }}
+                                {{ range first 4 .Pages }}
+                                    <div class="swiper-slide items">
+                                        <div class="card {{.Params.event_type}}">
+                                            <div class="col-4 date_icon">
+                                                <div class="icon">
+                                                    <i class="far fa-calendar-check"></i>
+                                                </div>
+                                                <div class="time">
+                                                    {{ .Params.event_time | time.Format ":time_short" }}
+                                                </div>
+                                            </div>
+                                            <div class="col-8 info box_text">
+                                                <div class="card-body">
+                                                    <p class="card-text">{{ .Params.event_desc_date | time.Format ":date_long" }}</p>
+                                                    <h5 class="card-title">{{ .Params.event_desc_info }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                {{ end }}
+                            {{ end }}
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</section>

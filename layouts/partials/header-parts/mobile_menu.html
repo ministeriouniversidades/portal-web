@@ -1,0 +1,47 @@
+<div class="menu_mobile" id="navbarHeaderMenu">
+    <div class="top">
+        <a href="https://universidades.sede.gob.es/" class="btn btn-sedelec">{{ i18n "Sede Electrónica" }}</a>
+    </div>
+    <div class="content">
+        <div class="list">
+            {{ range .Site.Menus.main }}
+                <div class="item">
+                    <a class="link" href="{{if .HasChildren}}javaScript:void(0);{{else}}{{.URL}}{{end}}">
+                        <span>{{ .Name }}</span>
+                        <i class="fal fa-plus-circle"></i>
+                    </a>
+                    {{ if .HasChildren }}
+                        <div class="submenu">
+                            <ul class="sublist">
+                                {{ range .Children }}
+                                    <li class="subitem">
+                                        <a href="{{.URL}}" class="sublink">{{ .Name }}</a>
+                                    </li>
+                                {{ end }}
+                            </ul>
+                        </div>
+                    {{ end }}
+                </div>
+            {{ end }}
+            <div class="item">
+                {{ if .Site.IsMultiLingual }}
+                    {{ if eq .Language $.Site.Language }}
+                        <a class="link" href="javascript:void(0)">
+                            <span>{{ .Language.LanguageName }}</span>
+                            <i class="fal fa-plus-circle"></i>
+                        </a>
+                        <div class="submenu">
+                            <ul class="sublist">
+                                {{ range $.Translations }}
+                                    <li class="subitem">
+                                        <a href="{{ .Permalink }}" class="sublink">{{ .Language.LanguageName }}</a>
+                                    </li>
+                                {{end}}
+                            </ul>
+                        </div>
+                    {{ end }}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>

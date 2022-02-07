@@ -1,0 +1,64 @@
+<section>
+    <article id="section_sub_title">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 subtitle d-flex align-content-center">
+                    <i class="fas fa-link"></i>
+                    <h4>{{ i18n "ORGANISMOS AUTÓNOMOS" | upper }}</h4>
+                </div>
+            </div>
+        </div>
+    </article>
+    <article id="section_box_cards_small" class="mb-80">
+        <div class="container">
+            <div class="row justify-content-center">
+              {{ $sectionPages := where $.Site.RegularPages "Type" "organismos" }}
+                {{ range  first 5 $sectionPages.ByDate }}
+                    <div class="col-lg-2 item">
+                      {{ if (isset .Params "external_link") }}
+                        <a href="{{ .Params.external_link }}" class="card" target="_blank">
+                      {{ else }}
+                        <a href="{{ .Permalink }}" class="card">
+                      {{ end }}
+                            <div class="box_img">
+                            <img src="{{ .Params.img | absURL }}" alt="MinUn" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                              {{ if (isset .Params "external_link") }}<div class="btn btn_icon"><i class="fal fa-external-link-alt"></i></div>{{ end }}
+                                <p class="card-text">{{ .Params.organism_desc }}</p>
+                            </div>
+                        </a>
+                    </div>
+                {{ end }}
+            </div>
+        </div>
+    </article>
+
+    <!-- MOBILE VERSION WITH SLIDER -->
+    <article id="section_box_cards_small_slider">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="swiper" id="slider_cardsSmall">
+              <div class="swiper-wrapper">
+                {{ range first 5 $sectionPages.ByDate }}
+                  <div class="swiper-slide item">
+                    <a href="{{ .Permalink }}" class="card">
+                      <div class="box_img">
+                        <img src="{{ .Params.img | absURL }}" alt="MinUn" class="img-fluid">
+                      </div>
+                      <div class="card-body">
+                          <div class="btn btn_icon"><i class="fal fa-external-link-alt"></i></div>
+                          <p class="card-text">{{ .Params.organism_desc }}</p>
+                      </div>
+                    </a>
+                  </div>
+                {{ end }}
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+</section>

@@ -1,0 +1,7 @@
+---
+title: "Universidad de Sevilla"
+type: "andalucia"
+external_link: "https://www.us.es/covid-19"
+file_title: "Acuerdo Adaptación Enseñanza"
+file_link: "https://www.us.es/sites/default/files/comunicacion/coronavirus/Criterios-academicos-US-curso-20-21.pdf"
+---

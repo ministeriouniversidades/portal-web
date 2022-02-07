@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang={{ if .Site.IsMultiLingual }}{{.Language}}{{end}}>
+  {{ partial "header-parts/head.html" . }}
+  <body>
+    {{ partial "header.html" . }}
+    <section>
+        <article id="header_interno">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 box">
+                        <div class="img" style="background: url({{ .Params.section_img | absURL }});"></div>
+                        <h2>{{ .Title }}</h2>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    {{ partial "includes/breadcrumb.html" . }}
+    <section>
+        <article id="content_text">
+            <div class="container container-xl">
+                <div class="row">
+                    <div class="alert alert-success" id="form_alert_success" style="display: none;">
+                        <span class="icon"><i class="fas fa-check-circle"></i></span>
+                        <span class="text">Su formulario se envió correctamente.</span>                            
+                    </div>
+                    <div class="col-lg-12 box">
+                        {{ .Content }}
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 justify-content-center button_modal box_buttons">
+                    <button type="button" class="btn btn-lg btn_present" data-bs-toggle="modal" data-bs-target="#formContacto" id="sendFormBtn">
+                        {{ "formulario de contacto" | upper }}
+                    </button>
+                </div>
+            </div>
+        </article>
+    </section>
+    <!-- Modal -->
+    <div class="modal fade modal_contact" id="formContacto" tabindex="-1" aria-labelledby="formContactoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-body form_styles">
+                <a href="#" class="close_button" data-bs-dismiss="modal" aria-label="Close"><i class="fal fa-times-circle"></i></a>
+                <p class="mb-xl-35">{{ .Params.form_title }}</p>
+                <div class="alert alert-danger" id="form_alert_danger" style="display: none;">
+                    <span class="icon"><i class="fas fa-exclamation-triangle"></i></span>
+                    <span class="text">Error.</span>                            
+                </div>
+                <p class="items_required" style="font-size: 14px;line-height: 20px;margin-bottom: 29px;">Los campos obligatorios se identifican con un *</p>
+                <form action="https://formspree.io/f/mqknpzlj" id="contactForm">
+                    <div class="mb-3">
+                        <label for="txtNombre" class="form-label">Nombre *</label>
+                        <input type="text" class="form-control" name="nombre" id="txtNombre" aria-describedby="nombreHelp">
+                        <div class="form-text error_color" id="txtNombreError" style="display: none;">Este campo es requerido.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="txtEmail" class="form-label">Email *</label>
+                        <input type="email" name="email" class="form-control" id="txtEmail" aria-describedby="emailHelp">
+                        <div class="form-text error_color" id="txtEmailError" style="display: none;">Este campo es requerido.</div>
+                        <div class="form-text error_color" id="validationEmailError" style="display: none;">El correo introducido no tiene un formato valido.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="txtConsulta" class="form-label">Consulta *</label>
+                        <textarea name="consulta" class="form-control" id="txtConsulta" aria-describedby="consultaHelp" rows="6"></textarea>
+                        <div class="form-text error_color" id="txtConsultaError" style="display: none;">Este campo es requerido.</div>
+                    </div>
+                    <div class="mb-3">
+                        <input type="checkbox" class="form-check-input" id="lbl_provacity" required>
+                        <label class="form-check-label" for="lbl_provacity">Acepto la <a {{ with .Site.GetPage "politica-de-privacidad" }}href="{{ .Permalink }}"{{ end }} target="_blank">Politica de Privacidad *</a></label>
+                        <div class="form-text error_color" id="lbl_provacity_error" style="display: none;">Este campo es requerido.</div>
+                    </div>
+                    <div class="col-lg-10 mb-3">
+                        <div class="g-recaptcha" data-sitekey="6Ld5XSIeAAAAABEe6Q5OPybZeC2SY23WFDf7bVVY"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 justify-content-center mt-4 box_buttons">
+                            <button type="button" class="btn btn-lg btn_present" id="submitContactForm">
+                                Enviar Formulario
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+    </div>
+    {{ partial "home-page-sections/sponsors-sec.html" . }}
+    {{ partial "footer.html" . }}
+    <script>
+        function validateEmail(email) {
+            return email.match(
+                /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+            );
+        }
+        $( document ).ready(function() {
+            // Set reCaptcha to be required
+            var el = document.getElementById('g-recaptcha-response'); 
+            if (el) { 
+                el.setAttribute('required', 'required'); 
+            } 
+            // Reset the form
+            $('#formContacto').on('hidden.bs.modal', function (e) {
+                let inputIds = ["#txtNombre", "#txtEmail", "#txtConsulta"]
+                inputIds.forEach(function(item) {
+                    $(item).val('')
+                    $(item).removeClass('input_error')
+                    $(item + 'Error').css("display", "none")
+                });
+                $("#validationEmailError").css("display", "none")
+                $("#lbl_provacity").prop( "checked", false );
+                $("#lbl_provacity_error").css("display", "none")
+            })
+            // Validate the form
+            $("#submitContactForm").on("click", function (event) {
+                event.preventDefault()
+                let form_validated = true
+                if (!$("#txtNombre").val()) {
+                    $("#txtNombreError").css("display", "block")
+                    $("#txtNombre").addClass("input_error")
+                    form_validated = false
+                }
+                else {
+                    $("#txtNombreError").css("display", "none")
+                    $("#txtNombre").removeClass('input_error')
+                }
+                if (!$("#txtEmail").val()) {
+                    $("#validationEmailError").css("display", "none")
+                    $("#txtEmailError").css("display", "block")
+                    $("#txtEmail").addClass("input_error")
+                    form_validated = false
+                }else if (!validateEmail($("#txtEmail").val())) {
+                    $("#txtEmailError").css("display", "none")
+                    $("#validationEmailError").css("display", "block")
+                }else {
+                    $("#txtEmailError").css("display", "none")
+                    $("#txtEmail").removeClass('input_error')
+                    $("#validationEmailError").css("display", "none")
+                }
+                if (!$("#txtConsulta").val()) {
+                    $("#txtConsultaError").css("display", "block")
+                    $("#txtConsulta").addClass("input_error")
+                    form_validated = false
+                }else {
+                    $("#txtConsultaError").css("display", "none")
+                    $("#txtConsulta").removeClass('input_error')
+                }
+                if (!$("#lbl_provacity").is(':checked')) {
+                    $("#lbl_provacity_error").css("display", "block")
+                    form_validated = false
+                }else $("#lbl_provacity_error").css("display", "none")
+                if (form_validated) $("#contactForm").submit()
+            })
+            // Handle the form
+            $("#contactForm").submit(function(e){
+                e.preventDefault();
+                var action = $(this).attr("action");
+                $.ajax({
+                type: "POST",
+                url: action,
+                crossDomain: true,
+                data: new FormData(this),
+                dataType: "json",
+                processData: false,
+                contentType: false,
+                headers: {
+                "Accept": "application/json"
+                }
+            }).done(function() {
+                $('#formContacto').modal('hide');
+                $("#form_alert_success").css("display", "block")
+                $("#sendFormBtn").prop("disabled", true);
+                // $('#formContacto').animate({ scrollTop: 0 }, 'fast');
+                // setTimeout(function() {
+                //    $("#form_alert_success").css("display", "none")
+                // }, 3000)
+            }).fail(function() {
+                $("#form_alert_danger").css("display", "block")
+                $('#formContacto').animate({ scrollTop: 0 }, 'fast');
+                setTimeout(function() {$("#form_alert_danger").css("display", "none")}, 3000)
+            });
+            });
+        });
+    </script>
+  </body>
+</html>
