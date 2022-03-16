@@ -11,7 +11,7 @@ El Ministerio de Universidades es el Departamento de la Administración General 
 Ejerce las funciones que legalmente le corresponden a través de los siguientes órganos directivos:  
 
  + La Secretaría General de Universidades.  
- + La Subsecretaría.  
+ + La Subsecretaría de Universidades.  
  
    <section>
         <article>
