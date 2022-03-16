@@ -12,6 +12,7 @@ Ejerce las funciones que legalmente le corresponden a través de los siguientes 
 
  + La Secretaría General de Universidades.  
  + La Subsecretaría de Universidades.  
+ + Test
  
    <section>
         <article>
