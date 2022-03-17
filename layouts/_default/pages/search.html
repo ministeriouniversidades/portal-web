@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang={{ if .Site.IsMultiLingual }}{{.Language}}{{end}}>
+  {{ partial "header-parts/head.html" . }}
+  <body>
+    {{ partial "header.html" . }}
+    <section class="container-sin-header">
+        {{ .Scratch.Set "breadcrumbClass" . }}
+        {{ partial "includes/breadcrumb.html" . }}
+        <article id="busqueda_noticias">
+            <div class="container container-xl">
+                <div class="row">
+                    <form action="{{ with .GetPage "/search" }}{{.Permalink}}{{end}}" method="GET">
+                        <div class="col-lg-12 box">
+                            <h3 class="title">¿Quieres volver a buscar?</h3>
+                            <div class="input-group">
+                                <input type="text" name="query" class="form-control" placeholder="Convocatoria" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Buscar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </article>
+    </section>
+    <section>
+        <article id="content_busqueda">
+            <div class="container container-xl ">
+                <div class="row">
+                    <div class="col-lg-12 box_title">
+                        <h3>{{ i18n "Se han encontrado" }}</h3>
+                        <span id="countResult">0</span>
+                        <span>{{ i18n "resultados" }}</span>
+                    </div>
+                    <div class="col-lg-12 box_content" id="searchingResults"><img src="{{"./images/ajax-loader.gif" | absURL}}" alt="Loading..." id="loader" style="position: absolute; top: 45%; left: 20%;"></div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <section class="mb-120">
+        <article id="pagination">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 box" id="displayPagination">
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    {{ partial "home-page-sections/sponsors-sec.html" . }}
+    {{ partial "footer.html" . }}
+    <script src="https://cdn.rawgit.com/jprichardson/string.js/master/dist/string.min.js"></script>
+    <script type="text/javascript">
+        initLunr()
+        $(document).ready(function() {
+            const params = new URLSearchParams(window.location.search)
+            let query = (S(params.get('query')).latinise().stripPunctuation().s).toLowerCase()
+            var result = []
+            
+            const URL = {{ .Site.BaseURL }}
+            
+            query = query.split(' ')
+            query.forEach(function(str, i) {query[i] = '+' + str})
+            var results = search(query.join(' '))
+            console.info(results)
+            console.info(query.join(' '))
+            $("#countResult").text(results.length)
+            // Pagination section 
+            var paginate = 4 // items per chunk   
+            if (results.length) {
+                result = results.reduce((pagination, item, index) => { 
+                    const chunkIndex = Math.floor(index/paginate)
+        
+                    if(!pagination[chunkIndex]) {
+                        pagination[chunkIndex] = [] // start a new chunk
+                    }
+        
+                    pagination[chunkIndex].push(item)
+        
+                    return pagination
+                }, [])
+                // ------------------
+                let paginationIndex = 0
+                if (params.get('page')) paginationIndex = parseInt(params.get('page')) - 1
+                result[paginationIndex].forEach(element => {
+                    // Create search result's element
+                    let aLink = document.createElement("a")
+                    let h5 = document.createElement("h5")
+                    let p = document.createElement("p")
+                    let span = document.createElement("span")
+        
+                    aLink.className = "card";
+                    aLink.href = URL + element.href
+                    h5.textContent = element.title
+                    p.textContent = element.description
+                    span.textContent = URL + element.href
+        
+                    $(aLink).append([h5, p, span])
+                    $("#searchingResults").append(aLink) //Add the searching result in the HTML DOM
+                })
+            } 
+            
+            if (result.length > 1) { // If we have more than one page
+                // ---------Create the Pagination--------
+                let nav = document.createElement("nav")
+                let ul = document.createElement("ul")
+                ul.classList.add("pagination", "justify-content-center")
+                nav.ariaLabel = "Page navigation example"
+        
+                // Previous page button
+                let liPrev = document.createElement("li")
+                liPrev.classList.add("page-item")
+                let aLinkPrev = document.createElement("a")
+                aLinkPrev.className = "buttons" 
+                let spanPrev = document.createElement("span")
+                let iPrev = document.createElement("i")
+                iPrev.classList.add("fal", "fa-chevron-left")
+        
+                spanPrev.textContent = {{ i18n "Página anterior" }}
+        
+                $(aLinkPrev).append([spanPrev,iPrev])
+                $(liPrev).append(aLinkPrev)
+                // ------------
+                // Next page button
+                let liNext = document.createElement("li")
+                liNext.className = "page-item"
+                let aLinkNext = document.createElement("a")
+                aLinkNext.className = "buttons"
+                let spanNext = document.createElement("span")
+                let iNext = document.createElement("i")
+                iNext.classList.add("fal", "fa-chevron-right")
+        
+                spanNext.textContent = {{ i18n "Página siguiente" }}
+        
+                $(aLinkNext).append([spanNext,iNext])
+                $(liNext).append(aLinkNext)
+                // ---------
+                let displayPagination = document.getElementById("displayPagination")
+                let currentURL = window.location.href
+    
+                if (params.get("page")) {
+                    // Add event to previous buttons
+                    if (parseInt(params.get("page")) - 1 != 0){
+                        let PrevPage = parseInt(params.get("page")) - 1
+                        aLinkPrev.href = currentURL.substring(0,currentURL.indexOf("page=")+5) + PrevPage
+                    }
+                    // Add event to Next buttons
+                    if (result.length > parseInt(params.get("page"))){ 
+                        let nextPage = parseInt(params.get("page")) + 1
+                        aLinkNext.href = currentURL.substring(0,currentURL.indexOf("page=")+5) + nextPage
+                    }
+                    if ((parseInt(params.get("page")) - 1) === 0) {
+                        $(liPrev).addClass("disabled-buttons")
+                        $(aLinkPrev).addClass("page-link")
+                        $(aLinkPrev).attr("aria-disabled", true)
+                        $(aLinkPrev).attr("tab-index", "-1")
+                        $(liNext).addClass("active-buttons")
+                        $(aLinkNext).removeAttr("aria-disabled tab-index")
+                    } else if (result.length === parseInt(params.get("page"))) {
+                        $(liNext).addClass("disabled-buttons")
+                        $(aLinkNext).attr("aria-disabled", true)
+                        $(aLinkNext).attr("tab-index", "-1")
+                        $(aLinkNext).addClass("page-link")
+                        $(liPrev).addClass("active-buttons")
+                        $(aLinkPrev).removeAttr("aria-disabled tab-index")
+                    } else {
+                        $(liPrev).addClass("active-buttons")
+                        $(aLinkPrev).removeAttr("aria-disabled tab-index")
+                        $(liNext).addClass("active-buttons")
+                        $(aLinkNext).removeAttr("aria-disabled tab-index")
+                    }
+                } else {
+                    $(liPrev).addClass("disabled-buttons")
+                    $(aLinkPrev).addClass("page-link")
+                    $(liNext).addClass("active-buttons")
+                    aLinkNext.href = currentURL + "&page=2"
+                }
+                ul.append(liPrev)
+                // Create the pagination numbers
+                for (let i = 0; i < result.length; i++) {
+                    let li = document.createElement("li")
+                    let pageNumber = parseInt(i+1)
+                    li.className = "page-item"
+                    let aLink = document.createElement("a")
+                    aLink.classList.add("page-link", "numbers")
+                    if (currentURL.indexOf("page=") > -1) {
+                        currentURL = currentURL.substring(0,currentURL.indexOf("page=")+5)
+                        aLink.href = currentURL + pageNumber
+                    }else{
+                        aLink.href = currentURL + '&page='+pageNumber
+                    }
+                    aLink.textContent = parseInt(i + 1)
+                    if (i === 0 || i === result.length) $(li).addClass("pl-15")
+                    if ((parseInt(params.get("page")) === pageNumber) || (!params.get("page") && i === 0)) $(li).addClass("active")
+                    li.appendChild(aLink)
+                    ul.appendChild(li)
+                }
+                // ----------------------------------
+                ul.append(liNext)
+                nav.append(ul)
+                displayPagination.append(nav)
+            }
+            
+            $("#loader").hide()
+        })
+    </script>
+  </body>
+</html>

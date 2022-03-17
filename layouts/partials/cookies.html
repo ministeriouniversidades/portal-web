@@ -1,0 +1,185 @@
+<section id="cookie-notice" style="display: none;">
+    <article class="cnt_cookies">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-lg-10 col-xl-6 content">
+                    <div class="icon_top">
+                        <span class="icon-icono4 icon"></span>
+                    </div>
+                    <div class="info">
+                        <p class="title">
+                            <b>Esta página web usa cookies</b>
+                        </p>
+                        <p class="text">
+                            Las cookies de este sitio web se usan para personalizar el contenido y los anuncios, ofrecer funciones de redes sociales y analizar el tráfico. Además, compartimos información sobre el uso que haga del sitio web con nuestros partners de redes sociales, publicidad y análisis web, quienes pueden combinarla con otra información que les haya proporcionado o que hayan recopilado a partir del uso que haya hecho de sus servicios.
+                        </p>
+                    </div>
+                    <div class="box_buttons">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalCookies" id="open_preferences_center">CONFIGURACIÓN DE COOKIES</a>
+                        <button type="button" id="cookie-notice-accept" class="btn btn-lg btn_present">PERMITIR TODAS</button>
+                        <button type="button" id="cookie-notice-deny" class="btn btn-lg btn_present">DESACTIVAR TODAS</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</section>
+<!-- Modal Cookies -->
+<div class="modal fade" id="modalCookies" tabindex="-1" aria-labelledby="modalCookiesLabel" style="display: none;" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-cookies">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="d-flex flex-row justify-content-between align-items-center mb-36">
+                        <div class="icon_top">
+                            <span class="icon-icono4 icon"></span>
+                        </div>
+                        <div class="info_top">
+                            <a {{ with .Site.GetPage "politicadecookies" }} href="{{ .Permalink }}"{{ end }} class="modal-title" target="_blank">POLITICA DE COOKIES</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 info_conf_cookie">
+                            <div class="item">
+                                <div class="tit">
+                                    <div class="form-check d-flex flex-row justify-content-between align-items-center">
+                                        <label class="form-check-label" for="flexCheckDefault">ESTRICTAMENTE NECESARIO</label> 
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    </div>
+                                </div>
+                                <div class="cnt_check">
+                                    <p>
+                                        Las cookies necesarias ayudan a hacer una página web utilizable activando funciones básicas como la navegación en la página y el acceso a áreas seguras de la página web. La página web no puede funcionar adecuadamente sin estas cookies.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="tit">
+                                    <div class="form-check d-flex flex-row justify-content-between align-items-center">
+                                        <label class="form-check-label" for="flexCheckDefault">PREFERENCIA</label> 
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    </div>
+                                </div>
+                                <div class="cnt_check">
+                                    <p>
+                                        Las cookies de preferencias permiten a la página web recordar información que cambia la forma en que la página se comporta o el aspecto que tiene, como su idioma preferido o la región en la que usted se encuentra.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="tit">
+                                    <div class="form-check d-flex flex-row justify-content-between align-items-center">
+                                        <label class="form-check-label" for="flexCheckDefault">ESTADISTICAS</label> 
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    </div>
+                                </div>
+                                <div class="cnt_check">
+                                    <p>
+                                        Las cookies estadísticas ayudan a los propietarios de páginas web a comprender cómo interactúan los visitantes con las páginas web reuniendo y proporcionando información de forma anónima.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="tit">
+                                    <div class="form-check d-flex flex-row justify-content-between align-items-center">
+                                        <label class="form-check-label" for="flexCheckDefault">MARKETING</label> 
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    </div>
+                                </div>
+                                <div class="cnt_check">
+                                    <p>
+                                        Las cookies de marketing se utilizan para rastrear a los visitantes en las páginas web. La intención es mostrar anuncios relevantes y atractivos para el usuario individual, y por lo tanto, más valiosos para los editores y terceros anunciantes.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="tit">
+                                    <div class="form-check d-flex flex-row justify-content-between align-items-center">
+                                        <label class="form-check-label" for="flexCheckDefault">NO CLASIFICADOS</label> 
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    </div>
+                                </div>
+                                <div class="cnt_check">
+                                    <p>
+                                        Las cookies no clasificadas son cookies para las que todavía estamos en proceso de clasificar, junto con los proveedores de cookies individuales.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 justify-content-end box_buttons">
+                            <button type="button" class="btn btn-lg btn_present">GUARDAR CONFIGURACIÓN</button>
+                            <button type="button" class="btn btn-lg btn_present">PERMITIR TODAS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function createCookie(name,value,days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days*24*60*60*1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + value + expires + "; path=/";
+    }
+    function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+    }
+    function eraseCookie(name) {
+        createCookie(name,"",-1);
+    }
+
+    if(readCookie('cookie-ministerio')=='true') {
+        {{ if hugo.IsProduction | or (eq .Site.Params.env "production") }}
+        
+        function loadScriptAsync(scriptSrc, callback) {
+            if (typeof callback !== 'function') {
+                throw new Error('Not a valid callback for async script load');
+            }
+            var script = document.createElement('script');
+            script.onload = callback;
+            script.src = scriptSrc;
+            document.head.appendChild(script);
+        }
+
+        /* This is the part where you call the above defined function and "calls back" 
+        your code which gets executed after the script has loaded */
+        //REPLACE WITH YOUR GA TAG!
+        loadScriptAsync('https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX', function () {
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'G-XXXXXXXXXX', { 'anonymize_ip': true }); //REPLACE WITH YOUR GA TAG!
+        })
+
+        {{ end }}
+    } else if (readCookie('cookie-ministerio')!='false'){
+        document.getElementById('cookie-notice').style.display = 'block';
+    }
+
+    document.getElementById('cookie-notice-accept').addEventListener("click",function() {
+        createCookie('cookie-ministerio','true',31);
+        document.getElementById('cookie-notice').style.display = 'none';
+        location.reload();
+    });
+
+    document.getElementById('cookie-notice-deny').addEventListener("click",function() {
+        createCookie('cookie-ministerio','false',31);
+        document.getElementById('cookie-notice').style.display = 'none';
+        location.reload();
+    });
+
+</script>

@@ -1,0 +1,34 @@
+---
+title: "Actualidad"
+has_media: false
+news_desc: "Las reformas emprendidas por el Gobierno en el sistema de becas y ayudas al estudio han permitido incrementar el número total de alumnos y alumnas que acceden a estas ayudas El Ministerio de Educación y Formación Profesional y el de Universidades organizan la jornada anual de difusión de becas con las comunidades autónomas y universidades implicadas en su gestión Más de 724.000 alumnos y alumnas han remitido ya su solicitud de beca para el curso 2021-2022, una convocatoria que cuenta con 2.038 millones de presupuesto Para la convocatoria 2022-2023, se adelantarán las fechas de solicitud de becas y se modificará la gestión para que los estudiantes sepan antes del inicio del curso si cumplen o no los requisitos económicos para recibir estas ayudas"
+news_title: "Casi 900.000 estudiantes recibieron una beca el pasado curso, un 10,8% más que en 2019-2020"
+draft: true
+news_date: 2021-09-15T14:20:22+01:00
+---
+<ul>
+<li><b>Las reformas emprendidas por el Gobierno en el sistema de becas y ayudas al estudio han permitido incrementar el n&uacute;mero total de alumnos y alumnas que acceden a estas ayudas</b></li>
+</ul>
+<ul>
+<li><b>El Ministerio de Educaci&oacute;n y Formaci&oacute;n Profesional y el de Universidades organizan la jornada anual de difusi&oacute;n de becas con las comunidades aut&oacute;nomas y universidades implicadas en su gesti&oacute;n</b></li>
+</ul>
+<ul>
+<li><b>M&aacute;s de 724.000 alumnos y alumnas han remitido ya su solicitud de beca para el curso 2021-2022, una convocatoria que cuenta con 2.038 millones de presupuesto</b></li>
+</ul>
+<ul>
+<li><b>Para la convocatoria 2022-2023, se adelantar&aacute;n las fechas de solicitud de becas y se modificar&aacute; la gesti&oacute;n para que los estudiantes sepan antes del inicio del curso si cumplen o no los requisitos econ&oacute;micos para recibir estas ayudas</b></li>
+</ul>
+<p><b>&nbsp;</b></p>
+<p>Cerca de 900.000 estudiantes recibieron una beca o ayuda al estudio en el curso 2020-2021; un 10,78% m&aacute;s que el a&ntilde;o anterior, seg&uacute;n los datos facilitados hoy por los Ministerios de Educaci&oacute;n y Formaci&oacute;n Profesional y Universidades en la jornada anual de difusi&oacute;n e becas celebrada con las comunidades aut&oacute;nomas y las universidades implicadas en la gesti&oacute;n de estas ayudas.</p>
+<p>El incremento del 37,8% en el presupuesto destinado a las becas entre 2018 y 2021, el aumento de las cuant&iacute;as fijas en 100 euros y la elevaci&oacute;n del umbral 1 de la renta hasta equipararlo casi al de la pobreza ha posibilitado que cada curso crezca el n&uacute;mero de alumnos y alumnas que reciben una beca. El pasado curso fueron 896.469, un 10,78% m&aacute;s que en 2019-2020 y un 14,3% m&aacute;s que en 2017-2018. Adem&aacute;s, muchos de ellos, especialmente los de familias con ingresos m&aacute;s bajos, recibieron una cuant&iacute;a mayor.</p>
+<p>El objetivo de las reformas introducidas por el Gobierno es que las becas lleguen a aquellas personas que m&aacute;s las necesitan, garantizar el derecho a la educaci&oacute;n de todas y todos y combatir el abandono escolar por motivos econ&oacute;micos.</p>
+<p>&ldquo;Continuamos con el compromiso de mejora del sistema de becas que permita avanzar hacia una educaci&oacute;n m&aacute;s inclusiva. La reciente reforma ha ampliado considerablemente el n&uacute;mero de becarios que han accedido al umbral 1. En la pr&oacute;xima convocatoria, se har&aacute; un esfuerzo importante para adelantar la gesti&oacute;n de las becas que permitan reducir la incertidumbre de los becarios&rdquo;, ha se&ntilde;alado el secretario de Estado de Educaci&oacute;n, Alejandro Tiana.</p>
+<p>En los &uacute;ltimos a&ntilde;os se han modificado tambi&eacute;n los requisitos acad&eacute;micos que permiten acceder a estas ayudas fijando en un aprobado el acceso a la beca en niveles no universitarios. En esta misma l&iacute;nea, como novedad en la presente convocatoria, la nota m&iacute;nima para acceder a una beca para un m&aacute;ster habilitante tambi&eacute;n ser&aacute; un cinco.</p>
+<p>&ldquo;Las medidas tomadas por el Gobierno han hecho posible que se haya duplicado el n&uacute;mero de estudiantes universitarios que accedieron a una beca completa por renta, pasando de 90.006 becarios y becarias en el curso 2019-2020 a 172.492 en el curso 2020-2021, lo que supone un aumento de 88.486 estudiantes con cuant&iacute;a fija ligada a la renta, avanzando as&iacute; en la igualdad de oportunidades en el derecho a la educaci&oacute;n universitaria&rdquo;, ha destacado el secretario general de Universidades, Jos&eacute; Manuel Pingarr&oacute;n.</p>
+<p>Estos datos han sido facilitados por el Ministerio de Educaci&oacute;n y Formaci&oacute;n Profesional y el Ministerio de Universidades a las comunidades aut&oacute;nomas y unidades de gesti&oacute;n de becas de las universidades durante la jornada de difusi&oacute;n en la que cada a&ntilde;o se analiza el estatus de la convocatoria general de becas.</p>
+<p><b>M&aacute;s 724.000 estudiantes han solicitado ya una beca para este curso</b></p>
+<p><b>&nbsp;</b></p>
+<p>A 15 d&iacute;as del cierre de la convocatoria de 2021-2022, 724.671 estudiantes han solicitado ya una beca para este curso. De ellos, 390.401 pertenecen a niveles no universitarios, cuyo plazo finaliza el 30 de septiembre, y 334.270 a grado o m&aacute;ster, modalidad que permanecer&aacute; abierta hasta el 14 de octubre.</p>
+<p>La previsi&oacute;n para esta convocatoria, a la que se han destinado 2.038 millones de euros (un 39,6% m&aacute;s que en 2018), es que el n&uacute;mero de estudiantes receptores de una beca ronde los 850.000 (sin contar las ayudas para alumnos con necesidades educativas especiales). Una cifra r&eacute;cord.</p>
+<p>Durante la jornada, el secretario de Estado de Educaci&oacute;n y el secretario general de Universidades han informado adem&aacute;s de los avances en la reforma de la gesti&oacute;n administrativa que permitir&aacute; adelantar varios meses la solicitud de las becas. Esta medida, una de las principales novedades en la pr&oacute;xima convocatoria 2022-2023, permitir&aacute; a los estudiantes saber antes del inicio del curso si cumplen o no los requisitos econ&oacute;micos para recibir estas ayudas.</p>
+<p>Ambos Ministerios trabajan tambi&eacute;n con las comunidades aut&oacute;nomas en la creaci&oacute;n de un portal com&uacute;n que acoja las distintas convocatorias de becas estatales y auton&oacute;micas para facilitar a los ciudadanos la b&uacute;squeda de estas ayudas al estudio. Se atiende as&iacute; una reclamaci&oacute;n hist&oacute;rica de las asociaciones de estudiantes.</p>

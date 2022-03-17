@@ -1,0 +1,11 @@
+---
+title: "content"
+date: 2021-11-09T14:26:33+01:00
+type: "estadisticaprecios9"
+---
+<ul class="ulDocs">
+<li><span class="txt"><a title="Ir a 'Estad&iacute;stica de Precios P&uacute;blicos Universitarios', en ventana nueva" target="_blank" href="{{<siteurl>}}/documentos/excel/estadisticas/estadistica-precios-publicos-universitarios-curso2015-16.xlsx" rel="noopener">Estad&iacute;stica de Precios P&uacute;blicos Universitarios <i class="icon fas fa-external-link-alt"></i></a><span>&nbsp;</span><span title="xls 1.006 MB" class="tamaTipo">(xls 1,006 MB)</span></span></li>
+<li><span class="txt"><a title="Ir a 'Precios P&uacute;blicos de Grado por experimentalidad y CC.AA.', en ventana nueva" target="_blank" href="{{<siteurl>}}/documentos/excel/estadisticas/precios-publicos-grados-experimentalidad-ccaa-curso2015-16.xlsx" rel="noopener">Precios P&uacute;blicos de Grado por experimentalidad y CC.AA. <i class="icon fas fa-external-link-alt"></i></a><span>&nbsp;</span><span title="xls 221.097 KB" class="tamaTipo">(xls 221,097 KB)</span></span></li>
+<li><span class="txt"><a title="Ir a 'Precios P&uacute;blicos de M&aacute;ster por experimentalidad y CC.AA.', en ventana nueva" target="_blank" href="{{<siteurl>}}/documentos/excel/estadisticas/precios-publicos-master-experimentalidad-ccaa-curso2015-16.xlsx" rel="noopener">Precios P&uacute;blicos de M&aacute;ster por experimentalidad y CC.AA. <i class="icon fas fa-external-link-alt"></i></a><span>&nbsp;</span><span title="xls 383.946 KB" class="tamaTipo">(xls 383,946 KB)</span></span></li>
+<li><span class="txt"><a title="Ir a 'Precios P&uacute;blicos de 1er. y 2&ordm; ciclo por experimentalidad y CC.AA.', en ventana nueva" target="_blank" href="{{<siteurl>}}/documentos/excel/estadisticas/precios-publicos-1er-2-ciclo-experimentalidad-ccaa-curso2015-16.xls" rel="noopener">Precios P&uacute;blicos de 1er. y 2&ordm; ciclo por experimentalidad y CC.AA. <i class="icon fas fa-external-link-alt"></i></a><span>&nbsp;</span><span title="xls 540.0 KB" class="tamaTipo">(xls 540,0 KB)</span></span></li>
+</ul>

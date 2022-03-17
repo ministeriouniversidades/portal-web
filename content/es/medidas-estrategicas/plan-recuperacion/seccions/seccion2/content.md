@@ -1,0 +1,43 @@
+---
+title: "content"
+date: 2021-11-09T14:26:33+01:00
+type: "seccion2"
+---
+<!-- <img title="magen de la Noticia" alt="magen de la Noticia" src="{{<siteurl>}}images/ES_Financiado_por_la_Union_Europea_POS.jpg" class="img-fluid img-card"> -->
+<p><strong> Formación y capacitación del personal docente e investigador universitario.</strong></p>
+<p>Esta inversión persigue fomentar la recualificación del sistema universitario español y promover el desarrollo profesional de su profesorado, así como de jóvenes doctores que puedan integrarse en el sistema en el futuro, mediante la concesión de ayudas para la realización de estancias en otras universidades y centros de investigación. Asimismo, se conceden ayudas a las universidades para la atracción de talento internacional. </p>
+<p>El Ministerio de Universidades ha optado por establecer una gestión compartida de los fondos con las universidades que integran el sistema universitario público a través de la concesión directa de ayudas a las universidades públicas españolas, incluida la UNED, para que éstas a su vez convoquen becas y subvenciones.</p>
+<p><em>NORMATIVA </em><span></span> </p>
+<ul>
+<li><a title="Ir a 'Real Decreto 289/2021, de 20 de abril'" href="https://www.boe.es/buscar/act.php?id=BOE-A-2021-6391" target="_blank" rel="noopener">Real Decreto 289/2021, de 20 de abril <i class="icon fas fa-external-link-alt"></i></a>, por el que se regula la concesión directa de subvenciones a universidades públicas para la recualificación del sistema universitario español.</li>
+<li><a title="Ir a 'Orden UNI/551/2021, de 26 de mayo'" href="https://boe.es/diario_boe/txt.php?id=BOE-A-2021-9344" target="_blank" rel="noopener">Orden UNI/551/2021, de 26 de mayo <i class="icon fas fa-external-link-alt"></i></a>, por la que se conceden las subvenciones previstas en el Real Decreto 289/2021, de 20 de abril, por el que se regula la concesión directa de subvenciones a universidades públicas para la recualificación del sistema universitario español.</li>
+<li><a title="Ir a 'Orden del Ministro de Universidades'" href="http://portal.uned.es/pls/portal/docs/PAGE/UNED_MAIN/SERVICIOSGENERALES/O.T.A.I/FINANCIACION%20MINISTERIOS/ORDEN%20TRANSFERENCIA%202021%20UNED%20RECUALIFICACI%C3%93N%20FIRMADA.</a><i class='fas fa-external-link-alt'></i>" target="_blank" rel="noopener">Orden del Ministro de Universidades <i class="icon fas fa-external-link-alt"></i></a><span></span>por la que se transfiere a la UNED, de 27 de julio de 2021, para la recualificación y movilidad nacional e internacional del personal docente investigador (PDI), Mecanismo de recuperación y resiliencia, la cantidad de 4.500.000 &euro;, prevista en la ley 11/2020, de 30 de diciembre, de Presupuestos Generales del Estado para el año 2021.</li>
+</ul>
+<p></p>
+<p><em>MÁS INFORMACIÓN</em></p>
+<ul>
+<li>El Ministerio de Universidades, dentro del marco general del <a title="Ir a 'Plan de Recuperación, Transformación y Resiliencia'" href="https://www.lamoncloa.gob.es/temas/fondos-recuperacion/Documents/30042021-Plan_Recuperacion_%20Transformacion_%20Resiliencia.pdf" target="_blank" rel="noopener">Plan de Recuperación, Transformación y Resiliencia <i class="icon fas fa-external-link-alt"></i></a> ha puesto en marcha una serie de ayudas para fomentar la recualificación del sistema universitario español. Consulte para más información en el enlace<span></span>  <a title="Ir a 'Plan RTR'" href="{{<siteurl>}}medidas-estrategicas/plan-recuperacion/recualificacion/" target="_blank" rel="noopener">Recualificación <i class="icon fas fa-external-link-alt"></i></a>.</li>
+</ul>
+<ul>
+<li>Las universidades públicas beneficiarias de las subvenciones previstas en el RD 289/2021 y en la Orden UNI 551/2021, han publicado en sus páginas web sus respectivas convocatorias, que se pueden consultar en el siguiente enlace<span></span>  <a title="Ir a 'Ayudas Recualificación'" href="https://www.universidades.gob.es/portal/site/universidades/menuitem.21ef60083f296675105f2c10026041a0/?vgnextoid=f8bd01b3f112f710VgnVCM1000001d04140aRCRD" target="_blank" rel="noopener">Ayudas Recualificación <i class="icon fas fa-external-link-alt"></i></a>.</li>
+</ul>
+<p></p>
+<p><strong> Mejora de infraestructuras, el equipamiento, las tecnologías, la docencia y la evaluación digitales universitarios.</strong></p>
+<p>Esta inversión tiene el objetivo de garantizar la conectividad de la red universitaria y adaptar los programas y sistemas a las nuevas tecnologías y al aprendizaje combinado a distancia y presencial. La inversión se articula a través de la concesión de ayudas con carácter plurianual a las universidades públicas para la elaboración de proyectos tecnológicos que incrementen, para 2023, el índice de digitalización del sistema universitario español en al menos un 10%, respecto de 2019.                </p>
+<p>El Ministerio de Universidades ha optado por establecer una gestión compartida de los fondos con las universidades que integran el sistema universitario público a través de la concesión directa de ayudas a las universidades públicas españolas, incluida la UNED, para que éstas desarrollen proyectos de digitalización que deberán estar enmarcados en alguna de las siguientes líneas de actuación:</p>
+<ul>
+<li>Mejora del equipamiento digital tanto de las aulas como del software, sistemas, redes</li>
+<li>Educación digital. Para la mejora de los entornos y procesos de soporte en docencia digital, supervisión y evaluación de procesos de enseñanza-aprendizaje, enriquecimiento de tecnologías educativas</li>
+<li>Desarrollo de materiales, contenidos, recursos relacionados con la mejora de las competencias digitales del profesorado</li>
+<li>Plataformas digitales para la mejora y adaptación de los servicios de gestión universitaria, en especial, los que permitan la interoperabilidad y el intercambio automatizado de información entre universidades en los trámites académicos y de gestión.</li>
+</ul>
+<p></p>
+<p><em>MÁS INFORMACIóN</em></p>
+<p>En el siguiente enlace puede consultar las <a title="Ir a 'Subvenciones a universidades públicas para la modernización y digitalización del sistema universitario español'" href="https://www.universidades.gob.es/portal/site/universidades/menuitem.3fa82a7cab101038d5895bd0026041a0/?vgnextoid=a46ca4518ba5c710VgnVCM1000001d04140aRCRD&amp;vgnextchannel=b0cddbb8939d7710VgnVCM1000001d04140aRCRD" target="_blank" rel="noopener">Subvenciones a universidades públicas para la modernización y digitalización del sistema universitario español <i class="icon fas fa-external-link-alt"></i></a>.</p>
+<p></p>
+<p><em>NORMATIVA</em></p>
+<ul>
+<li><a title="Ir a 'Real Decreto 641/2021, de 27 de julio, por el que se regula la concesión directa de subvenciones a universidades públicas españolas para la modernización y digitalización del sistema universitario español en el marco del Plan de Recuperación, Transformación y Resiliencia.'" href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-12614" target="_blank" rel="noopener">Real Decreto 641/2021, de 27 de julio, por el que se regula la concesión directa de subvenciones a universidades públicas españolas para la modernización y digitalización del sistema universitario español en el marco del Plan de Recuperación, Transformación y Resiliencia. <i class="icon fas fa-external-link-alt"></i></a></li><br/>
+<li><a title="Ir a 'Orden por la que se conceden las subvenciones previstas en el Real Decreto 641/2021, de 27 de julio'" href="https://www.subvenciones.gob.es/bdnstrans/GE/es/convocatoria/582721" target="_blank" rel="noopener">Orden por la que se conceden las subvenciones previstas en el Real Decreto 641/2021, de 27 de julio <i class="icon fas fa-external-link-alt"></i></a>, que fue publicada en la Base de Datos Nacional de Subvenciones el 7 de septiembre de 2021.</li><br/>
+<li><a title="Ir a 'Orden del Ministro de Universidades por la que se transfiere a la UNED para su modernización y digitalización en el marco del Plan de Recuperación, Transformación y Resiliencia, la cantidad de 13.180.000,00 &euro;, prevista en la Ley 11/2020, de 30 de diciembre, de Presupuestos Generales del Estado para el año 2021.'" href="http://vistaprevia.redinterna.age:8081/stfls/universidades/ministerio/ficheros/OrdenTransferenciaUNED.PDF" target="_blank" rel="noopener">Orden del Ministro de Universidades por la que se transfiere a la UNED para su modernización y digitalización en el marco del Plan de Recuperación, Transformación y Resiliencia, la cantidad de 13.180.000,00 &euro;, prevista en la Ley 11/2020, de 30 de diciembre, de Presupuestos Generales del Estado para el año 2021. <i class="icon fas fa-external-link-alt"></i></a></li>
+</ul>

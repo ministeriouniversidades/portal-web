@@ -1,0 +1,24 @@
+---
+title: "Actualidad"
+date: 2022-02-09T14:20:22+01:00
+has_media: false
+news_desc: "La nueva Ordenación de las Enseñanzas Oficiales del Sistema Universitario Español ya está en marcha. El Ministerio de Universidades ha finalizado el primer borrador que se encuentra ya en consulta pública. Este documento es fruto del trabajo que durante meses el Ministerio de Universidades ha llevado a cabo recogiendo las recomendaciones, aportaciones y sensibilidades de la Conferencia de rectores de las Universidades Españolas, las Comunidades Autónomas, representantes del estudiantado y sindicatos."
+news_title: "El Ministerio de Universidades plantea la nueva Ordenación de las Enseñanzas Oficiales para el sistema universitario"
+
+news_date: 2020-04-28T14:20:22+01:00
+---
+<ul>
+<li><b>El documento ha sido ya enviado a la Conferencia General de Pol&iacute;tica Universitaria, Comunidades Aut&oacute;nomas y consejos universitarios.</b></li>
+<li><b>Aumenta el porcentaje de reconocimiento de la experiencia laboral previa hasta un 25% de los cr&eacute;ditos totales</b></li>
+<li><b>Se reservar&aacute; un 5% de las plazas universitarias para el estudiantado con un grado de discapacidad del 33% o superior</b></li>
+<li><b>Aumenta la flexibilidad para el dise&ntilde;o de itinerarios pedag&oacute;gicos por parte del estudiantado</b></li>
+</ul>
+<p>La nueva Ordenaci&oacute;n de las Ense&ntilde;anzas Oficiales del Sistema Universitario Espa&ntilde;ol ya est&aacute; en marcha. El Ministerio de Universidades ha finalizado el primer borrador que se encuentra ya en consulta p&uacute;blica. Este documento es fruto del trabajo que durante meses el Ministerio de Universidades ha llevado a cabo recogiendo las recomendaciones, aportaciones y sensibilidades de la Conferencia de rectores de las Universidades Espa&ntilde;olas, las Comunidades Aut&oacute;nomas, representantes del estudiantado y sindicatos. As&iacute;, en esta fase los actores y sujetos mencionados podr&aacute;n plantear modificaciones y adiciones de cara a la formalizaci&oacute;n del documento definitivo.</p>
+<p><b>Reconocimiento de cr&eacute;ditos</b></p>
+<p>Este nuevo decreto reconocer&aacute; en t&eacute;rminos de cr&eacute;ditos hasta un 25% la experiencia profesional o laboral y de ense&ntilde;anzas universitarias no oficiales, cuando el umbral anterior era solo de un 15%. Adem&aacute;s, se regulan aquellos grados que pueden tener la menci&oacute;n de Grado o M&aacute;ster &ldquo;dual&rdquo; y la realizaci&oacute;n de contratos laborales de pr&aacute;cticas para el alumnado y los convenios entre universidades y empresas o entidades.</p>
+<p><b>Inclusi&oacute;n y equidad en el sistema universitario</b></p>
+<p>Las universidades reservar&aacute;n al menos un 5% de las plazas ofertadas para estudiantes que tengan un grado de discapacidad igual o superior al 33%, as&iacute; como para aquellos estudiantes con necesidades educativas especiales permanentes asociadas a circunstancias personales de discapacidad. Se trata as&iacute; de establecer pol&iacute;ticas garantistas con cuestiones que hab&iacute;an quedado fuera de anteriores normativas de forma que exista un acercamiento a diferentes circunstancias del alumnado y que dicho acercamiento se haga, adem&aacute;s, de forma inclusiva.</p>
+<p>Adem&aacute;s, este nuevo decreto recoge que los planes de estudios deber&aacute;n tener en cuenta los Objetivos de Desarrollo Sostenible y, en particular, que cualquier actividad profesional debe realizarse desde el respeto a los derechos fundamentales y de igualdad entre hombres y mujeres, debiendo incluirse en los planes de estudio las ense&ntilde;anzas relacionadas con dichos derechos.</p>
+<p><b>Flexibilidad en los itinerarios</b></p>
+<p>Otra de las principales apuestas que el Ministerio de Universidades quiere hacer con este decreto es poner en el centro a alumnos y alumnas, permitiendo procedimientos flexibles en relaci&oacute;n con los itinerarios de conocimiento dentro del entorno de la universidad. As&iacute;, las universidades podr&aacute;n ofrecer programas de Grado con itinerario acad&eacute;mico abierto. Este nuevo procedimiento consiste en la posibilidad de que el alumnado curse asignaturas de dos o m&aacute;s t&iacute;tulos universitarios oficiales de grado, siempre y cuando sean materias de formaci&oacute;n b&aacute;sica y hasta un m&aacute;ximo de la mitad de los cr&eacute;ditos del Grado. Una vez finalizado el itinerario, podr&aacute; continuar los estudios en uno de los t&iacute;tulos oficiales de Grado incluidos en el programa.</p>
+<p>Este actual proceso de audiencia p&uacute;blica finalizar&aacute; el pr&oacute;ximo 16 de junio de 2020. Pasado ese tiempo estar&aacute; listo para los diferentes tr&aacute;mites de dictamen pudiendo pasar a aprobaci&oacute;n en Consejo de Ministros en el pr&oacute;ximo mes de septiembre.</p>

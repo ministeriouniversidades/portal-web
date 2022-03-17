@@ -1,0 +1,33 @@
+<section>
+    <article id="breadcrumb" class="{{ .Scratch.Get "breadcrumbClass" }}">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 box">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            {{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </article>
+</section>
+{{ define "breadcrumbnav" }}
+    {{ if .p1.Parent }}
+        {{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2 )  }}
+    {{ else if not .p1.IsHome }}
+        {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
+    {{ end }}
+    <li class="breadcrumb-item {{ if eq .p1 .p2 }}active{{ end }}">
+        {{ if .p1.IsHome }}
+            <a href="{{ .p1.Permalink }}">{{ i18n "Inicio" }}</a>
+        {{ else }}
+            {{if or (eq .p1.CurrentSection .p1.FirstSection) (eq .p1 .p2)}}
+                {{ i18n .p1.Title }}
+            {{else}}
+                <a href="{{ .p1.Permalink }}">{{ i18n .p1.Title }}</a>
+            {{end}}
+        {{ end }}
+    </li>
+{{ end }}

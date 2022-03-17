@@ -1,0 +1,133 @@
+@import "./variables";
+
+.color-calendar.glass {
+  --cal-header-background-color: #154581;
+  --cal-font-family-header: "Poppins", sans-serif;
+  --cal-font-family-weekdays: "Poppins", sans-serif;
+  --cal-font-family-body: "Poppins", sans-serif;
+  --cal-border-radius: 0px;
+}
+
+.color-calendar {
+  border: 1px solid $gray_border;
+  border-radius: 6px;
+  min-width: 350px;
+  .calendar__body {
+    padding: 0 !important;
+    .calendar__weekdays {
+      background-color: $gray_border;
+      padding: 5px ​10px;
+      .calendar__weekday {
+        color: black;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        opacity: 1;
+        height: 50px;
+      }
+    }
+  }
+  .color-calendar--small {
+    .calendar__body {
+      .calendar__weekdays {
+        grid-template-columns: repeat(7, minmax(32px, 52px)) !important;
+      }
+      .calendar__days {
+        background-color: $gray_calendar;
+        grid-template-columns: repeat(7, minmax(32px, 52px)) !important;
+        grid-template-rows: repeat(6, minmax(32px, 48px)) !important;
+        padding: 10px 0px;
+      }
+    }
+  }
+  .color-calendar.glass {
+    .calendar__header {
+      grid-template-columns: repeat(7, minmax(32px, 50px)) !important;
+      padding: 8px;
+      .calendar__monthyear {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+      }
+    }
+    .calendar__days {
+      .calendar__day {
+        font-weight: 400;
+        font-size: 20px;
+        height: 50px;
+        line-height: 24px;
+      }
+      .calendar__day-box {
+        background-color: $blue;
+        &:hover {
+          background-color: $blue;
+          color: $blue;
+          opacity: 0.1;
+        }
+      }
+      .calendar__day-selected {
+        .calendar__day-box {
+          border-radius: 0;
+          background-color: $blue;
+          opacity: 1;
+          box-shadow: none;
+          height: 85%;
+          width: 90%;
+        }
+      }
+      .calendar__day-today {
+        color: $blue;
+        .calendar__day-box {
+          background-color: $blue;
+        }
+      }
+      .calendar__day-selected {
+        .calendar__day-text {
+          color: white;
+        }
+      }
+      .calendar__day-bullet {
+        background-color: $blue;
+      }
+      .calendar__day-bullet.purple {
+        background-color: $purple_calendar;
+      }
+      .calendar__day-bullet.green {
+        background-color: $green_calendar;
+      }
+    }
+    .calendar__arrow-inner {
+      &:after {
+        opacity: 0;
+      }
+      &:before {
+        width: 1.3em;
+        height: 1.3em;
+      }
+      &:hover {
+        &:after {
+          background-color: $gray_border;
+          transition: opacity 0.3s ease;
+          opacity: 1;
+        }
+        &:before {
+          border-color: $blue;
+        }
+      }
+    }
+    .calendar__arrow-next {
+      .calendar__arrow-inner {
+        &:before {
+          margin-right: 0.5em;
+        }
+      }
+    }
+    .calendar__arrow-prev {
+      .calendar__arrow-inner {
+        &:before {
+          margin-left: 0.5em;
+        }
+      }
+    }
+  }
+}

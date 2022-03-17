@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang={{ if .Site.IsMultiLingual }}{{.Language}}{{end}}>
+  {{ partial "header-parts/head.html" . }}
+  <body>
+      <main>
+          <div>
+          <h1>{{ .Title }}</h1>
+                <ul>
+                    {{ range .Pages.ByDate }}
+                      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                    {{ end }}
+                </ul>
+          </div>
+        </main>
+  </body>
+</html>

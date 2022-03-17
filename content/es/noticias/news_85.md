@@ -1,0 +1,19 @@
+---
+title: "Actualidad"
+date: 2022-02-08T14:20:22+01:00
+has_media: false
+news_desc: "El Consejo de Ministros ha dado hoy luz verde al Real Decreto por el que se establecen los umbrales de renta y patrimonio familiar y las cuantías de las becas y ayudas al estudio para el curso 2020-2021."
+news_title: "El Consejo de Ministros aprueba el Real Decreto de umbrales de las becas y ayudas al estudio del curso 2020-2021, el más ambicioso de la última década"
+
+news_date: 2020-07-21T14:20:22+01:00
+---
+<ul>
+<li><b>La convocatoria de becas del pr&oacute;ximo curso recoge un incremento del 22% en el presupuesto y varias medidas encaminadas a mejorar el acceso del alumnado m&aacute;s vulnerable a estas ayudas</b></li>
+<li><b>M&aacute;s de 600.000 estudiantes se beneficiar&aacute;n de estos cambios, 372.240 de niveles no universitarios y 253.274 de Grado y M&aacute;ster. Adem&aacute;s, el n&uacute;mero de alumnos que recibir&aacute;n beca completa aumenta considerablemente</b></li>
+</ul>
+<p>El Consejo de Ministros ha dado hoy luz verde al Real Decreto por el que se establecen los umbrales de renta y patrimonio familiar y las cuant&iacute;as de las becas y ayudas al estudio para el curso 2020-2021. El texto, presentado hace unas semanas en el Observatorio de Becas y Ayudas al Estudio por el Ministerio de Educaci&oacute;n y Formaci&oacute;n Profesional y el Ministerio de Universidades, recoge un incremento del 22% en el presupuesto hasta alcanzar los 1.900 millones de euros, el mayor aumento de la &uacute;ltima d&eacute;cada.</p>
+<p>Adem&aacute;s, se han introducido cambios en los requisitos acad&eacute;micos y en los umbrales de renta de los solicitantes, todos ellos encaminados a que estas ayudas lleguen a los estudiantes que m&aacute;s las necesitan.</p>
+<p>Adem&aacute;s de la inyecci&oacute;n de 386 millones de euros, el Real Decreto incluye la reforma de los requisitos acad&eacute;micos (la nota de acceso se establece en un 5 en las becas no universitarias); la elevaci&oacute;n del umbral 1 de cuant&iacute;a de la renta hasta casi equipararlo al umbral de la pobreza; la elevaci&oacute;n de la cuant&iacute;a fija en 100 euros y la inclusi&oacute;n del alumnado con Trastorno del Espectro Autista (TEA) en las ayudas para estudiantes con necesidades espec&iacute;ficas de apoyo educativo (NEAEs).</p>
+<p>&ldquo;El objetivo de las becas y ayudas al estudio es garantizar el derecho a la educaci&oacute;n de todas las personas, no solo el acceso sino tambi&eacute;n la permamencia en el sistema educativo, con independencia de su situaci&oacute;n socioecon&oacute;mica&rdquo;, ha subrayado la ministra Isabel Cela&aacute;. &ldquo;Las becas hab&iacute;an perdido su car&aacute;cter de derecho subjetivo y esta reforma les devuelve esa condici&oacute;n. Es el primer paso de una reforma m&aacute;s profunda que logre m&aacute;s y mejores ayudas para quienes m&aacute;s las necesitan&rdquo;, ha a&ntilde;adido.</p>
+<p>Las reformas introducidas beneficiar&aacute;n a 625.514 estudiantes. De ellos, 372.240 son de niveles no universitarios y 253.274 de Grado y M&aacute;ster. Adem&aacute;s, el n&uacute;mero de estudiantes no universitarios que podr&aacute;n recibir la beca completa aumentar&aacute; casi en 100.000, pasando de 169.135 en el curso 2019-2020 a 263.928 en el 2020-2021. En el caso de los universitarios, la cifra pr&aacute;cticamente se duplica al pasar de 89.376 a 175.945.</p>
+<p>Antes de ser aprobado por el Consejo de Ministros, el documento ha sido revisado por la Conferencia Sectorial de Educaci&oacute;n, el Observatorio de Becas y Ayudas al Estudio, el Consejo Escolar del Estado, la comisi&oacute;n delegada de la Conferencia General de Pol&iacute;tica Universitaria y las comisiones permanentes del Consejo de Universidades y de CEUNE.</p>

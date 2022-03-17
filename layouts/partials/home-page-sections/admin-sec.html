@@ -1,0 +1,82 @@
+<section>
+    <article id="section_sub_title">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 subtitle d-flex align-content-center">
+                    <i class="fas fa-tools d-none d-lg-inline-block"></i>
+                    <i class="fal fa-tools d-block d-lg-none"></i>
+                    <h4>{{ i18n "tu administración" | upper }}</h4>
+                </div>
+            </div>
+        </div>
+    </article>
+    <article id="section_box_cards_blue">
+        <div class="container">
+            <div class="row">
+                {{ range where .Pages "Section" "tu-administracion" }}
+                    {{ range first 8 .Pages.ByWeight }}
+                        <div class="col-lg-3">
+                            {{ if or (isset .Params "link_1") (isset .Params "link_2")}}
+                                    <a href="javaScript:void(0);" class="card">
+                                        <div class="box_icon">
+                                            <i class="{{ .Params.icon }}"></i>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text text-wrap">
+                                                {{ if (isset .Params "link_1") }}<a href="{{ .Params.link_1 }}">{{ index .Params "title_link_1" }}</a>{{ end }} 
+                                                {{ if (isset .Params "link_2") }}<a href="{{ .Params.link_2 }}">{{ index .Params "title_link_2" }}</a>{{ end }}
+                                            </p>
+                                        </div>
+                                    </a>
+                            {{ else }}
+                                <a href="{{ if isset .Params "external_link"}}{{ .Params.external_link }}{{ else }}{{ .Permalink }}{{ end }}" {{ if isset .Params "external_link"}}target="_blank"{{ end }} class="card">
+                                    <div class="box_icon">
+                                        <i class="{{ .Params.icon }}"></i>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text text-wrap">
+                                            {{ if (isset .Params "alt_title") }}
+                                                {{ .Params.alt_title }}
+                                            {{ else }}
+                                                {{ .Title }}
+                                            {{ end }}
+                                        </p>
+                                    </div>
+                                </a>
+                            {{ end }}
+                        </div>
+                    {{ end }}
+                {{ end }}
+            </div>
+        </div>
+    </article>
+
+    <!-- MOBILE VERSION WITH SLIDER -->
+    <article id="section_box_cards_blue_slider">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="swiper" id="slider_cardsBlue">
+              <div class="swiper-wrapper">
+                {{ range where .Pages "Section" "tu-administracion" }}
+                    {{ range first 8 .Pages.ByWeight }}
+                        <div class="swiper-slide">
+                        <a href="{{ .Permalink }}" class="card">
+                            <div class="box_icon">
+                                <i class="{{ .Params.icon }}"></i>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">{{ .Params.title }}</p>
+                            </div>
+                        </a>
+                        </div>
+                    {{ end }}
+                {{ end }}
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+</section>

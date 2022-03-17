@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang={{ if .Site.IsMultiLingual }}{{.Language}}{{end}}>
+  {{ partial "header-parts/head.html" . }}
+  <body>
+    {{ partial "header.html" . }}
+    <section>
+        <article id="header_interno">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 box">
+                        <div class="img img_expanded" style="background: url({{ .Params.section_img | absURL }});"></div>
+                        <h2>{{ .Title }}</h2>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    {{ partial "includes/breadcrumb.html" . }}
+    {{ if or (isset .Params "academic_background") (isset .Params "professional_experience") }}
+    <section>
+        <article id="card_biography">
+            <div class="container container-xl">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                              <div class="col-md-12 col-lg-3 box_img">
+                                <div class="img" style="background: url('{{ .Params.struc_dep_pic | absURL }}');"></div>
+                              </div>
+                                <div class="col-md-12 col-lg-9 box_content">
+                                    <div class="card-body">
+                                        <h5 class="card-title">{{ .Params.struc_dep_name}}</h5>
+                                        <h6 class="card-title-min">{{ .Params.struc_dep_social_status}}</h6>
+                                        <div class="box_content_scroll" id="sc">
+                                            {{ if (isset .Params "academic_background") }}
+                                                <p class="card-text">{{ i18n "Formación académica" }}</p>
+                                                <ol>
+                                                    {{ range $item := .Params.academic_background }}
+                                                        <li>{{ $item }}</li>
+                                                    {{ end }}
+                                                </ol>
+                                            {{ end}}
+                                            {{ if (isset .Params "professional_experience") }}
+                                                <p class="card-text">{{ i18n "Experiencia profesional" }}</p>
+                                                <ol>
+                                                    {{ range $item := .Params.professional_experience }}
+                                                        <li>{{ $item }}</li>
+                                                    {{ end }}
+                                                </ol>
+                                            {{ end }}
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-more-content" id="expand"><i class="fal fa-plus-circle"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    {{ end }}
+    {{ if len .Content }}
+        <section>
+            <article id="content_text">
+                <div class="container container-xl">
+                    <div class="row">
+                        <div class="col-lg-12 box">
+                            {{ .Content }}
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    {{ end }}
+    <section class="mb-120">
+        <article id="section_box_cards_blue">
+            <div class="container container-xl">
+                <div class="row">
+                    {{ $title := .Title }}
+                    {{ $sectionPages := where $.Site.RegularPages "Type" "registro" }}
+                        {{ range $sectionPages }}
+                                {{ if and (ge (len $sectionPages) 1) (ne .Title $title) }}
+                                    <div class="col-lg-3">
+                                        <a href="{{ .Permalink }}" class="card card-img">
+                                            <div class="box_icon">
+                                                <div class="img" style="background-image: url({{ if isset .Params "img" }}{{ .Params.img | absURL }}{{ else }}{{ .Params.section_img | absURL }}{{ end }});"></div>
+                                            </div>
+                                            <div class="card-body">
+                                                <p class="card-text card-text-blue">{{ .Title }}</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                {{ end }}
+                        {{ end }}
+                </div>
+            </div>
+        </article>
+          <!-- MOBILE VERSION WITH SLIDER -->
+        <article id="section_box_cards_blue_slider_img">
+        <div class="container">
+            <div class="row">
+            <div class="col-12">
+                <div class="swiper" id="slider_cardsBlue">
+                    <div class="swiper-wrapper">
+                        {{ range $sectionPages }}
+                            {{ if and (ge (len $sectionPages) 1) (ne .Title $title) }}
+                                <div class="swiper-slide">
+                                    <a href="{{ .Permalink }}" class="card card-img">
+                                        <div class="box_icon">
+                                            <div class="img" style="background-image: url({{ .Params.section_img | absURL }});"></div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text card-text-blue">{{ .Title }}</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            {{ end }}
+                        {{ end }}
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </article>
+    </section>
+    {{ partial "home-page-sections/sponsors-sec.html" . }}
+    {{ partial "footer.html" . }}
+  </body>
+</html>

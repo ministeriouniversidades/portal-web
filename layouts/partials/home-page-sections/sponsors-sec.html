@@ -1,0 +1,23 @@
+<section>
+    <article id="section_slider_marcas">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 box">
+                    <div class="swiper" id="sliderMarcas">
+                        <div class="swiper-wrapper">
+                            {{ range where .Site.Pages "Section" "sponsor" }}
+                                {{ range  first 6 .Pages.ByDate }}
+                                    <div class="swiper-slide">
+                                        <a href="{{ .Params.link }}" target="_blank"><img src="{{ .Params.img | absURL }}" class="img-fluid img-card" alt="logo"></a>
+                                    </div>
+                                {{ end }}
+                            {{ end }}
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</section>
