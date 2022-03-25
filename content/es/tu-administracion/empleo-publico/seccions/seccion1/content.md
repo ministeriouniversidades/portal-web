@@ -1,9 +1,0 @@
----
-title: "content"
-date: 2021-11-09T14:26:33+01:00
-type: "empleoseccion1"
----
-<a href="{{<siteurl>}}tu-administracion/empleo-publico/plazas-personal/" title="Plazas de personal laboral temporal de la categor&iacute;a de T&eacute;cnico Superior de Gesti&oacute;n y Servicios Comunes, y Oficial de Gesti&oacute;n y Servicios Comunes acogidos al Convenio &Uacute;nico en el Ministerio de Universidades, encomendando la preselecci&oacute;n a los Servicios P&uacute;blicos de Empleo">Plazas de personal laboral temporal de la categor&iacute;a de T&eacute;cnico Superior de Gesti&oacute;n y Servicios Comunes, y Oficial de Gesti&oacute;n y Servicios Comunes acogidos al Convenio &Uacute;nico en el Ministerio de Universidades, encomendando la preselecci&oacute;n a los Servicios P&uacute;blicos de Empleo</a><br/>  
-<a href="{{<siteurl>}}tu-administracion/empleo-publico/resolucion/" title="Resoluci&oacute;n de 18 de marzo de 2021, de la Subsecretar&iacute;a del Ministerio de Universidades, por la que se convoca concurso espec&iacute;fico de m&eacute;ritos, para la provisi&oacute;n de puestos vacantes de trabajo en el departamento de los grupos/subgrupos A1, A2, C1 y C2">Resoluci&oacute;n de 18 de marzo de 2021, de la Subsecretar&iacute;a del Ministerio de Universidades, por la que se convoca concurso espec&iacute;fico de m&eacute;ritos, para la provisi&oacute;n de puestos vacantes de trabajo en el departamento de los grupos/subgrupos A1, A2, C1 y C2</a>
-<br/>   
-</span><span>&nbsp;</span><span class="txt"><a href="{{<siteurl>}}tu-administracion/empleo-publico/resolucion5/" title="Resoluci&oacute;n de 5 de noviembre de 2021, de la Subsecretar&iacute;a, por la que se convoca concurso espec&iacute;fico para la provisi&oacute;n de puestos de trabajo en el departamento">Resoluci&oacute;n de 5 de noviembre de 2021, de la Subsecretar&iacute;a, por la que se convoca concurso espec&iacute;fico para la provisi&oacute;n de puestos de trabajo en el departamento</a>
