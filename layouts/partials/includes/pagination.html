@@ -1,0 +1,53 @@
+<section class="mb-120">
+    <article id="pagination">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 box">
+                  {{ $paginator := .paginator }}
+                  {{.Scratch.Set "Last_tree_items" (sub $paginator.TotalPages 2)}}
+                  {{ if gt $paginator.TotalPages 1 }}
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item {{ if $paginator.HasPrev }}active-buttons{{else}}disabled-buttons{{end}}">
+                              <a class="{{if not $paginator.HasPrev}}page-link{{end}} buttons" {{ if $paginator.HasPrev }}href="{{ $paginator.Prev.URL }}"{{end}} tabindex="-1" aria-disabled="true">
+                                  <span>{{ i18n "Página anterior" }}</span>
+                                  <i class="fal fa-chevron-left"></i>
+                              </a>
+                            </li>
+                            {{ if le $paginator.PageNumber 3 }}
+                              {{ range first 3 $paginator.Pagers }}
+                                <li class="page-item {{ if or ( eq . .First) (eq . .Last) }}pl-15{{end}} {{if eq . $paginator}}active{{end}}"><a class="page-link numbers" href="{{ .URL }}">{{ .PageNumber }}</a></li>
+                              {{ end }}
+                                <li class="page-item">...</li>
+                                <li class="page-item"><a class="page-link numbers" href="{{ $paginator.Last.URL }}">{{ $paginator.Last.PageNumber }}</a></li>
+                            {{ else if and (gt $paginator.PageNumber 3) (lt $paginator.PageNumber (.Scratch.Get "Last_tree_items")) }}
+                              {{ range first 2 $paginator.Pagers }}
+                                <li class="page-item"><a class="page-link numbers" href="{{ .URL }}">{{ .PageNumber }}</a></li>
+                              {{ end }}
+                              <li class="page-item">...</li>
+                              <li class="page-item active"><a class="page-link numbers" href="{{ $paginator.URL }}">{{ $paginator.PageNumber }}</a></li>
+                              <li class="page-item">...</li>
+                              {{ range last 2 $paginator.Pagers }}
+                                <li class="page-item"><a class="page-link numbers" href="{{ .URL }}">{{ .PageNumber }}</a></li>
+                              {{ end }}
+                            {{ else if (ge $paginator.PageNumber (.Scratch.Get "Last_tree_items")) }}
+                              <li class="page-item"><a class="page-link numbers" href="{{ $paginator.First.URL }}">{{ $paginator.First.PageNumber }}</a></li>
+                              <li class="page-item">...</li>
+                              {{ range last 3 $paginator.Pagers }}
+                                <li class="page-item {{ if (eq . .Last) }}pr-15{{end}} {{if eq . $paginator}}active{{end}}"><a class="page-link numbers" href="{{ .URL }}">{{ .PageNumber }}</a></li>
+                              {{ end }}
+                            {{ end }}
+                            <li class="page-item {{ if $paginator.HasNext }}active-buttons{{else}}disabled-buttons{{end}}">
+                              <a class="{{ if not $paginator.HasNext }}page-link{{end}} buttons" {{ if $paginator.HasNext }}href="{{ $paginator.Next.URL }}"{{end}}>
+                                  <span>{{i18n "Página siguiente"}}</span>  
+                                  <i class="fal fa-chevron-right"></i>
+                              </a>
+                            </li>
+                        </ul>
+                      </nav>
+                  {{ end }}
+                </div>
+            </div>
+        </div>
+    </article>
+</section>

@@ -1,0 +1,65 @@
+{{ partial "cookies.html" . }}
+<footer>
+    <article>
+        <div class="container-fluid p-45">
+            <div class="row">
+                <div class="col-lg-12 box_social_networks">
+                    <ul>
+                        <li>
+                            <a href="https://twitter.com/UniversidadGob" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/UniversidadGob/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/universidadgob/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UC1rvgLWmCizTmzyZ-IFLp1A" target="_blank"><i class="fab fa-youtube-square"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.flickr.com/people/universidadgob/" target="_blank"><i class="fab fa-flickr"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-5 col-lg-5 box_logo">
+                  <figure>
+                    <img src="{{"./images/escudo_es.svg" | absURL}}" alt="Escudo" class="img-fluid">
+                  </figure>
+                    <p class="licencia">© 2022 Ministerio de Universidades</p>
+                </div>
+                <div class="col-7 col-lg-7 box_links">
+                    <ul>
+                        {{ range .Site.Menus.footer }}
+                            <li>
+                                <a href="{{ .URL }}">{{ .Name }}</a>
+                            </li>
+                        {{ end }}
+                    </ul>
+                </div>
+                <div class="col-12">
+                  <p class="licencia_movil">© 2022 Ministerio de Universidades</p>
+                </div>
+            </div>
+        </div>
+    </article>
+</footer>
+<script>const baseURL = {{.Site.BaseURL}}</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/color-calendar/dist/bundle.min.js"></script>
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+<script src="{{ "js/moment-with-locales.min.js" | absURL }}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-range/4.0.2/moment-range.js"></script>
+<script>moment.locale({{ $.Site.Language.Lang }})</script>
+<script src="{{ "js/header.js" | absURL }}"></script>
+<script src="{{ "js/slider_home.js" | absURL }}"></script>
+<script src="{{ "js/slider_brands.js" | absURL }}"></script>
+<script src="{{ "js/includes/commun-usages.js" | absURL }}"></script>
+{{ if .IsHome }}<script src="{{ "js/calendar.js" | absURL }}"></script>{{end}}
+<script src="{{ "js/scroll_calendar.js" | absURL }}"></script>
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script src="{{ "js/accesibilidad.js" | absURL }}"></script>

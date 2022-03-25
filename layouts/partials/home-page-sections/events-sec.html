@@ -1,0 +1,71 @@
+<section>
+    <article id="section_sub_title">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 subtitle d-flex align-content-center">
+                    <i class="far fa-calendar-check"></i>
+                    <h4>{{ i18n "AGENDA DEL MES" | upper }}</h4>
+                </div>
+            </div>
+        </div>
+    </article>
+    <article id="schedule_of_month">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 offset-md-3 col-lg-4 offset-lg-0 d-flex align-content-center justify-content-center">
+                    <!-- used color-calendar, documentation here https://www.npmjs.com/package/color-calendar -->
+                    <div id="color-calendar" class="color-calendar mb-4"></div>
+                </div>
+                <div class="col-lg-8 events cnt_scroll_top" id="homeEvents"></div>
+                <div class="col-lg-8 col-sm-12 d-none" id="no_events"><!-- in case there is no event -->
+                    <div class="row text-center justify-content-center mx-3">
+                        <span class="h4 w-75">{{i18n "¡Ups! Lo sentimos no tenemos programado ningún evento para estas fechas"}}</span>
+                    </div>
+                    <div class="row justify-content-center">
+                        <img src="{{"./images/event-404.png" | absURL}}" class="w-75">
+                    </div>
+                </div>
+                {{ $eventsCount := len (where .Site.RegularPages "Section" "eventos") }}
+                {{ if gt $eventsCount 4 }}
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12 box_buttons">
+                            <button type="button" class="btn btn-lg btn_present" onclick="javaScript:location.href={{ .Site.BaseURL | printf "%s/eventos" }};">{{i18n "Ver toda la agenda" | upper}}</button>
+                        </div>
+                    </div>
+                {{end}}
+                    
+                <!-- MOBILE VERSION WITH SLIDER -->
+                <div class="row events_slider">
+                    <div class="swiper" id="slider_eventCalendar">
+                        <div class="swiper-wrapper">
+                            {{ range where (.Pages.ByParam "event_desc_date") "Section" "eventos" }}
+                                {{ range first 4 .Pages }}
+                                    <div class="swiper-slide items">
+                                        <div class="card {{.Params.event_type}}">
+                                            <div class="col-4 date_icon">
+                                                <div class="icon">
+                                                    <i class="far fa-calendar-check"></i>
+                                                </div>
+                                                <div class="time">
+                                                    {{ .Params.event_time | time.Format ":time_short" }}
+                                                </div>
+                                            </div>
+                                            <div class="col-8 info box_text">
+                                                <div class="card-body">
+                                                    <p class="card-text">{{ .Params.event_desc_date | time.Format ":date_long" }}</p>
+                                                    <h5 class="card-title">{{ .Params.event_cat }}</h5>
+                                                    <p class="card-light">{{ .Params.event_desc_info }}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                {{ end }}
+                            {{ end }}
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</section>

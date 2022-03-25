@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang={{ if .Site.IsMultiLingual }}{{.Language}}{{end}} class="html_fixed">
+  {{ partial "header-parts/head.html" . }}
+  <body>
+    {{ partial "header.html" . }}
+    <section>
+        <article id="header_interno">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 box">
+                        <div class="img" style='background: url({{"./images/agenda-g1187e80aa_1920.jpg" | absURL}});'></div>
+                        <h2>Actualidad</h2>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    {{ .Scratch.Set "breadcrumbClass" "breadcrumb-interno breadcrumb_fixed fixme_bread" }}
+    {{ partial "includes/breadcrumb.html" . }}
+    <section>
+        <article  id="section_sub_title" class="fixme section_sub_title section_sub_title_fixed my-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 subtitle d-flex align-content-center">
+                        <i class="far fa-calendar-check"></i>
+                        <h4>DETALLES DE LA AGENDA DEL MINISTERIO</h4>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <section>
+        <article id="schedule_of_month" class="schedule_of_month_custom_fixed">
+            <div class="container cnt_xl mb-120">
+                <div class="row d-flex justify-content-around">
+                    <div class="col-12 col-md-6 offset-md-3 col-lg-4 offset-lg-0 col-xl-3 offset-xl-0 d-flex align-content-center justify-content-start cnt_calendar">
+                        <div id="listing-calendar-events" class="mb-3 color-calendar box_calendar_custom"></div>
+                    </div>
+                    <div class="col-lg-8 col-xl-9 pl-70 events events_details" id="listingEvents"></div>
+                    <div class="col-lg-6 col-sm-12 m-0 p-0 d-none" id="no_events"> <!-- in case there is no event -->
+                        <div class="row text-center justify-content-center mx-3">
+                            <span class="h4">¡Ups! Lo sentimos no tenemos programado ningún evento para estas fechas</span>
+                        </div>
+                        <div class="row justify-content-center">
+                            <img src="{{"./images/event-404.png" | absURL}}" class="w-75">
+                        </div>
+                    </div>
+                    <div class="row events_slider show_in_mobile">
+                        <div class="swiper" id="slider_mobileEventCalendar">
+                            <div class="swiper-wrapper">
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12 m-0 p-0 d-none" id="no_mobile_events"> <!-- in case there is no event -->
+                            <div class="row text-center justify-content-center mx-3">
+                                <span class="h4">¡Ups! Lo sentimos no tenemos programado ningún evento para estas fechas</span>
+                            </div>
+                            <div class="row justify-content-center">
+                                <img src="{{"./images/event-404.png" | absURL}}" class="w-75">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    {{ partial "home-page-sections/sponsors-sec.html" . }}
+    {{ partial "footer.html" . }}
+    <script>
+        function groupByDate(events) {
+            let groupedByDate = events.reduce((eventsGrouped, event) => {
+                    let start = moment(event.start).format("YYYY-MM-DD")
+                    if (eventsGrouped != undefined) {
+                        if (eventsGrouped.find(groupedEvent => groupedEvent.date === start) === undefined) {
+                            eventsGrouped.push({date: start, events: []})
+                        }
+                        eventsGrouped.forEach((eventObj) => { if (eventObj.date === start) eventObj.events.push(event) })
+                    }
+                    return eventsGrouped
+                }, []);
+                return groupedByDate.sort((evOne, evTwo) => moment(evTwo.date).valueOf() - moment(evOne.date).valueOf())
+        }
+        function loadMonthEvents(month) {
+            let monthlyEvents = pagesIndex.filter(function (event, index) {
+                let monthSelected = moment(month).format("YYYY-MM");
+                let start = (event.start) ? moment(event.start).format("YYYY-MM") : 0;
+                return start === monthSelected
+            });
+            monthlyEvents = monthlyEvents.sort(function(eventOne,eventTwo){
+                if (moment(eventTwo.start, 'YYYY-MM-DD').isSame(moment(eventOne.start).format('YYYY-MM-DD'))) {
+                    return moment(eventOne.start, 'YYYY-MM-DD hh:mm:ss').diff(moment(eventTwo.start, 'YYYY-MM-DD hh:mm:ss'))
+                }
+                return moment(eventTwo.start).valueOf() + moment(eventOne.start).valueOf()
+            });
+            return groupByDate(monthlyEvents);
+        }
+        function loadMobileEvents(dateDay) {
+            let mobileItems = ''
+            let events = pagesIndex.filter(function (event, index) {
+                if(event.start === undefined || event.end === undefined) return false
+                let start = moment(event.start).format("YYYY-MM-DD");
+                let end = moment(event.end).format("YYYY-MM-DD");
+                let range = moment().range(start, end);
+                return range.contains(moment(dateDay, 'YYYY-MM-DD'))
+            })
+            if (events.length) {
+                $("#slider_mobileEventCalendar").removeClass('d-none')
+                $("#no_mobile_events").addClass('d-none')
+                events.forEach((event, index) => {
+                    let event_desc_info = ''
+                    if (event.event_desc_info != undefined) ((event.event_desc_info).length < 50) ? event_desc_info = event.event_desc_info : event_desc_info = (event.event_desc_info).substring(0, 49) + '...'
+                    let eventPeriod = (moment(event.start).format('YYYY-MM-DD') === moment(event.end).format('YYYY-MM-DD')) ? moment(event.start).format('LL') : `${moment(event.start).format('LL')} - ${moment(event.end).format('LL')}`
+                   let mobileItem = `<div class="swiper-slide items">
+                        <div class="card ${event.event_type}">
+                            <div class="col-4 date_icon">
+                                <div class="icon">
+                                    <i class="far fa-calendar-check"></i>
+                                </div>
+                                <div class="time">
+                                    ${moment(event.start).format('HH:mm')}
+                                </div>
+                            </div>
+                            <div class="col-8 info box_text">
+                                <div class="card-body">
+                                    <p class="card-text">${eventPeriod}</p>
+                                    <h5 class="card-title">${event_desc_info}</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>`
+                    mobileItems += mobileItem
+                })
+                
+                $("#slider_mobileEventCalendar > .swiper-wrapper").html(mobileItems)
+            }else{
+                $("#slider_mobileEventCalendar").addClass('d-none')
+                $("#no_mobile_events").removeClass('d-none')
+            }
+        }
+        function initListingCalendarEvents(selectedDay, events) {
+            if (Object.keys(events).length) {
+                let sliderIndex = 0
+                let row = document.createElement('div')
+                row.className = "row";
+                let items = ''
+                $("#listingEvents").removeClass('d-none')
+                $("#no_events").addClass('d-none')
+                for (const eventDate in events) {
+                    let mobileItem = `<span id="mobile-${events[eventDate].date}"></span>`
+                    let item = `<h4 id="${events[eventDate].date}">Eventos ${moment(events[eventDate].date).format("LL")}</h4>`
+                    events[eventDate].events.forEach((event, index) => {
+                        let event_desc_info = ''
+                        if (event.event_desc_info != undefined) ((event.event_desc_info).length < 50) ? event_desc_info = event.event_desc_info : event_desc_info = (event.event_desc_info).substring(0, 49) + '...'
+                        // <div class="col-lg-4 button_add_calendar list_schedule_button">
+                        //     <button type="button" class="btn btn-outline-primary btn_add_calendar addeventatc">
+                        //         <i class="far fa-calendar-alt"></i> AÑADIR A TU CALENDARIO
+                        //         <span class="start">03/09/2022 08:00 AM</span>
+                        //         <span class="end">03/09/2022 10:00 AM</span>
+                        //         <span class="timezone">America/Los_Angeles</span>
+                        //         <span class="title">Summary of the event</span>
+                        //         <span class="description">Description of the event</span>
+                        //         <span class="location">Location of the event</span>
+                        //     </button>
+                        // </div>
+                        let eventPeriod = (moment(event.start).format('YYYY-MM-DD') === moment(event.end).format('YYYY-MM-DD')) ? moment(event.start).format('LL') : `${moment(event.start).format('LL')} - ${moment(event.end).format('LL')}`
+                        item += `<div class="row">
+                                    <div class="col-sm-12 items">
+                                        <div class="card card_calendar ${event.event_type} without_bg_hover">
+                                            <div class="row g-0 w-100 d-flex h-158">
+                                                <div class="col-4 col-lg-1 date_icon list_schedule_date_icon">
+                                                    <div class="icon">
+                                                        <i class="far fa-calendar-check"></i>
+                                                    </div>
+                                                    <div class="time">
+                                                        ${moment(event.start).format('HH:mm')}
+                                                    </div>
+                                                </div>
+                                                <div class="col-8 col-lg-11 info box_text list_schedule_box_text">
+                                                    <div class="row row_inside_list_schedule">
+                                                        <div class="col-lg-8 card-body list_schedule_info">
+                                                            <p class="card-text list_schedule_date">${eventPeriod}</p>
+                                                            <h5 class="card-title list_schedule_range">${event.event_cat}</h5>
+                                                            <p class="card-light list_schedule_office">${event_desc_info}</p>
+                                                            ${event.content}
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>`
+                    })
+                    items += item
+                }
+                row.innerHTML = items
+                $("#listingEvents").html(row)
+            }else {
+                $("#listingEvents").addClass('d-none')
+                $("#no_events").removeClass('d-none')
+            }
+        }
+
+        $(document).ready(function () {
+            let params = new URLSearchParams(window.location.search)
+            let eventID = params.get('event_id')
+            // Load the events to be available for the calendar
+            loadJsonEvents()
+
+            // Slider slider_eventCalendar
+
+            var mobileSwiper = new Swiper("#slider_mobileEventCalendar", {
+                spaceBetween: 15,
+                slidesPerView: 1.3,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                breakpoints: {
+                    550: {
+                        slidesPerView: 2.2,
+                    },
+                    768: {
+                        slidesPerView: 2.4,
+                    },
+                    991: {
+                        slidesPerView: 2.4,
+                    },
+                },
+            });
+
+            // Create instance of the calendar
+            let calendar = new Calendar({
+                id: "#listing-calendar-events",
+                theme: "glass",
+                calendarSize: "small",
+                customWeekdayValues: ["Dom", "Lun", "Mar", "Mie", "Jue", "Vie", "Sab"],
+				startWeekday :1,
+                customMonthValues: [
+                "Enero",
+                "Febrero",
+                "Marzo",
+                "Abril",
+                "Mayo",
+                "Junio",
+                "Julio",
+                "Agosto",
+                "Septiembre",
+                "Octubre",
+                "Noviembre",
+                "Diciembre",
+                ],
+                eventsData: pagesIndex,
+                dateChanged: (date, eventsData) => {
+                    let eventDateID = moment(date).format('YYYY-MM-DD')
+                    // Initiaze the calendar
+                    initListingCalendarEvents(moment(date).format('LL'), loadMonthEvents(date))
+                    if (eventID) eventDateID = eventID
+
+                    loadMobileEvents(moment(date))
+                    mobileSwiper.update()
+                    // Get the element to scroll in 
+                    let element = document.getElementById(eventDateID)
+                    // Check on the existants of element, true => scroll to it
+                    if (element) document.getElementById(eventDateID).scrollIntoView(true, {behavior: "smooth"})
+                    // Check on if the event date is on the range of an event, true => scroll to it
+                    else if (eventsData.length) document.getElementById(moment(eventsData[0].start).format('YYYY-MM-DD')).scrollIntoView(true, {behavior: "smooth"})
+                 }
+            });
+
+            if (eventID) {
+                calendar.setDate(new Date(moment(eventID).format()))
+                params.delete('event_id')
+                eventID = null
+            }
+
+        });
+    </script>
+    </body>
+</html>

@@ -1,0 +1,246 @@
+@import "./variables";
+
+// ** HOME **
+
+// Slider Principal
+.boots_slider {
+  margin-top: 110px;
+  height: 689px;
+  .carousel-inner {
+    height: 100%;
+    .carousel-item {
+      height: 100%;
+      // Imagen de Fondo
+      .item {
+        background-position: center center !important;
+        -webkit-background-size: cover !important;
+        -moz-background-size: cover !important;
+        -o-background-size: cover !important;
+        background-size: cover !important;
+        background-attachment: fixed !important;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        &:after {
+          content: "";
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          background: -moz-linear-gradient(
+            top,
+            rgba(0, 0, 0, 0.9) 0%,
+            rgba(0, 0, 0, 0) 43%,
+            rgba(0, 0, 0, 0) 74%,
+            rgba(0, 0, 0, 0) 83%,
+            rgba(0, 0, 0, 0.9) 100%
+          );
+          background: -webkit-linear-gradient(
+            top,
+            rgba(0, 0, 0, 0.9) 0%,
+            rgba(0, 0, 0, 0) 43%,
+            rgba(0, 0, 0, 0) 74%,
+            rgba(0, 0, 0, 0) 83%,
+            rgba(0, 0, 0, 0.9) 100%
+          );
+          background: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.9) 0%,
+            rgba(0, 0, 0, 0) 43%,
+            rgba(0, 0, 0, 0) 74%,
+            rgba(0, 0, 0, 0) 83%,
+            rgba(0, 0, 0, 0.9) 100%
+          );
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6000000', endColorstr='#e6000000',GradientType=0 );
+        }
+        // Texto Central del Slider
+        .res_text_slide {
+          margin-top: 60px;
+          position: relative;
+          z-index: 8;
+          .item_text {
+            a,
+            p {
+              color: white;
+              font-size: 36px;
+              font-weight: 300;
+              line-height: 40px;
+              text-shadow: 2px 0px 3px #000;
+              text-decoration: none;
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  // Barra indicadora del Slider
+  .carousel-indicators {
+    border: 1.5px solid white;
+    border-radius: 6px;
+    width: auto;
+    padding: 1px 1px;
+    height: 14px;
+    width: 185px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    top: 0;
+    [data-bs-target] {
+      background-color: transparent;
+      border-radius: 15px;
+      border: 0;
+      margin: 0;
+      height: 8px;
+      width: 59px;
+      opacity: 1;
+    }
+    .active {
+      background-color: white;
+      opacity: 1;
+    }
+  }
+  // Boton Pausa Slider
+  .carousel-control-pause {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: 0.5;
+    transition: opacity 0.15s ease;
+  }
+  // Estilos Generales de Botones del Slider
+  .carousel-control-next,
+  .carousel-control-prev,
+  .carousel-control-pause {
+    position: relative;
+    font-size: 27px;
+    width: 27px;
+    height: 27px;
+    border: 0;
+    margin: 0 auto;
+    opacity: 1;
+    .far,
+    .fal {
+      font-weight: 100;
+    }
+  }
+  .cnt_buttons {
+    color: white;
+    height: 55px;
+    width: 185px;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 8;
+    .cnt_buttons_nav {
+      position: absolute;
+      right: 0;
+      top: auto;
+      bottom: 0;
+      left: 0;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+  }
+}
+
+// Escudo y Titulo General del Home
+#presentation {
+  padding: 60px 0px 30px;
+  hr {
+    border-color: $gray_border;
+    border-width: 2px;
+    margin: 25px auto;
+  }
+  h1 {
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 60px;
+  }
+  h4 {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 34px;
+  }
+  figure {
+    margin-bottom: 16px;
+    img {
+      display: block;
+      margin: 0 auto;
+      max-height: 192px;
+    }
+  }
+}
+
+
+// Responsive Generales del Home
+@media screen and (max-width: 1339px) { 
+  #presentation {
+    padding: 60px auto 100px;
+    h1 {
+      font-size: 38px;
+      line-height: 42px;
+    }
+    h4 {
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #presentation {
+    padding: 60px 0px 0px;
+    h1 {
+      font-size: 28px !important;
+      line-height: 42px !important;
+      padding: 0px 20px; 
+      margin-bottom: 30px;
+    }
+    figure {
+      margin-bottom: 0px;
+    }
+    .box_title_home {
+      display: flex !important;
+      flex-direction: column-reverse !important;
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #presentation {
+    padding: 40px 0px 0px;
+    h1 {
+      font-size: 25px !important;
+      line-height: 30px !important;
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1680px) {
+  #presentation {
+    h4 {
+      font-size: 26px;
+      line-height: 30px;
+    }
+  }
+}

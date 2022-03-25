@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html lang={{ if .Site.IsMultiLingual }}{{.Language}}{{end}}>
+    {{ partial "header-parts/head.html" . }}
+    {{ .Scratch.Set "breadcrumbClass" "space_breadcumb_top_page" }}
+    {{ partial "includes/breadcrumb.html" . }}
+    <body>
+        {{ partial "header.html" . }}
+        <section>
+            <article id="section_sub_title" class="section_sub_title alt_option" style="padding-top: 0;">
+                <div class="container cnt_special_spacing">
+                    <div class="row">
+                        <div class="col-12 subtitle d-flex align-content-center">
+                            <h4>{{ i18n "Consultas sobre convocatorias" }}</h4>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section>
+            <article class="form_styles">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="alert alert-success" id="form_alert_success" style="display: none;">
+                                <span class="icon"><i class="fas fa-check-circle"></i></span>
+                                <span class="text">Su formulario se envió correctamente.</span>                            
+                            </div>
+                            <div class="alert alert-danger" id="form_alert_danger" style="display: none;">
+                                <span class="icon"><i class="fas fa-exclamation-triangle"></i></span>
+                                <span class="text">Error.</span>                            
+                            </div>
+                            <p class="items_required">Los campos obligatorios se identifican con un *</p>
+                            <form action="https://formspree.io/f/xlezjrwz" id="contactForm" class="row g-3 needs-validation">
+                                <div class="col-lg-10 mb-3">
+                                    <label for="txtNombre" class="form-label">Nombre *</label>
+                                    <input type="text" class="form-control" name="Nombre" id="txtNombre" aria-describedby="helpNombre" />
+                                    <div id="txtNombreError" class="form-text error_color" style="display: none;">{{i18n "Los campos identificados con * son obligatorios"}}.</div>
+                                </div>
+                                <div class="col-lg-10 mb-3">
+                                    <label for="txtApellidos" class="form-label">Apellidos *</label>
+                                    <input type="text" class="form-control" name="Apellidos" id="txtApellidos" aria-describedby="helpApellidos" />
+                                    <div id="txtApellidosError" class="form-text error_color" style="display: none;">{{i18n "Los campos identificados con * son obligatorios"}}.</div>
+                                </div>
+                                <div class="col-lg-10 mb-3">
+                                    <label for="txtEmail" class="form-label">Email *</label>
+                                    <input type="email" class="form-control" name="Email" id="txtEmail" aria-describedby="helpEmail" />
+                                    <div id="validationEmailError" class="form-text error_color" style="display: none;">El correo introducido no tiene un formato valido.</div>
+                                    <div id="txtEmailError" class="form-text error_color" style="display: none;">{{i18n "Los campos identificados con * son obligatorios"}}.</div>
+                                </div>
+                                <div class="col-lg-10 mb-3">
+                                    <label for="txtTelefono" class="form-label">Telefono (opcional)</label>
+                                    <input type="text" class="form-control" id="txtTelefono" name="Telefono" aria-describedby="helpTelefono" />
+                                </div>
+                                <div class="col-lg-10 mb-3">
+                                    <label for="txtAsunto" class="form-label">Asunto *</label>
+                                    <input type="text" class="form-control" id="txtAsunto" name="Asunto" aria-describedby="helpAsunto" />
+                                    <div id="txtAsuntoError" class="form-text error_color" style="display: none;">{{i18n "Los campos identificados con * son obligatorios"}}.</div>
+                                </div>
+                                <div class="col-lg-10 mb-3">
+                                    <label for="txtMotivoConsulta" class="form-label">Convocatoria *</label>
+                                    <select name="Convocatoria" id="convocatoria"  class="form-control form-select form-select-lg" aria-label=".form-select-lg">
+                                        <option value="">Seleccione una convocatoria</option>
+                                        <option value="Matrículas en las enseñanzas de doctorado del personal docente e investigador">Matrículas en las enseñanzas de doctorado del personal docente e investigador</option>
+                                        <option value="Otro tipo de ayudas">Otro tipo de ayudas</option>
+                                    </select>
+                                    <div id="convocatoriaError" class="form-text error_color" style="display: none;">El motivo de su consulta es obliatorio.</div>
+                                </div>
+                                <div class="col-lg-10 mb-3">
+                                    <label for="txtMotivoConsulta" class="form-label">Motivo de su consulta *</label>
+                                    <select name="Motivo" id="motivo"  class="form-control form-select form-select-lg" aria-label=".form-select-lg">
+                                        <option value="">Seleccione el motivo de su consulta</option>
+                                        <option value="Requisitos para ser beneficiario">Requisitos para ser beneficiario</option>
+                                        <option value="Solicitud de la ayuda: plazo de presentación, documentación">Solicitud de la ayuda: plazo de presentación, documentación</option>
+                                        <option value="Resolución de la ayuda y notificación">Resolución de la ayuda y notificación</option>
+                                        <option value="Pago de la ayuda">Pago de la ayuda</option>
+                                        <option value="Justificación económica de la ayuda">Justificación económica de la ayuda</option>
+                                        <option value="Justificación científico-técnica de la ayuda">Justificación científico-técnica de la ayuda</option>
+                                        <option value="Otro tipo de consulta">Otro tipo de consulta</option>
+                                    </select>
+                                    <div id="motivoError" class="form-text error_color" style="display: none;">El motivo de su consulta es obliatorio.</div>
+                                </div>
+                                <div class="col-lg-10 mb-3">
+                                    <label for="txtNombre" class="form-label">Indique el número de expediente si lo conoce</label>
+                                    <input type="text" class="form-control" name="numeroExpediente" id="txtNombre" aria-describedby="helpNombre" />
+                                    <div id="txtNombreError" class="form-text error_color" style="display: none;">{{i18n "Los campos identificados con * son obligatorios"}}.</div>
+                                </div>
+                                <div class="col-lg-10 mb-3">
+                                    <label for="txtConsulta" class="form-label">Consulta *</label>
+                                    <textarea class="form-control" id="txtConsulta" name="Consulta" aria-describedby="helpConsulta" cols="5" rows="6"></textarea>
+                                    <div id="txtConsultaError" class="form-text error_color" style="display: none;">{{i18n "Los campos identificados con * son obligatorios"}}.</div>
+                                </div>
+                                <div class="col-lg-10 form-check mb-3">
+                                    <input type="checkbox" class="form-check-input" id="lbl_provacity" required>
+                                    <label class="form-check-label" for="lbl_provacity">Acepto la <a href="{{ .Site.BaseURL }}politica-de-privacidad">Politica de Privacidad *</a></label>
+                                    <div id="lbl_provacity_error" class="form-text error_color" style="display: none;">{{i18n "Los campos identificados con * son obligatorios"}}.</div>
+                                </div>
+                                <div class="col-lg-10 mb-3">
+                                    <div class="g-recaptcha" data-sitekey="6Ld5XSIeAAAAABEe6Q5OPybZeC2SY23WFDf7bVVY"></div>
+                                    <div class="form-text error_color" id="txtRecaptchaError" style="display: none;">{{i18n "Los campos identificados con * son obligatorios"}}.</div>
+                                </div>
+                                <div class="col-12 mb-120 box_buttons">
+                                    <button class="btn btn-primary btn_present" type="submit" id="submitContactForm">ENVIAR CONSULTA</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        {{ partial "home-page-sections/sponsors-sec.html" . }}
+        {{ partial "footer.html" . }}
+        <script>
+            function validateEmail(email) {
+                return email.match(
+                    /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+                );
+            }
+            $( document ).ready(function() {
+                // Validate the form
+                $("#submitContactForm").on("click", function (event) {
+                    let form_validated = true
+                    event.preventDefault()
+                    if (grecaptcha.getResponse() == "") {
+                        $("#txtRecaptchaError").css("display", "block")
+                        form_validated = false
+                    } 
+                    else {
+                        $("#txtRecaptchaError").css("display", "none")
+                    }
+                    if (!$("#txtNombre").val()) {
+                        $("#txtNombreError").css("display", "block")
+                        $("#txtNombre").addClass("input_error")
+                        form_validated = false
+                    }
+                    else {
+                        $("#txtNombreError").css("display", "none")
+                        $("#txtNombre").removeClass('input_error')
+                    }
+                    if (!$("#txtEmail").val()) {
+                        $("#validationEmailError").css("display", "none")
+                        $("#txtEmailError").css("display", "block")
+                        $("#txtEmail").addClass("input_error")
+                        form_validated = false
+                    }else if (!validateEmail($("#txtEmail").val())) {
+                        $("#txtEmailError").css("display", "none")
+                        $("#validationEmailError").css("display", "block")
+                        form_validated = false
+                    }else {
+                        $("#txtEmailError").css("display", "none")
+                        $("#txtEmail").removeClass('input_error')
+                        $("#validationEmailError").css("display", "none")
+                    }
+                    if (!$("#txtAsunto").val()) {
+                        $("#txtAsuntoError").css("display", "block")
+                        $("#txtAsunto").addClass("input_error")
+                        form_validated = false
+                    }else {
+                        $("#txtAsuntoError").css("display", "none")
+                        $("#txtAsunto").removeClass('input_error')
+                    }
+                    if (!$("#convocatoria").val()) {
+                        $("#convocatoriaError").css("display", "block")
+                        $("#convocatoria").addClass("input_error")
+                        form_validated = false
+                    }else {
+                        $("#convocatoriaError").css("display", "none")
+                        $("#convocatoria").removeClass('input_error')
+                    }
+                    if (!$("#motivo").val()) {
+                        $("#motivoError").css("display", "block")
+                        $("#motivo").addClass("input_error")
+                        form_validated = false
+                    }else {
+                        $("#motivoError").css("display", "none")
+                        $("#motivo").removeClass('input_error')
+                    }
+                    if (!$("#txtApellidos").val()) {
+                        $("#txtApellidosError").css("display", "block")
+                        $("#txtApellidos").addClass("input_error")
+                        form_validated = false
+                    }else {
+                        $("#txtApellidosError").css("display", "none")
+                        $("#txtApellidos").removeClass('input_error')
+                    }
+                    if (!$("#txtConsulta").val()) {
+                        $("#txtConsultaError").css("display", "block")
+                        $("#txtConsulta").addClass("input_error")
+                        form_validated = false
+                    }else {
+                        $("#txtConsultaError").css("display", "none")
+                        $("#txtConsulta").removeClass('input_error')
+                    }
+                    if (!$("#lbl_provacity").is(':checked')) {
+                        $("#lbl_provacity_error").css("display", "block")
+                        form_validated = false
+                    }else $("#lbl_provacity_error").css("display", "none")
+                    
+                    if (form_validated) $("#contactForm").submit()
+                })
+                // Handle the form
+                $("#contactForm").submit(function(e){
+                    e.preventDefault();
+                    var action = $(this).attr("action");
+                    $.ajax({
+                    type: "POST",
+                    url: action,
+                    crossDomain: true,
+                    data: new FormData(this),
+                    dataType: "json",
+                    processData: false,
+                    contentType: false,
+                    headers: {
+                    "Accept": "application/json"
+                    }
+                }).done(function() {
+                    $("#form_alert_success").css("display", "block")
+                    $('html, body').animate({ scrollTop: 0 }, 'fast');
+                    grecaptcha.reset();
+                    $('#contactForm')[0].reset();
+                    setTimeout(function() {$("#form_alert_success").css("display", "none")}, 10000)
+                }).fail(function(res) {
+                    $("#form_alert_danger").css("display", "block")
+                    $('html, body').animate({ scrollTop: 0 }, 'fast');
+                    setTimeout(function() {$("#form_alert_danger").css("display", "none")}, 10000)
+                });
+                });
+            });
+        </script>
+    </body> 
+</html>

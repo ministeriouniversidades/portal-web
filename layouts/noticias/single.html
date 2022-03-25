@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang={{ if .Site.IsMultiLingual }}{{.Language}}{{end}}>
+  {{ partial "header-parts/head.html" . }}
+  <body>
+    {{ partial "header.html" . }}
+    {{ .Scratch.Set "breadcrumbClass" "breadcrumb-interno" }}
+    {{ partial "includes/breadcrumb.html" . }}
+    <section>
+		<article id="box_btn_floating">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="buttons_floating" onclick="topFunction()" id="bnt-social-networks-floating">
+							<ul>
+								<li>
+									<a href="https://www.facebook.com/UniversidadGob/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+								</li>
+								<li>
+									<a href="https://twitter.com/UniversidadGob" target="_blank"><i class="fab fa-twitter-square"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fas fa-envelope"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fas fa-link"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</article>
+	</section>
+    <section>
+        <article id="card_item_noticias">
+            <div class="container container-xl">
+                <div class="row">
+                    <div class="card col-12">
+                        <div class="link" href="#">
+						 <div class="card-body p-0 w-100">   
+                                <p class="card-text date">{{ .Params.news_date | time.Format ":date_long" }}</p>
+                                <h1 class="card-title">{{ .Params.news_title }}</h1>
+                            </div>
+                            {{if .Params.has_media}}
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-8 media-left">
+                                    {{if .Params.has_video}}
+                                        <iframe width="100%" height="600" src="{{.Params.video_src}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    {{else}}
+                                        <img src="{{.Params.img | absURL }}" class="img-fluid img-card" alt="...">
+                                    {{end}}
+                                </div>
+                            {{ end }}
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 box_text" style="display: block;">
+                                {{ .Content }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <section>
+        <article id="buttons-three-tag" class="mb-120">
+            <div class="container container-xl">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-8 box-buttons-three">
+                        {{ range .Params.tags }}
+                            <button type="button" class="btn btn-lg btn_tag"><i class="fas fa-tag"></i>{{ . }}</button>
+                        {{ end }}
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center justify-content-center box_buttons m-interno">
+                        {{$news_url := .Site.BaseURL | printf "%s/noticias" }}
+                        <button type="button" class="btn btn-lg btn_present" onclick="javaScript:location.href={{ $news_url }};">VER TODA LA ACTUALIDAD</button>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    {{ partial "home-page-sections/sponsors-sec.html" . }}
+    {{ partial "footer.html" . }}
+  </body>
+</html>

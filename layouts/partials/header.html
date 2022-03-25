@@ -1,0 +1,31 @@
+<header>
+    <article class="container-fluid">
+        <div class="row pr sm_xs px-30 mobile_zi_bgc">
+            <div class="col-9 col-lg-4 col-xl-3 cnt_left">
+                {{ partial "header-parts/logo.html" . }}
+            </div>
+            <div class="col-3 col-lg-8 col-xl-9 cnt_right">
+                <div class="cnt_top">
+                    <div class="search">
+                        <a href="https://universidades.sede.gob.es/" class="btn btn-sedelec" target="_blank">{{ i18n "Sede Electrónica" }}</a>
+                        {{ if .Site.IsMultiLingual }}
+                            {{ if eq .Language .Site.Language }}
+                                <a id="language_button" href="#" class="language">{{ .Language | upper }} <i class="fas fa-chevron-down"></i></a>
+                            {{end}}
+                        {{end}}
+                        {{ partial "header-parts/lang.html" . }}
+                        <a id="search_icon" class="search_icon" href="#"><i class="fas fa-search"></i></a>
+                        {{ partial "header-parts/search.html" . }}
+                    </div>
+                    <button id="navbarHeaderMenuButton" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeaderMenu" aria-controls="navbarHeaderMenu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </button>
+                </div>
+                {{ partial "header-parts/main-menu.html" . }}
+            </div>
+        </div>
+        {{ partial "header-parts/mobile_menu.html" . }}
+    </article>
+</header>
