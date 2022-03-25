@@ -1,0 +1,43 @@
+<section>
+    <div id="slider_ppal_home_boots" class="carousel slide boots_slider" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            {{ range where .Pages "Section" "slider" }}
+                {{ range  $index, $element := first 3 .Pages }}
+                    <div class="carousel-item {{ if eq $index 0 }}active{{ end }}">
+                        <div class="item" style="background: url('{{ .Params.img | absURL }}') no-repeat;">
+                            <div class="container res_text_slide">
+                                <div class="row">
+                                    <div class="col-12 item_text">
+                                        <a href="{{ .Site.BaseURL }}{{ .Params.url_slider }}">
+                                            {{ .Params.desc }}
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                {{ end }}
+            {{ end }}
+        </div>
+        <div class="cnt_buttons">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#slider_ppal_home_boots" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#slider_ppal_home_boots" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#slider_ppal_home_boots" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="cnt_buttons_nav">
+                <button class="carousel-control-prev" type="button" data-bs-target="#slider_ppal_home_boots" data-bs-slide="prev">
+                    <i class="fal fa-chevron-circle-left"></i>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#slider_ppal_home_boots" data-bs-slide="next">
+                    <i class="fal fa-chevron-circle-right"></i>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                <button class="carousel-control-pause" type="button" id="btn_pause_slider_home">
+                    <i class="far fa-pause-circle"></i>
+                </button>
+            </div>
+        </div>
+      </div>
+</section>

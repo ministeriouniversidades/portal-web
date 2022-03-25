@@ -1,0 +1,83 @@
+<section>
+    <article id="section_sub_title">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 subtitle d-flex align-content-center">
+                    <i class="fas fa-newspaper d-none d-lg-inline-block"></i>
+                    <i class="fal fa-newspaper d-block d-lg-none"></i>
+                    <h4>{{ i18n "Noticias" | upper }}</h4>
+                </div>
+            </div>
+        </div>
+    </article>
+    <article id="news">
+        <div class="container">
+            {{ $.Scratch.Set "last_index" 0 }}
+            {{ range where (.Pages.ByParam "news_date") "Section" "noticias" }}
+                {{ range first 3 (.Pages.ByParam "news_date").Reverse }}
+                    <div class="row">
+                        <div class="card col-12">
+                            <a class="link" href="{{ .Permalink }}">
+                                <div class="col-6 col-sm-4 col-md-6 col-lg-6 col-xl-6 media-left">
+                                        {{if .Params.has_media}}
+                                            {{if .Params.has_video}}
+                                                <iframe width="100%" height="100%" src="{{.Params.video_src}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            {{else}}
+                                                <img src="{{.Params.img | absURL }}" class="img-fluid img-card" alt="...">
+                                                {{end}}
+                                        {{else}}
+                                            {{ $num_random := index (seq 4 | shuffle) 0 }}
+                                            {{ if eq ($.Scratch.Get "last_index") $num_random }}
+                                                {{ if eq $num_random 4 }}
+                                                {{ $num_random := sub $num_random 1 }}
+                                                {{ $.Scratch.Set "number" $num_random }}
+                                                {{ else if eq $num_random 1}}
+                                                {{ $num_random := add $num_random 1 }}
+                                                {{ $.Scratch.Set "number" $num_random }}
+                                                {{ else }}
+                                                {{ $num_random := add $num_random 1 }}
+                                                {{ $.Scratch.Set "number" $num_random }}
+                                                {{ end }}
+                                                {{ $.Scratch.Set "last_index" ($.Scratch.Get "number") }}
+                                                {{ $img := print "./images/news/noticia" ($.Scratch.Get "number") ".png" }}
+                                                <img src="{{ $img | absURL}}" class="img-fluid img-card" alt="...">
+                                            {{ else }}
+                                                {{ $.Scratch.Set "last_index" $num_random }}
+                                                {{ $img := print "./images/news/noticia" $num_random ".png" }}
+                                                <img src="{{ $img | absURL}}" class="img-fluid img-card" alt="...">
+                                            {{ end }}
+                                        {{ end }}
+                                    </div>
+                                <div class="col-6 col-sm-8 col-md-6 col-lg col-xl box_text">
+                                    <div class="card-body">   
+                                        <p class="card-text date">{{ .Params.news_date | time.Format ":date_long"  }}</p>
+                                        <h5 class="card-title"><b>{{ .Params.news_title }}</b></h5>
+                                        <p class="card-text">{{ substr .Params.news_desc 0 150 | safeHTML }}...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="separator_global">
+                        <div class="container">
+                            <div class="row align-content-center justify-content-center">
+                                <div class="col-6">
+                                    <div class="separator"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {{ end }}
+            {{ end }}
+            {{ $newsCount := len (where .Site.RegularPages "Section" "noticias") }}
+            {{ if gt $newsCount 3 }}
+                <div class="row">
+                    <div class="col-12 text-center box_buttons">
+                        {{$news_url := .Site.BaseURL | printf "%s/noticias" }}
+                        <button type="button" class="btn btn-lg btn_present" onclick="javaScript:location.href={{ $news_url }};">{{ i18n "Ver toda la actualidad" | upper}}</button>
+                    </div>
+                </div>
+            {{ end }}
+        </div>
+    </article>
+</section>

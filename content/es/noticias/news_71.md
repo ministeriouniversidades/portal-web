@@ -1,0 +1,16 @@
+---
+title: "Actualidad"
+date: 2020-11-24T14:20:22+01:00
+has_media: true
+img: "./images/news/jovenes_investigadores_436X436.jpg"
+news_desc: "La edición número 32 del Certamen Jóvenes Investigadores, organizado conjuntamente por la Secretaría General de Universidades y el Instituto de la Juventud y que premia los mejores trabajos de investigación llevados a cabo por estudiantes de Bachillerato, ESO y Formación Profesional de toda España"
+news_title: "Se celebra online el XXXII congreso Jóvenes Investigadores"
+
+news_date: 2020-11-24T14:20:22+01:00
+---
+<p>La edici&oacute;n n&uacute;mero 32 del Certamen J&oacute;venes Investigadores, organizado conjuntamente por la Secretar&iacute;a General de Universidades y el Instituto de la Juventud y que premia los mejores trabajos de investigaci&oacute;n llevados a cabo por estudiantes de Bachillerato, ESO y Formaci&oacute;n Profesional de toda Espa&ntilde;a, llega a su fase final con la celebraci&oacute;n del congreso J&oacute;venes Investigadores, que tendr&aacute; lugar del 30 de noviembre al 3 de diciembre.</p>
+<p>Los trabajos, de todas las ramas del conocimiento, fueron enviados durante los meses de agosto y septiembre. Tras una primera criba, el jurado de especialistas universitarios ha seleccionado los 39 proyectos que pasar&aacute;n al congreso, que por las especiales circunstancias de este a&ntilde;o se celebrar&aacute; por primera vez online.</p>
+<p>Durante el congreso, los estudiantes presentar&aacute;n sus proyectos ante el jurado y optar&aacute;n a diversos premios en met&aacute;lico, as&iacute; como a estancias en centros de investigaci&oacute;n y a participar en otros cert&aacute;menes similares nacionales e internacionales, entre los que destaca EUCYS (<em>European Union Contest for Young Scientists</em>).</p>
+<p>Se conceder&aacute; asimismo un premio especial por su trabajo en la difusi&oacute;n de la cultura cient&iacute;fica al ingeniero y doctor en f&iacute;sica Javier Santaolalla, popular youtuber responsable de los canales<span>&nbsp;</span><a title="https://www.youtube.com/channel/ucns-8dsscbba7m4nu7wk7aw/videos" href="https://www.youtube.com/channel/UCns-8DssCBba7M4nu7wk7Aw/videos" target="_blank" rel="noreferrer noopener" tabindex="-1">Date un Voltio</a><span>&nbsp;</span>y<span>&nbsp;</span><a title="https://www.youtube.com/channel/ucqx_mzrcalunkxkywklegfa" href="https://www.youtube.com/channel/UCQX_MZRCaluNKxkywkLEgfA" target="_blank" rel="noreferrer noopener" tabindex="-1">Date un Vlog</a>.</p>
+<p>Las presentaciones, as&iacute; como la inauguraci&oacute;n el d&iacute;a 30 de noviembre y la clausura con la entrega de premios el d&iacute;a 3 de diciembre, ser&aacute;n retransmitidas en abierto desde el canal<span>&nbsp;</span><a title="https://www.youtube.com/user/injuvejuventud" href="https://www.youtube.com/user/injuvejuventud" target="_blank" rel="noreferrer noopener" tabindex="-1">YouTube del Instituto de la Juventud</a>.</p>
+<p><a href="https://www.ciencia.gob.es/stfls/MICINN/Universidades/Ficheros/programacongresovirtual2020.</a><i class="fas fa-external-link-alt"></i>" target="_blank" rel="noopener">M&aacute;s informaci&oacute;n</a></p>

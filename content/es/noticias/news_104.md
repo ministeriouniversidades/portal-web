@@ -1,0 +1,27 @@
+---
+title: "Actualidad"
+date: 2020-05-05T14:20:22+01:00
+has_media: false
+news_desc: "El Consejo de Ministros, a propuesta del Ministerio de Universidades, ha aprobado la derogación del sistema de horquillas para precios públicos de matriculación en las enseñanzas universitarias, que se introdujo en 2012."
+news_title: "El Ministerio de Universidades sienta las bases para una reforma de los cobros de tasas universitarias"
+
+news_date: 2020-05-05T14:20:22+01:00
+---
+<ul>
+<li><b>El Consejo de Ministros deroga hoy, a propuesta de Universidades, el sistema de horquillas para precios p&uacute;blicos de matriculaci&oacute;n en ense&ntilde;anzas universitarias</b></li>
+<li><b>Entre 2011 y 2019 ha aumentado el precio del cr&eacute;dito universitario, perjudicando seriamente al estudiantado</b></li>
+<li><b>Se trata de una reforma inicial con el objetivo de modificar la primera matr&iacute;cula de Grado, para modificar de manera progresiva el resto de las matr&iacute;culas, incluyendo las de M&aacute;ster</b></li>
+<li><b>El precio m&aacute;ximo de la matriculaci&oacute;n se fijar&aacute; en di&aacute;logo con todas las Comunidades Aut&oacute;nomas</b></li>
+</ul>
+<p>El Consejo de Ministros, a propuesta del Ministerio de Universidades, ha aprobado la derogaci&oacute;n del sistema de horquillas para precios p&uacute;blicos de matriculaci&oacute;n en las ense&ntilde;anzas universitarias, que se introdujo en 2012. En el Real Decreto Ley aprobado hoy por el que se aprueban medidas de apoyo al sector cultural para hacer frente a la situaci&oacute;n derivada de la COVID-19, se ha incorporado una disposici&oacute;n final con la que se modifica la Ley Org&aacute;nica 6/2001 de Universidades.</p>
+<p>La disposici&oacute;n aprobada hoy elimina el sistema de horquillas, que ha impactado de forma significativa sobre la estructura de precios, incrementando los mismos en t&eacute;rminos generales y aumentando la disparidad en dichos precios en funci&oacute;n de la Comunidad Aut&oacute;noma donde se presta dicho servicio.</p>
+<p>El objetivo del Ministerio de Universidades es la reducci&oacute;n este primer a&ntilde;o de las tasas de primera matr&iacute;cula de Grado, para poder reducir progresivamente el resto de las tasas de grado y tasas de las ense&ntilde;anzas de M&aacute;ster. Atendiendo a dicho objetivo, se deroga el marco regulatorio previo que lo imped&iacute;a, para poder trabajar con todas las CCAA una bajada progresiva de las tasas a niveles previos a 2011 que beneficie al estudiantado y su acceso a la universidad.</p>
+<p><b>El sistema de horquillas</b></p>
+<p>La Ley Org&aacute;nica 6/2001 de Universidades establece en su art&iacute;culo 81 que los precios p&uacute;blicos los establecen las CCAA. Este art&iacute;culo se modific&oacute; con el Real Decreto Ley 14/2012, de 20 de abril, de medidas urgentes de racionalizaci&oacute;n del gasto p&uacute;blico en el &aacute;mbito educativo, m&aacute;s conocido como &ldquo;el tasazo&rdquo;, en el que se establec&iacute;a por primera vez el sistema de horquillas para precios p&uacute;blicos.</p>
+<p>En la actualidad, para los estudios oficiales de Grado, este Real Decreto fija que los precios p&uacute;blicos han de cubrir entre el 0-25% de los costes en primera matr&iacute;cula, entre el 30-40% de los costes en segunda matr&iacute;cula; entre el 65-75% de los costes en la tercera matr&iacute;cula; y entre el 90-100% de los costes a partir de la cuarta matr&iacute;cula. El resultado de este sistema de horquillas es que, en el caso de la primera matr&iacute;cula, las CCAA tienen la posibilidad de financiar la totalidad de su coste haciendo que sea gratuita para el alumnado, de manera que, al no haber precio p&uacute;blico como tal, se considerar&iacute;a que cubre el 0% de los costes de la prestaci&oacute;n de este servicio.</p>
+<p>En el otro extremo, para el alumnado que se matricula por cuarta vez, las CCAA podr&iacute;an hacerle pagar un precio que cubra la totalidad del coste (entre el 90-100%).</p>
+<p><b>Aumento de precios y desigualdad</b></p>
+<p>Este sistema de horquillas se empez&oacute; a implantar en el curso 2012-13 y, desde entonces, se ha producido un aumento del precio medio por cr&eacute;dito, si comparamos los precios del curso 2011-12 con respecto a los del curso 2018-19.</p>
+<p>Adem&aacute;s, existe una disparidad de precios entre las diferentes CCAA. Esta desigualdad territorial en la fijaci&oacute;n de precios p&uacute;blicos tambi&eacute;n genera problemas de equidad en el acceso a los estudios universitarios, con el riesgo de poner en situaci&oacute;n de exclusi&oacute;n social a las estudiantes que no disponen de suficientes recursos econ&oacute;micos para afrontar sus estudios e incentivando el abandono de los estudios universitarios por motivos econ&oacute;micos.</p>
+<p><b>Conferencia General de Pol&iacute;tica Universitaria</b></p>
+<p>Una vez modificado el marco legislativo que imped&iacute;a una regulaci&oacute;n de la estructura de precios en t&eacute;rminos m&aacute;s democr&aacute;ticos y equitativos, se trabajar&aacute; en el di&aacute;logo en la CGPU, en la que est&aacute; presente tanto el Ministerio de Universidades como el conjunto de CCAA, para fijar el precio m&aacute;ximo de primera matr&iacute;cula de Grado a partir del pr&oacute;ximo jueves 7 de mayo.</p>

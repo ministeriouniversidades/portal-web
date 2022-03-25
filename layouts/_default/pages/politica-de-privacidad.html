@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang={{ if .Site.IsMultiLingual }}{{.Language}}{{end}}>
+  {{ partial "header-parts/head.html" . }}
+  {{ partial "includes/breadcrumb.html" . }}
+  <body>
+    {{ partial "header.html" . }}
+    <section>
+      <article id="content_text">
+          <div class="container container-xl">
+              <div class="row">
+                  <div class="col-lg-12 box">
+                      {{ .Content }}
+                  </div>
+              </div>
+          </div>
+      </article>
+    </section>
+    {{ partial "home-page-sections/sponsors-sec.html" . }}
+    {{ partial "footer.html" . }}

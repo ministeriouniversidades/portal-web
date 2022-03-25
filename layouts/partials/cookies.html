@@ -1,0 +1,105 @@
+<!-- Modal Cookies -->
+<section id="cookie-notice" class="cookies" style="display: none;">
+    <article class="cnt_cookies">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-lg-10 col-xl-6 content">
+                    <div class="icon_top">
+                        <span class="icon-icono4 icon"></span>
+                    </div>
+                    <div class="info">
+                        <p class="title">
+                            <b>Esta página web usa cookies</b>
+                        </p>
+                        <p class="text">
+                            Las cookies de este sitio web se usan para personalizar el contenido y los anuncios, ofrecer funciones de redes sociales y analizar el tráfico. Además, compartimos información sobre el uso que haga del sitio web con nuestros partners de redes sociales, publicidad y análisis web, quienes pueden combinarla con otra información que les haya proporcionado o que hayan recopilado a partir del uso que haya hecho de sus servicios.
+                        </p>
+                    </div>
+                    <div class="box_buttons">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalCookies" id="open-details-cookies">CONFIGURACIÓN DE COOKIES</a>
+                        <button type="button" id="accept-cookies" class="btn btn-lg btn_present">PERMITIR TODAS</button>
+                        <!-- <button type="button" id="cookie-notice-deny" class="btn btn-lg btn_present">DESACTIVAR TODAS</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</section>
+<!-- Modal configuration Cookies -->
+<div class="modal fade" id="modalCookies" tabindex="-1" aria-labelledby="modalCookiesLabel" style="display: none;" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-cookies">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="d-flex flex-row justify-content-between align-items-center mb-36">
+                        <div class="icon_top">
+                            <span class="icon-icono4 icon"></span>
+                        </div>
+                        <div class="info_top">
+                            <a {{ with .Site.GetPage "politica-de-cookies" }} href="{{ .Permalink }}"{{ end }} class="modal-title" target="_blank">POLITICA DE COOKIES</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 info_conf_cookie">
+                            <div class="item">
+                                <div class="tit">
+                                    <div class="form-check d-flex flex-row justify-content-between align-items-center">
+                                        <label class="form-check-label" for="cookies-tecnicas">Cookies técnicas</label>
+                                        <input class="form-check-input" type="checkbox" value="" id="cookies-tecnicas" checked disabled>
+                                    </div>
+                                </div>
+                                <div class="cnt_check">
+                                    <p>
+                                        Las cookies necesarias ayudan a hacer una página web utilizable activando funciones básicas como la navegación en la página y el acceso a áreas seguras de la página web. La página web no puede funcionar adecuadamente sin estas cookies.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="tit">
+                                    <div class="form-check d-flex flex-row justify-content-between align-items-center">
+                                        <label class="form-check-label" for="cookies-analitica">Cookies de analítica</label>
+                                        <input class="form-check-input" type="checkbox" value="" id="cookies-analitica">
+                                    </div>
+                                </div>
+                                <div class="cnt_check">
+                                    <p>
+                                        Las cookies de analítica ayudan a los propietarios de páginas web a comprender cómo interactúan los visitantes con las páginas web reuniendo y proporcionando información de forma anónima.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 justify-content-end box_buttons">
+                            <button type="button" id="customize-cookies" class="btn btn-lg btn_present">GUARDAR CONFIGURACIÓN</button>
+                            <button type="button" id="accept-modal-cookies" class="btn btn-lg btn_present">PERMITIR TODAS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics - need to chnage id* with your google analytics id -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2SY010Y15"></script>
+<script type="text/javascript" async src="https://www.google-analytics.com/analytics.js"></script>
+<script src='{{ "js/cookies_cache.js" | absURL }}'></script>
+<script>
+    //hide cookie-notice when user accept cookies
+    document.getElementById('accept-cookies').addEventListener("click",function() {
+    document.getElementById('cookie-notice').style.display = 'none';
+    });
+    //hide cookie-notice and modalCookies when user accept cookies from medal
+    document.getElementById('accept-modal-cookies').addEventListener("click",function() {
+    document.getElementById('cookie-notice').style.display = 'none';
+    $('#modalCookies').modal('hide');
+    });
+    //hide cookie-notice and modalCookies when user customizes cookies from medal
+    document.getElementById('customize-cookies').addEventListener("click",function() {
+    document.getElementById('cookie-notice').style.display = 'none';
+    $('#modalCookies').modal('hide');    
+    });
+</script>
+
+          

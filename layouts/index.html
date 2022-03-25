@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang={{ if .Site.IsMultiLingual }}{{.Language}}{{end}}>
+    {{ partial "header-parts/head.html" . }}
+    <body>
+        {{ partial "header.html" . }}
+        {{ partial "slider.html" . }}
+        {{ partial "presentation-sec.html" . }}
+        {{ partial "home-page-sections/admin-sec.html" . }}
+        {{ partial "home-page-sections/news-sec.html" . }}
+        {{ partial "home-page-sections/events-sec.html" . }}
+        {{ partial "home-page-sections/calls-sec.html" . }}
+        {{ partial "home-page-sections/organisms-sec.html" . }}
+        {{ partial "home-page-sections/sponsors-sec.html" . }}
+        {{ $.Scratch.Set "lang" $.Site.Language.Lang }}
+        {{ partial "footer.html" . }}
+        <script src="{{ "js/calendar.js" | absURL }}"></script>
+    </body>
+</html>

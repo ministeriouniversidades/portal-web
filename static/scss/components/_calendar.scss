@@ -1,0 +1,705 @@
+@import "./variables";
+
+.color-calendar.glass {
+  --cal-header-background-color: #154581;
+  --cal-font-family-header: "Poppins", sans-serif;
+  --cal-font-family-weekdays: "Poppins", sans-serif;
+  --cal-font-family-body: "Poppins", sans-serif;
+  --cal-border-radius: 0px;
+}
+
+.color-calendar {
+  border: 1px solid $gray_border;
+  border-radius: 6px;
+  min-width: 350px;
+  .calendar__body {
+    padding: 0 !important;
+    .calendar__weekdays {
+      background-color: $gray_border;
+      padding: 5px ​10px;
+      .calendar__weekday {
+        color: black;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        opacity: 1;
+        height: 50px;
+      }
+    }
+  }
+  .color-calendar--small {
+    .calendar__body {
+      .calendar__weekdays {
+        grid-template-columns: repeat(7, minmax(32px, 52px)) !important;
+      }
+      .calendar__days {
+        background-color: $gray_calendar;
+        grid-template-columns: repeat(7, minmax(32px, 52px)) !important;
+        grid-template-rows: repeat(6, minmax(32px, 48px)) !important;
+        padding: 10px 0px;
+      }
+    }
+  }
+  .color-calendar.glass {
+    .calendar__header {
+      grid-template-columns: repeat(7, minmax(32px, 50px)) !important;
+      padding: 8px;
+      .calendar__monthyear {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+      }
+    }
+    .calendar__days {
+      .calendar__day {
+        font-weight: 400;
+        font-size: 20px;
+        height: 50px;
+        line-height: 24px;
+      }
+      .calendar__day-box {
+        background-color: $blue;
+        &:hover {
+          background-color: $blue;
+          color: $blue;
+          opacity: 0.1;
+        }
+      }
+      .calendar__day-selected {
+        .calendar__day-box {
+          border-radius: 0;
+          background-color: $blue;
+          opacity: 1;
+          box-shadow: none;
+          height: 85%;
+          width: 90%;
+        }
+      }
+      .calendar__day-today {
+        color: $blue;
+        .calendar__day-box {
+          background-color: $blue;
+        }
+      }
+      .calendar__day-selected {
+        .calendar__day-text {
+          color: white;
+        }
+      }
+      .calendar__day-bullet {
+        background-color: $blue;
+      }
+      .calendar__day-bullet.purple {
+        background-color: $purple_calendar;
+      }
+      .calendar__day-bullet.green {
+        background-color: $green_calendar;
+      }
+    }
+    .calendar__arrow-inner {
+      &:after {
+        opacity: 0;
+      }
+      &:before {
+        width: 1.3em;
+        height: 1.3em;
+      }
+      &:hover {
+        &:after {
+          background-color: $gray_border;
+          transition: opacity 0.3s ease;
+          opacity: 1;
+        }
+        &:before {
+          border-color: $blue;
+        }
+      }
+    }
+    .calendar__arrow-next {
+      .calendar__arrow-inner {
+        &:before {
+          margin-right: 0.5em;
+        }
+      }
+    }
+    .calendar__arrow-prev {
+      .calendar__arrow-inner {
+        &:before {
+          margin-left: 0.5em;
+        }
+      }
+    }
+  }
+}
+
+
+// ** CALENDARIO ** 
+.box_calendar_custom {
+  min-width: 350px;
+  position: sticky;
+  top: 320px;
+  height: 410px;
+  .content_header {
+    height: 50px;
+    background-color: #154581;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    .title {
+      margin: 0px;
+      font-size: 20px;
+    }
+    .arrow_month {
+      color: white;
+      i {
+        font-size: 25px;
+      }
+    }
+  }
+  .content_week {
+    height: 50px;
+    background-color: #d9dee3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .content_days {
+    background-color: #f2f2f2;
+    border: 1px solid #d9dee3;
+    height: 308px;
+    padding: 10px 0px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    .content_days_week {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      .days {
+        width: 51px;
+        height: 48px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .days_disable {
+        color: #323232;
+        opacity: 0.2;
+        width: 51px;
+        height: 49px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .today {
+        border: 1px solid #154581;
+        border-radius: 6px;
+      }
+      .agenda_day {
+        background-color: #154581;
+        height: 41px;
+        width: 47px;
+        a {
+          color: white;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+#schedule_of_month {
+  //margin: 40px 0px 80px;
+  .cnt_calendar {
+    flex-direction: column;
+    position: relative;
+  }
+  .events {
+    h4 {
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 33px;
+      margin-bottom: 28px;
+    }
+    .items {
+      margin-bottom: 30px;
+      padding: 0px 15px;
+      .card {
+        border-radius: 6px;
+        .h-158 {
+          min-height: 158px;
+        }
+        .date_icon {
+          border-top-left-radius: 6px;
+          border-bottom-left-radius: 6px;
+          color: white;
+          padding-top: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          flex-direction: column;
+          i,
+          span {
+            font-size: 60px;
+            line-height: 64px;
+          }
+          .time {
+            font-size: 22px;
+            line-height: 26px;
+            font-weight: 400;
+            margin-top: 15px;
+          }
+        }
+        .info {
+          display: flex;
+          align-items: flex-end;
+          .card-body {
+            .card-text {
+              font-size: 18px;
+              font-weight: 400;
+              line-height: 22px;
+            }
+            .card-title {
+              font-size: 18px;
+              font-weight: 700;
+              line-height: 22px;
+              margin-bottom: 0px;
+            }
+          }
+        }
+        .list_schedule_date_icon {
+          width: 95px;
+        }
+        .list_schedule_box_text {
+          width: calc(100% - 95px);
+        }
+      }
+      .card_calendar {
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16) !important;
+        flex-direction: row;
+        padding: 0px;
+        border-radius: 6px;
+        overflow: hidden;
+        text-decoration: none;
+        color: black;
+        .box_text {
+          .card-body {
+            padding: 18px 20px 11px 25px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-start;
+            .card-text {
+              font-size: 16px;
+              line-height: 22px;
+              margin-bottom: 8px;
+            }
+            .card-title {
+              font-size: 18px;
+              line-height: 22px;
+              font-weight: 700;
+              margin-bottom: 2px;
+              display: -webkit-box;
+              -webkit-line-clamp: 2;
+              -webkit-box-orient: vertical;
+              overflow: hidden;
+              text-overflow: ellipsis;
+            }
+            .card-light {
+              font-weight: 300;
+              font-size: 18px;
+              line-height: 22px;
+              margin-bottom: 0px;
+              display: -webkit-box;
+              -webkit-line-clamp: 2;
+              -webkit-box-orient: vertical;
+              overflow: hidden;
+              text-overflow: ellipsis;
+            }
+            .list_schedule_date {
+              color: black;
+              font-size: 16px;
+              line-height: 32px;
+              font-weight: 400;
+              margin-bottom: 0;
+            }
+            .list_schedule_range {
+              color: black;
+              font-size: 26px;
+              line-height: 32px;
+              font-weight: 600;
+              margin-bottom: 0;
+            }
+            .list_schedule_office {
+              color: black;
+              font-size: 26;
+              line-height: 32px;
+              font-weight: 300;
+              margin-bottom: 0;
+            }
+            .list_schedule_description {
+              color: black;
+              font-size: 18px;
+              line-height: 32px;
+              font-weight: 400;
+              margin-bottom: 0;
+              b {
+                font-weight: 600;
+              }
+            }
+          }
+          .list_schedule_button {
+            width: 30%;
+          }
+          .list_schedule_info {
+            padding: 40px 20px 26px 53px;
+            width: 70%;
+          }
+        }
+        .row_inside_list_schedule {
+          height: 100%;
+          margin: 0;
+          width: 100%;
+        }
+        .button_add_calendar {
+          font-size: 16px;
+          line-height: 18px;
+          padding-bottom: 30px;
+          display: flex;
+          align-items: flex-end;
+          .btn_add_calendar {
+            font-size: 16px;
+            line-height: 18px;
+            border-color: $blue;
+            color: $blue;
+          }
+        }
+        .mw_ &:hover {
+          .box_text {
+            .card-body {
+              .list_schedule_date,
+              .list_schedule_range,
+              .list_schedule_office,
+              .list_schedule_description {
+                text-decoration: none;
+              }
+            }
+          }
+        }
+      }
+      .active.box_blue {
+        border: 1px solid $blue;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4) !important;
+        &:before {
+          display: block;
+          content: " ";
+          margin-top: -285px;
+          height: 285px;
+          visibility: hidden;
+          pointer-events: none;
+        }
+      }
+      .active.box_green {
+        border: 1px solid $green_calendar;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4) !important;
+      }
+      .active.box_purple {
+        border: 1px solid $purple_calendar;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4) !important;
+      }
+    }
+  }
+  .events_slider {
+    display: none;
+    margin-top: 30px;
+    .items {
+      margin-bottom: 30px;
+      .card {
+        border-radius: 6px;
+        flex-direction: row;
+        .h-158 {
+          min-height: 158px;
+        }
+        .date_icon {
+          border-top-left-radius: 6px;
+          border-bottom-left-radius: 6px;
+          color: white;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          padding: 25px 0px;
+          i,
+          span {
+            font-size: 50px;
+            line-height: 64px;
+          }
+          .time {
+            font-size: 16px;
+            line-height: 26px;
+            font-weight: 400;
+            margin-top: 15px;
+          }
+        }
+        .info {
+          display: flex;
+          align-items: flex-end;
+          .card-body {
+            .card-text {
+              font-size: 15px;
+              font-weight: 400;
+              line-height: 22px;
+            }
+            .card-title {
+              font-size: 16px;
+              font-weight: 700;
+              line-height: 22px;
+              margin-bottom: 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .box_buttons {
+    margin-top: 37px;
+    justify-content: center;
+  }
+  .box_blue {
+    .date_icon {
+      background-color: $blue;
+    }
+    &:hover {
+      border-color: $blue;
+      .date_icon {
+        background-color: white;
+        i {
+          color: $blue;
+        }
+        .time {
+          color: $blue;
+        }
+      }
+      .box_text {
+        background-color: $blue;
+        .card-body {
+          .card-text,
+          .card-title,
+          .card-light {
+            color: white;
+            text-decoration: underline;
+          }
+        }
+      }
+      .list_schedule_date,
+      .list_schedule_range,
+      .list_schedule_office,
+      .list_schedule_description {
+        color: white !important;
+      }
+      .button_add_calendar {
+        .btn_add_calendar {
+          background-color: $blue;
+          border-color: white !important;
+          color: white !important;
+        }
+      }
+    }
+  }
+  .box_green {
+    .date_icon {
+      background-color: $green_calendar;
+    }
+    &:hover {
+      border-color: $green_calendar;
+      .date_icon {
+        background-color: white;
+        i {
+          color: $green_calendar;
+        }
+        .time {
+          color: $green_calendar;
+        }
+      }
+      .box_text {
+        background-color: $green_calendar;
+        .card-body {
+          .card-text,
+          .card-title,
+          .card-light {
+            color: white;
+            text-decoration: underline;
+          }
+        }
+      }
+      .list_schedule_date,
+      .list_schedule_range,
+      .list_schedule_office,
+      .list_schedule_description {
+        color: white !important;
+      }
+    }
+  }
+  .box_purple {
+    .date_icon {
+      background-color: $purple_calendar;
+    }
+    &:hover {
+      border-color: $purple_calendar;
+      .date_icon {
+        background-color: white;
+        i {
+          color: $purple_calendar;
+        }
+        .time {
+          color: $purple_calendar;
+        }
+      }
+      .box_text {
+        background-color: $purple_calendar;
+        .card-body {
+          .card-text,
+          .card-title,
+          .card-light {
+            color: white;
+            text-decoration: underline;
+          }
+        }
+      }
+      .list_schedule_date,
+      .list_schedule_range,
+      .list_schedule_office,
+      .list_schedule_description {
+        color: white !important;
+      }
+    }
+  }
+  .box_blue.without_bg_hover {
+    &:hover {
+      border-color: rgba(0, 0, 0, 0.125);
+      .date_icon {
+        background-color: $blue;
+        i {
+          color: white;
+        }
+        .time {
+          color: white;
+        }
+      }
+      .box_text {
+        background-color: white;
+        .card-body {
+          .card-text,
+          .card-title,
+          .card-light {
+            color: black;
+            text-decoration: underline;
+          }
+        }
+      }
+      .list_schedule_date,
+      .list_schedule_range,
+      .list_schedule_office,
+      .list_schedule_description {
+        color: black !important;
+      }
+      .button_add_calendar {
+        .btn_add_calendar {
+          background-color: white;
+          border-color: $blue !important;
+          color: $blue !important;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .box_purple.without_bg_hover {
+    &:hover {
+      border-color: rgba(0, 0, 0, 0.125);
+      .date_icon {
+        background-color: $purple_calendar;
+        i {
+          color: white;
+        }
+        .time {
+          color: white;
+        }
+      }
+      .box_text {
+        background-color: white;
+        .card-body {
+          .card-text,
+          .card-title,
+          .card-light {
+            color: black;
+            text-decoration: underline;
+          }
+        }
+      }
+      .list_schedule_date,
+      .list_schedule_range,
+      .list_schedule_office,
+      .list_schedule_description {
+        color: black !important;
+      }
+      .button_add_calendar {
+        .btn_add_calendar {
+          background-color: white;
+          border-color: $blue !important;
+          color: $blue !important;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .box_green.without_bg_hover {
+    &:hover {
+      border-color: rgba(0, 0, 0, 0.125);
+      .date_icon {
+        background-color: $green_calendar;
+        i {
+          color: white;
+        }
+        .time {
+          color: white;
+        }
+      }
+      .box_text {
+        background-color: white;
+        .card-body {
+          .card-text,
+          .card-title,
+          .card-light {
+            color: black;
+            text-decoration: underline;
+          }
+        }
+      }
+      .list_schedule_date,
+      .list_schedule_range,
+      .list_schedule_office,
+      .list_schedule_description {
+        color: black !important;
+      }
+      .button_add_calendar {
+        .btn_add_calendar {
+          background-color: white;
+          border-color: $blue !important;
+          color: $blue !important;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

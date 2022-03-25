@@ -1,0 +1,18 @@
+<div class="container-fluid search_box" id="search_box">
+    <div class="row h-100 align-content-center justify-content-center">
+        <div class="col-lg-8 col-xxl-8 cnt_search">
+            <span class="search-text">
+                <figure><img src="{{"./images/escudo_es.svg" | absURL}}" alt="escudo" class="img-fluid"></figure>
+                ¿QUÉ ESTÁS BUSCANDO?
+            </span>
+            <form action="{{ .Site.BaseURL }}search" method="GET">
+                <div class="input-group mb-3">
+                    <input type="text" name="query" id="top_search_input" class="form-control">
+                    <button type="submit" class="input-group-text" id="basic-addon2">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,36 @@
+---
+title: "Actualidad"   
+date: 2021-11-29T14:20:20+01:00
+has_media: false
+news_desc: "El ministro de Universidades, Manuel Castells, ha acudido a la presentación de la Conferencia Mundial de Educación Superior de la UNESCO en Barcelona. La cita busca contribuir a la mejora de las organizaciones y sistemas de educación superior bajo el enfoque de los Derechos Humanos y la agenda 2030 para el desarrollo sostenible y su promesa de no dejar nadie atrás."
+news_title: "Manuel Castells, ministro de Universidades: “Es un honor para España acoger la Conferencia Mundial de Educación Superior de la UNESCO”."
+
+news_date: 2021-11-29T14:20:20+01:00
+---
+<ul>
+<li><b>El ministro de Universidades, Manuel Castells, ha acudido a la presentación de la Conferencia Mundial de Educación Superior de la UNESCO en Barcelona.</b></li>
+
+<li><b>La cita busca contribuir a la mejora de las organizaciones y sistemas de educación superior bajo el enfoque de los Derechos Humanos y la agenda 2030 para el desarrollo sostenible y su promesa de no dejar nadie atrás.</b></li>
+</ul>
+
+¿Qué impacto ha tenido la pandemia de la COVID-19 en la educación superior?; ¿cómo garantizar una educación superior inclusiva y con programas relevantes y de calidad?; ¿cómo puede fomentarse la movilidad académica a nivel mundial?; ¿cómo las instituciones de educación superior pueden contribuir a la consecución de la Agenda 2030 y los Objetivos de Desarrollo Sostenible? Estos y otros temas centrarán los trabajos de la <b>3ª Conferencia Mundial de Educación Superior</b> (CMES2022) que se celebrará en <b>Barcelona</b> (España), <b>del 18 al 20 de mayo de 2022, bajo el lema “Reinventando la Educación Superior para un Futuro Sostenible”</b>.
+
+Presentada el 29 de noviembre en el Paraninfo de la Universidad de Barcelona en un acto organizado por la UNESCO, el gobierno español, la Generalitat de Cataluña, la Diputación de Barcelona, el Ayuntamiento de Barcelona y la Asociación Catalana de Universidades Públicas (ACUP), en tanto que ostenta la presidencia y la secretaría técnica de la Global University Network for innovation (GUNi), la cita busca contribuir a la mejora de las organizaciones y sistemas de educación superior bajo el enfoque de los Derechos Humanos y la agenda 2030 para el desarrollo sostenible y su promesa de no dejar nadie atrás.
+
+“Es un honor para España acoger esta conferencia en este momento crucial para fomentar el diálogo mundial sobre la educación superior, un diálogo al que todas las voces están invitadas y del que surgirán ideas y compromisos que marcarán la vida universitaria de las próximas generaciones de estudiantes. Esta conferencia y la relación entre la UNESCO y Barcelona puede tener un impacto importante en el desarrollo de la ciudad. La UNESCO es la institución más importante en relación con la Educación Superior. Esta es una conferencia clave para ver el futuro de las universidades en el siglo XXI y los cambios que con él vienen de la mano", ha declarado el <b>ministro de Universidades de España, Manuel Castells.</b>
+
+El rector de la <b>Universitat de Barcelona (UB), Joan Guàrdia</b>, ha dado la bienvenida al acto, declarando que "iniciativas como esta son fundamentales para el futuro del planeta, que se construirá desde ciudades globales como Barcelona. No en vano, dedicar espacio y talento a discutir sobre cómo mejorar la Educación Superior es una óptima inversión de futuro donde las universidades somos y seremos espacio de encuentro de todas las vertientes del conocimiento. Un mundo diverso implica un mundo tolerante e inclusivo y ello conlleva una simple palabra: Educación.”
+
+“De lo que se trata es de rediseñar la agenda de la educación superior para los próximos diez años, escribiendo una nueva hoja de ruta que haga de ella un lugar inclusivo y diverso que responda mejor a las necesidades del desarrollo y del mercado laboral actual”, ha declarado <b>Stefania Giannini, subdirectora general de Educación de la UNESCO.</b>
+
+En el acto, presentado por <b>Josep M. Vilalta, director de la Global University Network for innovation (GUNi)</b>, han participado también los representantes de las instituciones públicas catalanas que forman parte de la Oficina de Coordinación Local (LCD) de la Conferencia, constituida por la <b>Generalitat de Cataluña</b>; representada hoy por <b>Gemma Geis, consejera de Investigación y Universidades de la Generalitat de Cataluña</b>; la Diputación de Barcelona, representada por su presidenta Núria Marín; y el <b>Ayuntamiento de Barcelona, representado por la alcaldesa Ada Colau.</b>
+
+<b>Gemma Geis, consejera de Investigación y Universidades de la Generalitat de Cataluña</b>, ha declarado que "las universidades deben contribuir a mejorar la competitividad local y hacer posible una sociedad más justa. La interacción entre ciudades, universidades y empresas es esencial". <b>Núria Marín, presidenta de la Diputación de Barcelona</b>, ha añadido que “como representante de los 311 municipios a los que da servicio la Diputación de Barcelona, valoro la organización de la tercera Conferencia Mundial de la Educación Superior de la UNESCO como importante reconocimiento en nuestro territorio. Un reconocimiento a la larga y pionera tradición pedagógica que nos caracteriza”. “Barcelona es una ciudad de educación y conocimiento, donde las universidades representan un elemento central de progreso social, cultural y económico. Por eso es para nosotros un orgullo ser la sede de la tercera Conferencia Mundial de Educación Superior y poder contribuir al impulso del debate sobre el futuro de la universidad a nivel global”, ha declarado <b>Ada Colau, alcaldesa de Barcelona.</b>
+
+La Conferencia CMES2022 pretende romper con los modelos tradicionales de educación superior y abrir las puertas a nuevas concepciones innovadoras, creativas y visionarias que no sólo sirvan a las actuales agendas de desarrollo sostenible, sino que también allanen el camino para futuras comunidades de aprendizaje que superen las barreras, hablen a todos y sean inclusivas con todos los estudiantes a lo largo de la vida.
+
+Los temas principales de la conferencia son (1) el impacto de la COVID-19 en la educación superior; (2) la Educación Superior y los Objetivos de Desarrollo Sostenible, (3) la inclusión, (4) la calidad y la relevancia de los programas; (5) la movilidad académica, (6) la gobernanza, (7) la financiación, (8) la producción de datos y conocimientos, (9) la cooperación internacional, y (10) los futuros de la educación superior.
+
+La cita dará voz a todos los actores de la vida académica, incluidos profesores, investigadores, administradores, empresarios, jóvenes, responsables políticos y líderes sociales. La conferencia incluirá también una variedad de eventos paralelos, reuniones informales y exposiciones (tecnología, innovación, buenas prácticas, arte, ciencia, cultura) para ampliar las oportunidades de aprendizaje e intercambio para todos los participantes.
+
+El Consejo Internacional de la Ciencia (ISC), la Asociación Internacional de Universidades (IAU) figuran entre los socios de la Conferencia, al igual que la Organización para la Cooperación y el Desarrollo Económicos (OECD) o el Programa UNITWIN y de Cátedras UNESCO.

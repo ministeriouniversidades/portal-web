@@ -1,0 +1,15 @@
+---
+title: "Actualidad"
+date: 2020-04-21T14:20:22+01:00
+has_media: false
+news_desc: "El Consejo de Ministros, a propuesta del Ministerio de Universidades, ha aprobado la modificación y actualización del Real Decreto-ley 3/2019 del 8 de febrero para facilitar el pago por parte del estudiantado de los llamados Préstamos Renta–Universidad, dentro de la batería de medidas para aliviar los efectos económicos de la COVID-19 que está tomando el Gobierno durante esta crisis."
+news_title: "El Gobierno aprueba la novación de los Préstamos Renta-Universidad: carencia durante 2020 y pago vinculado a la renta"
+
+news_date: 2020-04-21T14:20:22+01:00
+---
+<ul>
+<li><b>El alumnado que hubiera suscrito estos pr&eacute;stamos universitarios podr&aacute; optar por la novaci&oacute;n contractual de los mismos para facilitar su pago. Esta medida tiene como objetivo aliviar los efectos econ&oacute;micos provocados por la pandemia de la COVID-19</b></li>
+</ul>
+<p>El Consejo de Ministros, a propuesta del Ministerio de Universidades, ha aprobado la modificaci&oacute;n y actualizaci&oacute;n del Real Decreto-ley 3/2019 del 8 de febrero para facilitar el pago por parte del estudiantado de los llamados<span>&nbsp;</span><em>Pr&eacute;stamos Renta&ndash;Universidad</em>, dentro de la bater&iacute;a de medidas para aliviar los efectos econ&oacute;micos de la COVID-19 que est&aacute; tomando el Gobierno durante esta crisis.</p>
+<p>El Gobierno de Espa&ntilde;a cre&oacute; en 2007 el programa<span>&nbsp;</span><em>Pr&eacute;stamos Renta-Universidad</em><span>&nbsp;</span>para financiar los estudios de posgrado como el m&aacute;ster y posteriormente doctorado. Debido a las consecuencias econ&oacute;micas derivadas de la actual crisis sanitaria, es posible que algunas personas no puedan hacer frente al reembolso de dichos pr&eacute;stamos y puedan incurrir en una situaci&oacute;n de sobreendeudamiento. Por este motivo, el Gobierno a trav&eacute;s del Ministerio de Universidades, abre la posibilidad de optar por la novaci&oacute;n de estos contratos. De esta manera, todas las personas que lo soliciten tendr&aacute;n un per&iacute;odo de carencia inicial hasta el 31 de diciembre de 2020 y el pago de los pr&eacute;stamos s&oacute;lo se reiniciar&aacute; cuando el prestatario genere una renta igual o superior a 22.000 euros. El plazo de devoluci&oacute;n de las cantidades adeudadas ser&aacute; de 15 a&ntilde;os desde que se produzca la novaci&oacute;n del pr&eacute;stamo.</p>
+<p>El Ministerio de Universidades apuesta as&iacute; por una pol&iacute;tica que priorice la empat&iacute;a y la flexibilidad en estos momentos tan dif&iacute;ciles, tambi&eacute;n para el estudiantado, adecuando en este caso, y en el &aacute;mbito de sus competencias, normas de car&aacute;cter econ&oacute;mico que puedan facilitar la transici&oacute;n y el paso durante los siguientes meses y mientras duren los efectos sociales, econ&oacute;micos y sanitarios de la pandemia de la COVID-19.</p>

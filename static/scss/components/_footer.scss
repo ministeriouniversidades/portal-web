@@ -1,0 +1,137 @@
+// SLIDER FOOTER MARCAS
+
+#section_slider_marcas {
+  background-color: $gray_border;
+  .box {
+    padding: 40px 0px;
+    .swiper {
+      .swiper-wrapper {
+        // Estilos Generales de las Imagenes
+        .swiper-slide {
+          border-radius: 6px;
+          background-color: white;
+          min-height: 128px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img {
+            padding: 5px;
+          }
+        }
+      }
+      // Flechas del Slider
+      .swiper-button-next,
+      .swiper-button-prev {
+        background-color: $blue_arrow;
+        padding: 30px;
+        border-radius: 50px;
+        border: 1px solid white;
+        &:after {
+          font-size: 30px;
+          color: white;
+        }
+        &:hover {
+          background-color: rgba(black, 0.75);
+        }
+      }
+    }
+  }
+} 
+ 
+
+// * FOOTER *
+
+footer {
+  background-color: $blue; 
+  // Footer - Barra de redes sociales
+  .box_social_networks {
+    border-bottom: 1px solid $gray_border;
+    opacity: 1;
+    ul {
+      padding: 10px 0px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+      list-style: none;
+      margin: 0px;
+      li {
+        margin-left: 30px;
+        a {
+          i {
+            font-size: 35px;
+            color: #fff;
+            &:hover {
+              color: $yellow;
+            }
+          }
+        }
+      }
+    }
+  }
+  // Footer - Logo de escudo y Licencia en Desktop
+  .box_logo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: 20px 0px 30px;
+    figure {
+      margin-bottom: 0px;
+      img {
+        max-width: 100px;
+      }
+    }
+    p {
+      margin: 0px;
+      padding-left: 15px;
+      font-size: 16px;
+      line-height: 22px;
+      color: #fff;
+      font-weight: 300;
+    }
+  }
+  // Footer - Links de Informacion
+  .box_links {
+    ul {
+      margin: 15px 0px 0px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+      list-style: none;
+      li {
+        padding: 0px 15px;
+        border-right: 1px solid $gray_border;
+        &:last-child {
+          padding-right: 0px;
+          border-right: none;
+        }
+        a {
+          color: #fff;
+          text-decoration: none;
+          font-weight: 300;
+          font-size: 16px;
+          line-height: 22px;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  .p-45 {
+    padding: 0px 45px;
+  }
+  // Footer - texto Licencia en Mobile
+  .licencia_movil {
+    margin: 0px;
+    padding-left: 15px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 40px;
+    justify-content: center;
+    display: none;
+  }
+}

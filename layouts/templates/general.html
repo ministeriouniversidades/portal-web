@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang={{ if .Site.IsMultiLingual }}{{.Language}}{{end}}>
+  {{ partial "header-parts/head.html" . }}
+  <body>
+    {{ partial "header.html" . }}
+    <section>
+        <article id="header_interno">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 box">
+                        <div class="img img_expanded" style="background: url({{ .Params.section_img | absURL }});"></div>
+                        <h2>{{ .Title }}</h2>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    {{ partial "includes/breadcrumb.html" . }}
+    {{ if len .Content }}
+        <section>
+            <article id="content_text">
+                <div class="container container-xl">
+                    <div class="row">
+                        <div class="col-lg-12 box">
+                            {{ .Content }}
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    {{ end }}
+    <section>
+        <article>
+	<!-- class="calls" id="section_box_cards_blue" -->
+            <div class="container container-xl">
+                <div class="row">
+                            <div class="col-lg-12 content_collapse mb-120">
+                                <div class="accordion" id="accordionPanelsStayOpenExample">
+                                {{ if isset .Params "sections_title"}}
+                                {{ range $_index, $section_title := .Params.sections_title }}
+                                {{ $section_type :=  replace (lower $section_title) " " "-" }}
+                                {{ $sectionPages := where $.Site.RegularPages "Type" $section_type }}
+                                {{ $title1 := where $sectionPages "Title" "title" }} 
+                                {{ $content1 := where $sectionPages "Title" "content" }}  
+                                {{ if ge (len $title1 ) 1 }} 
+                                {{ if ge (len $content1 ) 1 }} 
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="panelsStayOpen-heading{{$_index}}">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse{{$_index}}" aria-expanded="false" aria-controls="panelsStayOpen-collapse{{$_index}}">
+                                                {{ range $title1 }}
+                                                    {{.Content}}
+                                                {{ end }}
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapse{{$_index}}" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading{{$_index}}">
+                                            <div class="accordion-body">
+                                                <article id="section_link">
+                                                    <div class="container-fluid">
+                                                        <div class="container container-xl">
+                                                            <div class="row">
+                                                                <div class="col-12">
+                                                                    <p>
+                                                                        {{ range $content1 }}
+                                                                            {{.Content}}
+                                                                        {{ end }}
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                    {{ end }}
+                                    {{ end }}                              
+                                    {{ end }}                              
+                                    {{ end }}                              
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    {{ partial "home-page-sections/sponsors-sec.html" . }}
+    {{ partial "footer.html" . }}
+  </body>
+</html>
