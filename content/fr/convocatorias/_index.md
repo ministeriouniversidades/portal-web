@@ -1,3 +1,0 @@
----
-title: "Convocatorias de ayudas"
----
