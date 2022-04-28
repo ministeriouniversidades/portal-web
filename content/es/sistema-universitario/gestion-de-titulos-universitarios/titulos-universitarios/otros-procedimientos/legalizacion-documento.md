@@ -18,11 +18,10 @@ La legalización de documentos académicos universitarios oficiales originales q
     <li>Forma de presentación y horarios</li>
 </ul>
 <section>
-        <article class="calls">
-            <div class="container container-xl">
-                <div class="row">
-                        <div class="row">
-                            <div class="col-lg-12  content_collapse">
+    <article>
+        <div class="container container_xl_accoordion p-0">
+            <div class="row mt-4">
+                <div class="col-lg-12 content_collapse mb-120">
                                 <div class="accordion" id="accordionPanelsStayOpenExample">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -286,13 +285,13 @@ La legalización de documentos académicos universitarios oficiales originales q
 		<div class="col-lg-12 cards_download_cnt">  
 			<div class="row"> 
 				<div class="download_card"> 
-					<a class="card" href="{{<siteurl>}}/documentos/</a><i class="fas fa-external-link-alt"></i>/sistema_universitario/gestion_titulos/otros_procedimientos/2018-legalizaciones-solicitud.</a><i class="fas fa-external-link-alt"></i>" target="_blank"> 
+					<a class="card" href="{{<siteurl>}}/documentos/PDF/sistema_universitario/gestion_titulos/otros_procedimientos/2018-legalizaciones-solicitud.pdf"> 
 					<div class="card-header"> 
 						   <i class="fal fa-download"></i> 
 					</div> </a> 
 					<div class="card-body"> 
-						<p class="text_file"><a class="card" href="{{<siteurl>}}documentos/</a><i class="fas fa-external-link-alt"></i>/sistema_universitario/gestion_titulos/otros_procedimientos/2018-legalizaciones-solicitud.</a><i class="fas fa-external-link-alt"></i>" target="_blank">  
-						<span class="tit">Formulario de solicitud</span></a> <i class="fal fa-file-</a><i class="fas fa-external-link-alt"></i> </a><i class="fas fa-external-link-alt"></i>_icon"></i> (</a><i class="fas fa-external-link-alt"></i> 151,43 KB)
+						<p class="text_file"><a class="card" href="{{<siteurl>}}/documentos/PDF/sistema_universitario/gestion_titulos/otros_procedimientos/2018-legalizaciones-solicitud.pdf" target="_blank">  
+						<span class="tit">Formulario de solicitud</span></a> <i style="color:#cc0000" class="fal fa-file-pdf pdf_icon"></i> (151,43 KB)
 					</div>
 				</div> 		
 			</div> 
@@ -383,13 +382,13 @@ La legalización de documentos académicos universitarios oficiales originales q
 		<div class="col-lg-12 cards_download_cnt">  
 			<div class="row"> 
 				<div class="download_card"> 
-					<a class="card" href="{{<siteurl>}}/documentos/</a><i class="fas fa-external-link-alt"></i>/sistema_universitario/gestion_titulos/otros_procedimientos/2018-legalizaciones-solicitud.</a><i class="fas fa-external-link-alt"></i>" target="_blank"> 
+					<a class="card" href="{{<siteurl>}}/documentos/PDF/sistema_universitario/gestion_titulos/otros_procedimientos/2018-legalizaciones-solicitud.pdf"> 
 					<div class="card-header"> 
 						   <i class="fal fa-download"></i> 
 					</div> </a> 
 					<div class="card-body"> 
-						<p class="text_file"><a class="card" href="{{<siteurl>}}documentos/</a><i class="fas fa-external-link-alt"></i>/sistema_universitario/gestion_titulos/otros_procedimientos/2018-legalizaciones-solicitud.</a><i class="fas fa-external-link-alt"></i>" target="_blank">  
-						<span class="tit">Formulario solicitud reconocimiento de firmas</span></a> <i class="fal fa-file-</a><i class="fas fa-external-link-alt"></i> </a><i class="fas fa-external-link-alt"></i>_icon"></i> (</a><i class="fas fa-external-link-alt"></i> 151,43 KB)
+						<p class="text_file"><a class="card" href="{{<siteurl>}}/documentos/PDF/sistema_universitario/gestion_titulos/otros_procedimientos/2018-legalizaciones-solicitud.pdf" target="_blank">  
+						<span class="tit">Formulario solicitud reconocimiento de firmas</span></a><i style="color:#cc0000" class="fal fa-file-pdf pdf_icon"></i> (151,43 KB)
 					</div>
 				</div> 		
 			</div> 
@@ -437,17 +436,15 @@ La legalización de documentos académicos universitarios oficiales originales q
 								<b>Código SIA</b> <br><br>
 								998721
                                                             </div>
-                                                        </div>
-                                                    </div>
-                                                </article>
                                             </div>
                                         </div>
-                                    </div>	
-				</div>
+                                    </article>
                                 </div>
-                        </div>
+                            </div>
+                        </div>         
                     </div>
                 </div>
             </div>
-        </article>
-    </section>
+        </div>
+    </article>
+</section>

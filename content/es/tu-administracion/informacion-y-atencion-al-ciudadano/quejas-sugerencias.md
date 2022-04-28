@@ -55,15 +55,14 @@ La normativa básica en la que se regulan los formularios de quejas y sugerencia
                     <div class="col-lg-12 cards_download_cnt">
                         <div class="row">
                             <div class="download_card">
-                                <a class="card" href="{{< siteurl >}}documentos/PDF/tu_administracion/informacion_atencion_ciudadano/FormularioQuejasYSugerencias.pdf" target="_blank">
+                                <a class="card" href="{{< siteurl >}}documentos/pdf/tu_administracion/informacion_atencion_ciudadano/FormularioQuejasYSugerencias.pdf" target="_blank">
                                     <div class="card-header">
                                         <i class="fal fa-download"></i>
                                     </div>
                                     <div class="card-body">
                                         <p class="text_body">Formulario de Quejas y Sugerencias</p>
                                         <p class="text_file">
-                                            <i class="fal fa-file_icon"></i> 
-                                            <span class="tit">Documento PDF Formulario de Quejas y Sugerencias</span>  (279,75 KB)
+                                            <i class="fal fa-file-pdf pdf_icon"></i>  (279,75 KB).
                                         </p>
                                     </div>
                                 </a>
@@ -76,15 +75,14 @@ La normativa básica en la que se regulan los formularios de quejas y sugerencia
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="download_card"> <!-- el primer boton de descarga -->
-                                    <a class="card" href="{{< siteurl >}}documentos/PDF/tu_administracion/informacion_atencion_ciudadano/FormularioQuejasYSugerencias.pdf" target="_blank">
+                                    <a class="card" href="{{< siteurl >}}documentos/pdf/tu_administracion/informacion_atencion_ciudadano/FormularioQuejasYSugerencias.pdf" target="_blank">
                                         <div class="card-header">
                                             <i class="fal fa-download"></i>
                                         </div>
                                         <div class="card-body">
                                             <p class="text_body">Formulario de Quejas y Sugerencias</p>
                                             <p class="text_file">
-                                                <i class="fal fa-file-pdf pdf_icon"></i> 
-                                                <span class="tit">Documento PDF Formulario de Quejas y Sugerencias</span> (279,75 KB)
+                                                <i class="fal fa-file-pdf pdf_icon"></i>  (279,75 KB).
                                             </p>
                                         </div>
                                     </a>

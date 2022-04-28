@@ -24,7 +24,7 @@ weight: 2
 											</div>                                
 										</div>
 										<div class="col-12 box_buttons">
-											<a href="{{<siteurl>}}documentos/PDF/estadisticas/Datos_y_Cifras_2020-21.pdf" target="_blank" class="btn btn_outline_blue">
+											<a href="{{<siteurl>}}documentos/pdf/estadisticas/Datos_y_Cifras_2020-21.pdf" target="_blank" class="btn btn_outline_blue">
 												ACCESO A LA INFOGRAFÍA 
 												<i class="icon far fa-images"></i>
 												<i class="hover_icon far fa-images"></i>
@@ -43,7 +43,7 @@ weight: 2
 											</div>                                
 										</div>
 										<div class="col-12 box_buttons">
-											<a href="{{<siteurl>}}documentos/PDF/estadisticas/INFORME_INSERCION_2013_14.pdf" target="_blank" class="btn btn_outline_blue">
+											<a href="{{<siteurl>}}documentos/pdf/estadisticas/INFORME_INSERCION_2013_14.pdf" target="_blank" class="btn btn_outline_blue">
 												ACCESO A LA INFOGRAFÍA 
 												<i class="icon far fa-images"></i>
 												<i class="hover_icon far fa-images"></i>
@@ -62,7 +62,7 @@ weight: 2
 											</div>                                
 										</div>
 										<div class="col-12 box_buttons">
-											<a href="{{<siteurl>}}documentos/PDF/estadisticas/Informe_Datos_Cifras_Sistema_Universitario_Espanol_2019-2020.pdf" class="btn btn_outline_blue" target="_blank">
+											<a href="{{<siteurl>}}documentos/pdf/estadisticas/Informe_Datos_Cifras_Sistema_Universitario_Espanol_2019-2020.pdf" class="btn btn_outline_blue" target="_blank">
 												ACCESO A LA INFOGRAFÍA 
 												<i class="icon far fa-images"></i>
 												<i class="hover_icon far fa-images"></i>
@@ -81,7 +81,7 @@ weight: 2
 											</div>                                
 										</div>
 										<div class="col-12 box_buttons">
-											<a href="{{<siteurl>}}documentos/PDF/estadisticas/INFORME_INSERCION_2013_14.pdf" target="_blank" class="btn btn_outline_blue">
+											<a href="{{<siteurl>}}documentos/pdf/estadisticas/INFORME_INSERCION_2013_14.pdf" target="_blank" class="btn btn_outline_blue">
 												ACCESO A LA INFOGRAFÍA 
 												<i class="icon far fa-images"></i>
 												<i class="hover_icon far fa-images"></i>
@@ -100,7 +100,7 @@ weight: 2
 											</div>                                
 										</div>
 										<div class="col-12 box_buttons">
-											<a href="{{<siteurl>}}documentos/PDF/estadisticas/INFORME_INSERCION_2013_14.pdf" target="_blank" class="btn btn_outline_blue">
+											<a href="{{<siteurl>}}documentos/pdf/estadisticas/INFORME_INSERCION_2013_14.pdf" target="_blank" class="btn btn_outline_blue">
 												ACCESO A LA INFOGRAFÍA 
 												<i class="icon far fa-images"></i>
 												<i class="hover_icon far fa-images"></i>
@@ -119,7 +119,7 @@ weight: 2
 											</div>                                
 										</div>
 										<div class="col-12 box_buttons">
-											<a href="{{<siteurl>}}documentos/PDF/estadisticas/Informe_Datos_Cifras_Sistema_Universitario_Espanol_2019-2020.pdf" target="_blank" class="btn btn_outline_blue">
+											<a href="{{<siteurl>}}documentos/pdf/estadisticas/Informe_Datos_Cifras_Sistema_Universitario_Espanol_2019-2020.pdf" target="_blank" class="btn btn_outline_blue">
 												ACCESO A LA INFOGRAFÍA 
 												<i class="icon far fa-images"></i>
 												<i class="hover_icon far fa-images"></i>
@@ -140,7 +140,7 @@ weight: 2
 											</div>                                
 										</div>
 										<div class="col-12 box_buttons">
-											<a href="{{<siteurl>}}documentos/PDF/estadisticas/INFORME_INSERCION_2013_14.pdf" target="_blank" class="btn btn_outline_blue">
+											<a href="{{<siteurl>}}documentos/pdf/estadisticas/INFORME_INSERCION_2013_14.pdf" target="_blank" class="btn btn_outline_blue">
 												ACCESO A LA INFOGRAFÍA 
 												<i class="icon far fa-images"></i>
 												<i class="hover_icon far fa-images"></i>
@@ -160,7 +160,7 @@ weight: 2
 											</div>                                 
 										</div>
 										<div class="col-12 box_buttons">
-											<a href="{{<siteurl>}}documentos/PDF/estadisticas/datos-y-cifras-sue-2018-19.pdf" target="_blank" class="btn btn_outline_blue">
+											<a href="{{<siteurl>}}documentos/pdf/estadisticas/datos-y-cifras-sue-2018-19.pdf" target="_blank" class="btn btn_outline_blue">
 												ACCESO A LA INFOGRAFÍA
 												<i class="icon far fa-images"></i>
 												<i class="hover_icon far fa-images"></i>
@@ -200,7 +200,7 @@ weight: 2
 											</div>                                 
 										</div>
 										<div class="col-12 box_buttons">
-											<a href="{{<siteurl>}}documentos/PDF/estadisticas/insercion-laboral-egresados-universitarios-.pdf" target="_blank" class="btn btn_outline_blue">
+											<a href="{{<siteurl>}}documentos/pdf/estadisticas/insercion-laboral-egresados-universitarios-.pdf" target="_blank" class="btn btn_outline_blue">
 												ACCESO A LA INFOGRAFÍA
 												<i class="icon far fa-images"></i>
 												<i class="hover_icon far fa-images"></i>

@@ -1,10 +1,13 @@
 ---
 title: "Préstamos para realizar estudios de posgrado. 2010"
+name: "Becas y ayudas para estudiar"
 date: 2021-11-12T14:19:56+01:00
 call_desc: "La finalidad general de los préstamos es facilitar la financiación de las enseñanzas universitarias de máster oficial ..."
 call_closed: "/imgs/call-closed.svg"
 call_opened: "/imgs/call-opened.svg"
 call_status: false
+call_start: 2010-10-22T00:00:00+01:00
+call_end: 2011-03-31T00:00:00+01:00
 ---
 <br><br><b>Plazos de solicitud</b><br>
 22/10/2010-31/03/2011 

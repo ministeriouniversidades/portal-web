@@ -54,7 +54,7 @@ El ministro de Universidades, Joan Subirats, señaló la importancia de incidir 
                                                 <div class="col-lg-12 cards_download_cnt">
                                                     <div class="row jcc_mobile">
                                                         <div class="download_card">
-                                                            <a class="card flex-column" href="{{<siteurl>}}documentos/PDF/news/20210104_SANIDAD_CISNS_CSE_CGPU.pdf" target="_blank">
+                                                            <a class="card flex-column" href="{{<siteurl>}}documentos/pdf/news/20210104_SANIDAD_CISNS_CSE_CGPU.pdf" target="_blank">
                                                                 <div class="card-header">
                                                                     <i class="fal fa-download"></i>
                                                                 </div>
@@ -74,7 +74,7 @@ El ministro de Universidades, Joan Subirats, señaló la importancia de incidir 
                                                         <div class="swiper-wrapper">
                                                         <div class="swiper-slide">
                                                             <div class="download_card">
-                                                                <a class="card" href="{{<siteurl>}}documentos/PDF/news/20210104_SANIDAD_CISNS_CSE_CGPU.pdf" target="_blank">
+                                                                <a class="card" href="{{<siteurl>}}documentos/pdf/news/20210104_SANIDAD_CISNS_CSE_CGPU.pdf" target="_blank">
                                                                     <div class="card-header">
                                                                         <i class="fal fa-download"></i>
                                                                     </div>

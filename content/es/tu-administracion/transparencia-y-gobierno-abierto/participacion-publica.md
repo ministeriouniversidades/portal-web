@@ -21,7 +21,7 @@ Este canal tiene por objeto recabar la opinión de ciudadanos, organizaciones y 
                                 <div class="box_buttons">
                                     <div class="btn-group" role="group">
 										<a href="{{<siteurl>}}tu-administracion/transparencia-y-gobierno-abierto/consulta-publica-espacio-participacion" type="button" class="btn btn-primary btn_present disabled" disabled>Espacio para la participación</a>
-                                        <a href="{{<siteurl>}}tu-administracion/transparencia-y-gobierno-abierto/consulta-previa" type="button" class="btn btn-primary btn_present">Tramitación cerrada</a>
+                                        <a href="{{<siteurl>}}tu-administracion/transparencia-y-gobierno-abierto/participacion-publica/consulta-previa" type="button" class="btn btn-primary btn_present">Tramitación cerrada</a>
                                     </div>
                                 </div>
                             </div>
@@ -81,6 +81,6 @@ Además de la participación en los procesos de elaboración de anteproyectos de
 <br><br>
 <div class="row">	<div class="col-5 box_buttons">&nbsp;</div>
                     <div class="col-7 box_buttons">
-                        <a href="{{< siteurl >}}documentos/PDF/Denegatoria3T.pdf" type="button" class="btn btn_outline_blue" target="_blank">Solicitud de acceso &nbsp;<i class="fal fa-file-pdf"></i></a>
+                        <a href="{{< siteurl >}}documentos/pdf/Denegatoria3T.pdf" type="button" class="btn btn_outline_blue" target="_blank">Solicitud de acceso &nbsp;<i class="fal fa-file-pdf"></i></a>
                     </div>
                 </div>

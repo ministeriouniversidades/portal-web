@@ -5,6 +5,8 @@ call_desc: "Concesión de Ayudas para contratos predoctorales para la realizaci�
 call_closed: "/imgs/call-closed.svg"
 call_opened: "/imgs/call-opened.svg"
 call_status: false
+call_start: 2020-11-16T00:00:00+01:00
+call_end: 2020-12-11T00:00:00+01:00
 ---
 <br><br><b>Plazos de solicitud</b><br>
 16/11/2020-11/12/2020  
@@ -31,4 +33,4 @@ Quienes hayan obtenido el título de doctor/a, previo al inicio de la última an
 <br><br><b>Tipo de ayuda</b><br> 
 <br><br><b>Información de contacto</b><br> 
 Correo electrónico:<span>&nbsp;</span><a href="mailto:solicitantes.fpu@universidades.gob.es">solicitantes.fpu@universidades.gob.es</a>
-<a title="Información y Atención al Ciudadano" href="https://www.universidades.gob.es/portal/site/MICINN/menuitem.b153148dd6857ccd7010721001432ea0/?vgnextoid=41dbdaa8a3860210VgnVCM1000001034e20aRCRD">Informaci&oacute;n y Atenci&oacute;n al Ciudadano</a>
+<a title="Información y Atención al Ciudadano" href="https://www.universidades.gob.es/portal/site/MICINN/menuitem.b153148dd6857ccd7010721001432ea0/?vgnextoid=41dbdaa8a3860210VgnVCM1000001034e20aRCRD">Información y Atención al Ciudadano</a>

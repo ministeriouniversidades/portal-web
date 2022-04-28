@@ -17,7 +17,7 @@ url: "/estadisticas/catalogo-datos/estadisticas-becas/"
                                     </div>                                
                                 </div>
                                 <div class="col-12 box_buttons">
-                                    <a href="{{<siteurl>}}/documentos/PDF/estadisticas/InfografiaBecas.pdf" type="button" class="btn btn_outline_blue" target="_blank">
+                                    <a href="{{<siteurl>}}/documentos/pdf/estadisticas/InfografiaBecas.pdf" type="button" class="btn btn_outline_blue" target="_blank">
                                         ACCESO A LA INFOGRAFÍA 
                                         <i class="icon far fa-images"></i>
                                         <i class="hover_icon far fa-images"></i>
@@ -33,10 +33,10 @@ url: "/estadisticas/catalogo-datos/estadisticas-becas/"
 	</div>
 </div>
 <br><br>
-<article class="calls">
-	<div class="container container-xl">
-		<div class="row">
-			<div class="col-lg-12 content_collapse mb-120">
+<article>
+    <div class="container container_xl_accoordion p-0">
+        <div class="row mt-4">
+            <div class="col-lg-12 content_collapse mb-120">
 				<div class="accordion" id="accordionPanelsStayOpenExample">
 					<div class="accordion-item">
 						<h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -137,7 +137,7 @@ url: "/estadisticas/catalogo-datos/estadisticas-becas/"
                                                     <div class="col-lg-12 cards_download_cnt">
                                                         <div class="row jcc_mobile">
                                                             <div class="download_card">
-                                                                <a class="card" href="{{<siteurl>}}documentos/PDF/estadisticas/Nota-Estadistica-de-Becas-2021.pdf" target="_blank">
+                                                                <a class="card" href="{{<siteurl>}}documentos/pdf/estadisticas/Nota-Estadistica-de-Becas-2021.pdf" target="_blank">
                                                                     <div class="card-header">
                                                                         <i class="fal fa-download"></i>
                                                                     </div>
@@ -150,7 +150,7 @@ url: "/estadisticas/catalogo-datos/estadisticas-becas/"
                                                                 </a>
                                                             </div>
 															<div class="download_card">
-                                                                <a class="card" href="{{<siteurl>}}documentos/PDF/estadisticas/metodologia-estadistica-Becas.pdf" target="_blank">
+                                                                <a class="card" href="{{<siteurl>}}documentos/pdf/estadisticas/metodologia-estadistica-Becas.pdf" target="_blank">
                                                                     <div class="card-header">
                                                                         <i class="fal fa-download"></i>
                                                                     </div>
@@ -163,7 +163,7 @@ url: "/estadisticas/catalogo-datos/estadisticas-becas/"
                                                                 </a>
                                                             </div>
 															<div class="download_card">
-                                                                <a class="card" href="{{<siteurl>}}documentos/PDF/estadisticas/metodologia-estadistica-Becas.pdf" target="_blank">
+                                                                <a class="card" href="{{<siteurl>}}documentos/pdf/estadisticas/metodologia-estadistica-Becas.pdf" target="_blank">
                                                                     <div class="card-header">
                                                                         <i class="fal fa-download"></i>
                                                                     </div>
@@ -196,7 +196,7 @@ url: "/estadisticas/catalogo-datos/estadisticas-becas/"
                                                           <div class="swiper-wrapper">
                                                             <div class="swiper-slide">
                                                                 <div class="download_card">
-                                                                    <a class="card" href="{{{<siteurl>}}documentos/PDF/estadisticas/Nota-Estadistica-de-Becas-2021.pdf" target="_blank">
+                                                                    <a class="card" href="{{{<siteurl>}}documentos/pdf/estadisticas/Nota-Estadistica-de-Becas-2021.pdf" target="_blank">
                                                                         <div class="card-header">
                                                                             <i class="fal fa-download"></i>
                                                                         </div>
@@ -210,7 +210,7 @@ url: "/estadisticas/catalogo-datos/estadisticas-becas/"
                                                                     </a>
                                                                 </div>
 																 <div class="download_card">
-                                                                    <a class="card" href="{{<siteurl>}}documentos/PDF/estadisticas/METODOLOGEEU.pdf" target="_blank">
+                                                                    <a class="card" href="{{<siteurl>}}documentos/pdf/estadisticas/METODOLOGEEU.pdf" target="_blank">
                                                                         <div class="card-header">
                                                                             <i class="fal fa-download"></i>
                                                                         </div>
@@ -224,7 +224,7 @@ url: "/estadisticas/catalogo-datos/estadisticas-becas/"
                                                                     </a>
                                                                 </div>
 																<div class="download_card">
-                                                                    <a class="card" href="{{<siteurl>}}documentos/PDF/estadisticas/InfografiaBecas.pdf" target="_blank">
+                                                                    <a class="card" href="{{<siteurl>}}documentos/pdf/estadisticas/InfografiaBecas.pdf" target="_blank">
                                                                         <div class="card-header">
                                                                             <i class="fal fa-download"></i>
                                                                         </div>

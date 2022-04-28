@@ -7,14 +7,14 @@ news_title: 'Markus González Beilfuss nombrado nuevo subsecretario de Universid
 news_date: 2022-02-02T14:20:22+01:00
 ---
 <ul>
-<li><b>El Consejo de Ministros de 1 de febrero de 2022 ha acordado nombrar a Markus Gonz&aacute;lez Beilfuss nuevo subsecretario de Universidades.&nbsp;&nbsp;</b></li>
+<li><b>El Consejo de Ministros de 1 de febrero de 2022 ha acordado nombrar a Markus González Beilfuss nuevo subsecretario de Universidades.&nbsp;&nbsp;</b></li>
 </ul>
-<p>Markus Gonz&aacute;lez Beilfuss ha sido nombrado por el Consejo de Ministros del 1 de febrero de 2022 nuevo subsecretario Universidades.</p>
-<p>Markus Gonz&aacute;lez es Doctor en Derecho por la Universidad de Barcelona y profesor titular de Derecho Constitucional de la Universidad de Barcelona.</p>
-<p>Ha sido letrado del Tribunal Constitucional entre marzo de 2005 y abril de 2010 y director General de Inmigraci&oacute;n desde abril de 2010 hasta diciembre de 2011.</p>
-<p>Sus principales l&iacute;neas de investigaci&oacute;n son inmigraci&oacute;n y tr&aacute;fico de seres humanos, justicia constitucional y organizaci&oacute;n territorial del poder.&nbsp;Ha trabajado como experto internacional en el programa de Naciones Unidas para el Desarrollo y para el Consejo de Europa.&nbsp;En 2000 obtuvo el Premio Francisco Tom&aacute;s y Valiente, que otorgan el Tribunal Constitucional y el Centro de Estudios Pol&iacute;ticos y Constitucionales.</p>
-<p>Actualmente era vicerrector de Pol&iacute;tica de Internacionalizaci&oacute;n de la Universidad de Barcelona.</p>
-<p>Markus Gonz&aacute;lez Beilfuss toma el testigo de Luis Cerd&aacute;n Ortiz-Quintana en la direcci&oacute;n y coordinaci&oacute;n de los servicios comunes del Ministerio de Universidades y, adem&aacute;s, en la planificaci&oacute;n y gesti&oacute;n econ&oacute;mica y presupuestaria.</p>
+<p>Markus González Beilfuss ha sido nombrado por el Consejo de Ministros del 1 de febrero de 2022 nuevo subsecretario Universidades.</p>
+<p>Markus González es Doctor en Derecho por la Universidad de Barcelona y profesor titular de Derecho Constitucional de la Universidad de Barcelona.</p>
+<p>Ha sido letrado del Tribunal Constitucional entre marzo de 2005 y abril de 2010 y director General de Inmigración desde abril de 2010 hasta diciembre de 2011.</p>
+<p>Sus principales líneas de investigación son inmigración y tráfico de seres humanos, justicia constitucional y organización territorial del poder.&nbsp;Ha trabajado como experto internacional en el programa de Naciones Unidas para el Desarrollo y para el Consejo de Europa.&nbsp;En 2000 obtuvo el Premio Francisco Tomás y Valiente, que otorgan el Tribunal Constitucional y el Centro de Estudios Políticos y Constitucionales.</p>
+<p>Actualmente era vicerrector de Política de Internacionalización de la Universidad de Barcelona.</p>
+<p>Markus González Beilfuss toma el testigo de Luis Cerdán Ortiz-Quintana en la dirección y coordinación de los servicios comunes del Ministerio de Universidades y, además, en la planificación y gestión económica y presupuestaria.</p>
 
 <section>
     <article>
@@ -36,7 +36,7 @@ news_date: 2022-02-02T14:20:22+01:00
                                                 <div class="col-lg-12 cards_download_cnt">
                                                     <div class="row jcc_mobile">
                                                         <div class="download_card">
-                                                            <a class="card flex-column" href="{{<siteurl>}}documentos/PDF/news/02022022_Nombramiento_Markus_Gonzalez.pdf" target="_blank">
+                                                            <a class="card flex-column" href="{{<siteurl>}}documentos/pdf/news/02022022_Nombramiento_Markus_Gonzalez.pdf" target="_blank">
                                                                 <div class="card-header">
                                                                     <i class="fal fa-download"></i>
                                                                 </div>
@@ -56,7 +56,7 @@ news_date: 2022-02-02T14:20:22+01:00
                                                         <div class="swiper-wrapper">
                                                         <div class="swiper-slide">
                                                             <div class="download_card">
-                                                                <a class="card" href="{{<siteurl>}}documentos/PDF/news/02022022_Nombramiento_Markus_Gonzalez.pdf" target="_blank">
+                                                                <a class="card" href="{{<siteurl>}}documentos/pdf/news/02022022_Nombramiento_Markus_Gonzalez.pdf" target="_blank">
                                                                     <div class="card-header">
                                                                         <i class="fal fa-download"></i>
                                                                     </div>

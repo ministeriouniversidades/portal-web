@@ -26,8 +26,8 @@ weight: 3
                                 <div class="col-12 box_buttons">
                                    <a href="https://administracion.gob.es/pag_Home/contacto/telefono-060.html#.YDODHuhKjIW" target="_blank" class="btn btn_outline_blue">
                                             MÁS INFORMACIÓN  &nbsp;
-                                        <i class="far fa-phone"></i>
-                                            <i class="hover_icon "></i> 
+                                        <i class="icon far fa-phone"></i>
+                                            <i class="hover_icon far fa-phone"></i> 
                                     </a>
                                 </div>
                             </div>
@@ -46,8 +46,8 @@ weight: 3
                                 <div class="col-12 box_buttons">
                                    <a href="{{<siteurl>}}tu-administracion/informacion-y-atencion-al-ciudadano/atencion-escrita/" type="button" class="btn btn_outline_blue">
                                             MÁS INFORMACIÓN   &nbsp;
-                                          <i class="far fa-edit"></i>
-                                            <i class="hover_icon"></i>
+                                          <i class="icon far fa-edit"></i>
+                                            <i class="hover_icon far fa-edit"></i>
                                         </a>
                                 </div>
                             </div>
@@ -66,8 +66,8 @@ weight: 3
                                 <div class="col-12 box_buttons">
                                      <a href="{{< siteurl >}}tu-administracion/informacion-y-atencion-al-ciudadano/mapa/"	type="button" class="btn btn_outline_blue">
                                             AMPLIAR MAPA    &nbsp;
-                                            <i class="far fa-map-marked-alt"></i>
-                                            <i class="hover_icon"></i>
+                                            <i class="icon far fa-map-marked-alt"></i>
+                                            <i class="hover_icon far fa-map-marked-alt"></i>
                                         </a>
                                 </div>
                             </div>
@@ -85,8 +85,8 @@ weight: 3
                                 <div class="col-12 box_buttons">
                                      <a href="{{< siteurl >}}tu-administracion/informacion-y-atencion-al-ciudadano/quejas-sugerencias/" type="button" class="btn btn_outline_blue">
                                             MÁS INFORMACIÓN     &nbsp;
-                                            <i class="far fa-comments"></i>
-                                            <i class="hover_icon"></i></a>
+                                            <i class="icon far fa-comments"></i>
+                                            <i class="hover_icon far fa-comments"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -110,8 +110,8 @@ weight: 3
                                 <div class="col-12 box_buttons">
                                     <a href="{{< siteurl >}}tu-administracion/informacion-y-atencion-al-ciudadano/atencion-postal/"  type="button" class="btn btn_outline_blue">
                                             MÁS INFORMACIÓN  &nbsp;
-                                            <i class="far fa-envelope-open-text"></i>
-                                            <i class="hover_icon"></i>
+                                            <i class="icon far fa-envelope-open-text"></i>
+                                            <i class="hover_icon far fa-envelope-open-text"></i>
                                         </a>
                                 </div>
                             </div>

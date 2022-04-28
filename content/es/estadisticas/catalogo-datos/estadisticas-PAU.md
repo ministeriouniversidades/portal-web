@@ -35,12 +35,12 @@ url: "/estadisticas/catalogo-datos/estadisticas-pau/"
                     </div>
                 </div>
 				<br><br>
-   <section> 
+    <section>
         <article>
-			<div class="container>
-				<div class="row">
-						<div class="col-lg-10 offset-lg-1 content_collapse mb-120">
-							<div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="container container_xl_accoordion p-0">
+                <div class="row mt-4">
+                    <div class="col-lg-12 content_collapse mb-120">
+                                <div class="accordion" id="accordionPanelsStayOpenExample">
 								<div class="accordion-item">
 									<h2 class="accordion-header" id="panelsStayOpen-headingOne">
 										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
@@ -90,7 +90,7 @@ url: "/estadisticas/catalogo-datos/estadisticas-pau/"
                                                     <div class="col-lg-12 cards_download_cnt">
                                                         <div class="row jcc_mobile">
                                                             <div class="download_card">
-                                                                <a class="card" href="{{<siteurl>}}documentos/PDF/estadisticas/Metodologia_2021_2022.pdf" target="_blank">
+                                                                <a class="card" href="{{<siteurl>}}documentos/pdf/estadisticas/Metodologia_2021_2022.pdf" target="_blank">
                                                                     <div class="card-header">
                                                                         <i class="fal fa-download"></i>
                                                                     </div>
@@ -103,7 +103,7 @@ url: "/estadisticas/catalogo-datos/estadisticas-pau/"
                                                                 </a>
                                                             </div>
 															<div class="download_card">
-                                                                <a class="card" href="{{<siteurl>}}documentos/PDF/estadisticas/Nota_2021_2022.pdf" target="_blank">
+                                                                <a class="card" href="{{<siteurl>}}documentos/pdf/estadisticas/Nota_2021_2022.pdf" target="_blank">
                                                                     <div class="card-header">
                                                                         <i class="fal fa-download"></i>
                                                                     </div>
@@ -123,7 +123,7 @@ url: "/estadisticas/catalogo-datos/estadisticas-pau/"
                                                           <div class="swiper-wrapper">
                                                             <div class="swiper-slide">
                                                                 <div class="download_card">
-                                                                    <a class="card" href="{{<siteurl>}}documentos/PDF/estadisticas/Metodologia_2021_2022.pdf" target="_blank">
+                                                                    <a class="card" href="{{<siteurl>}}documentos/pdf/estadisticas/Metodologia_2021_2022.pdf" target="_blank">
                                                                         <div class="card-header">
                                                                             <i class="fal fa-download"></i>
                                                                         </div>
@@ -137,7 +137,7 @@ url: "/estadisticas/catalogo-datos/estadisticas-pau/"
                                                                     </a>
                                                                 </div>
 																<div class="download_card">
-                                                                    <a class="card" href="{{<siteurl>}}documentos/PDF/estadisticas/Nota_2021_2022.pdf" target="_blank">
+                                                                    <a class="card" href="{{<siteurl>}}documentos/pdf/estadisticas/Nota_2021_2022.pdf" target="_blank">
                                                                         <div class="card-header">
                                                                             <i class="fal fa-download"></i>
                                                                         </div>

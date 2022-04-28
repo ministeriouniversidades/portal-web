@@ -9,7 +9,7 @@
           <div class="row">
               <div class="col-lg-12 box">
                   <div class="img" style="background: url({{"./images/fondo_interno.jpg" | absURL }});"></div>
-                  <h2>{{ i18n "Actualidad" }}</h2>
+                  <h2>{{ i18n "Noticias" }}</h2>
               </div>
           </div>
       </div>
@@ -19,11 +19,11 @@
     <section>
       <article id="news">
           <div class="container">
-            {{ $paginator := .Paginate (.Pages.ByParam "news_date").Reverse 8 }}
+            {{ $paginator := .Paginate (.Pages.ByParam "news_date").Reverse 20 }}
             {{ $.Scratch.Set "last_index" 0 }}
             {{ range $paginator.Pages }}
               <div class="row">
-                  <div class="card col-12">
+                  <div class="card col-12"> 
                       <a class="link" href="{{ .Permalink }}">
                         <div class="col-5 col-sm-4 col-md-6 col-lg-6 col-xl-6 media-left">
                             {{if .Params.has_media}}
@@ -58,7 +58,7 @@
                           <div class="col-7 col-sm-8 col-md-6 col-lg col-xl box_text">
                               <div class="card-body s-p-l">   
                                   <p class="card-text date">{{ .Params.news_date | time.Format ":date_long" }}</p>
-                                  <h5 class="card-title">{{ .Params.news_title }}</h5>
+                                  <h5 class="card-title"><b>{{ .Params.news_title }}</b></h5>
                                   <p class="card-text">{{ substr .Params.news_desc 0 150 | safeHTML }}...</p>
                               </div>
                           </div>

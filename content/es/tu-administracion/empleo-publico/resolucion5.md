@@ -42,7 +42,7 @@ layout: single
 </tr>
 <tr>
 			<td>Estado</td>
-			<td><a href="{{<siteurl>}}documentos/PDF/LISTADO_DEFINITIVO_PUNTUACION.pdf" target="_blank">Listado definitivo de puntuación <i class='fas fa-external-link-alt'></i></a></td>
+			<td><a href="{{<siteurl>}}documentos/pdf/LISTADO_DEFINITIVO_PUNTUACION.pdf" target="_blank">Listado definitivo de puntuación <i class='fas fa-external-link-alt'></i></a></td>
 		</tr>
 <tr>
 			<td>Plazo</td>
@@ -51,12 +51,12 @@ layout: single
 <tr>
 			<td></td>
 			<td>	
-<a href="{{<siteurl>}}documentos/PDF/constitucion_comision_07.01.22_firmado.pdf" target="_blank">Constitución de la comisión de valoración <i class='fas fa-external-link-alt'></i></a><br>
-<a href="{{<siteurl>}}documentos/PDF/LISTADO_DEFINITIVO_ADMITIDOS-EXCLUIDOS.pdf" target="_blank">Listado definitivo de admitidos y excluidos <i class='fas fa-external-link-alt'></i></a><br>
-<a href="{{<siteurl>}}documentos/PDF/NI_desistimiento_31_01_2022.pdf" target="_blank">Nota publicación valoraciones provisionales <i class='fas fa-external-link-alt'></i></a><br>
-<a href="{{<siteurl>}}documentos/PDF/LISTADO_valoraciones_provisionales_SF.pdf" target="_blank">Listado valoraciones provisionales <i class='fas fa-external-link-alt'></i></a><br>
-<a href="{{<siteurl>}}documentos/PDF/report_NI_publicacion_listado_valoraciones_definitivas.pdf" target="_blank">Nota informativa publicación de las valoraciones definitivas <i class='fas fa-external-link-alt'></i></a><br>
-<a href="{{<siteurl>}}documentos/PDF//LISTADO_DEFINITIVO_PUNTUACION.pdf" target="_blank">Listado definitivo de puntuación <i class='fas fa-external-link-alt'></i></a><br>
+<a href="{{<siteurl>}}documentos/pdf/constitucion_comision_07.01.22_firmado.pdf" target="_blank">Constitución de la comisión de valoración <i class='fas fa-external-link-alt'></i></a><br>
+<a href="{{<siteurl>}}documentos/pdf/LISTADO_DEFINITIVO_ADMITIDOS-EXCLUIDOS.pdf" target="_blank">Listado definitivo de admitidos y excluidos <i class='fas fa-external-link-alt'></i></a><br>
+<a href="{{<siteurl>}}documentos/pdf/NI_desistimiento_31_01_2022.pdf" target="_blank">Nota publicación valoraciones provisionales <i class='fas fa-external-link-alt'></i></a><br>
+<a href="{{<siteurl>}}documentos/pdf/LISTADO_valoraciones_provisionales_SF.pdf" target="_blank">Listado valoraciones provisionales <i class='fas fa-external-link-alt'></i></a><br>
+<a href="{{<siteurl>}}documentos/pdf/report_NI_publicacion_listado_valoraciones_definitivas.pdf" target="_blank">Nota informativa publicación de las valoraciones definitivas <i class='fas fa-external-link-alt'></i></a><br>
+<a href="{{<siteurl>}}documentos/pdf//LISTADO_DEFINITIVO_PUNTUACION.pdf" target="_blank">Listado definitivo de puntuación <i class='fas fa-external-link-alt'></i></a><br>
 </td>
 		</tr>
             </table>

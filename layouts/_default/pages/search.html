@@ -61,11 +61,9 @@
             query = query.split(' ')
             query.forEach(function(str, i) {query[i] = '+' + str})
             var results = search(query.join(' '))
-            console.info(results)
-            console.info(query.join(' '))
             $("#countResult").text(results.length)
             // Pagination section 
-            var paginate = 4 // items per chunk   
+            var paginate = 20 // items per chunk   
             if (results.length) {
                 result = results.reduce((pagination, item, index) => { 
                     const chunkIndex = Math.floor(index/paginate)
@@ -91,7 +89,7 @@
                     aLink.className = "card";
                     aLink.href = URL + element.href
                     h5.textContent = element.title
-                    p.textContent = element.description
+                    p.textContent = element.description.replaceAll(/[#*]/ig, '').replaceAll(/(<([^>]+)>)/gi, '')
                     span.textContent = URL + element.href
         
                     $(aLink).append([h5, p, span])
@@ -175,29 +173,186 @@
                     aLinkNext.href = currentURL + "&page=2"
                 }
                 ul.append(liPrev)
-                // Create the pagination numbers
-                for (let i = 0; i < result.length; i++) {
-                    let li = document.createElement("li")
-                    let pageNumber = parseInt(i+1)
-                    li.className = "page-item"
-                    let aLink = document.createElement("a")
-                    aLink.classList.add("page-link", "numbers")
-                    if (currentURL.indexOf("page=") > -1) {
-                        currentURL = currentURL.substring(0,currentURL.indexOf("page=")+5)
-                        aLink.href = currentURL + pageNumber
+                if (result.length > 1) { // Show the pagination if we have more than one page.
+                    let currentPageNumber = (params.get('page') === null) ? 1 : parseInt(params.get('page'))
+                    if (result.length > 2) {
+                        if (currentPageNumber <= 3) {
+                            for (let i = 0; i < 3; i++) {
+                                let li = document.createElement("li")
+                                let pageNumber = parseInt(i+1)
+                                li.className = "page-item"
+                                let aLink = document.createElement("a")
+                                aLink.classList.add("page-link", "numbers")
+                                if (currentURL.indexOf("page=") > -1) {
+                                    currentURL = currentURL.substring(0,currentURL.indexOf("page=")+5)
+                                    aLink.href = currentURL + pageNumber
+                                }else{
+                                    aLink.href = currentURL + '&page='+pageNumber
+                                }
+                                aLink.textContent = parseInt(i + 1)
+                                if (i === 0) $(li).addClass("pl-15")
+                                if ((parseInt(params.get("page")) === pageNumber) || (!params.get("page") && i === 0)) $(li).addClass("active")
+                                li.appendChild(aLink)
+                                ul.appendChild(li)
+                            }
+                            let li = document.createElement("li")
+                            li.className = "page-item"
+                            li.innerText = '...'
+                            ul.appendChild(li)
+                            let lastpage = document.createElement("li")
+                            lastpage.classList.add("page-item", "pl-15")
+                            let aLink = document.createElement("a")
+                            aLink.classList.add("page-link", "numbers")
+                            if (currentURL.indexOf("page=") > -1) {
+                                currentURL = currentURL.substring(0,currentURL.indexOf("page=")+5)
+                                aLink.href = currentURL + result.length
+                            }else{
+                                aLink.href = currentURL + '&page='+result.length
+                            }
+                            aLink.textContent = parseInt(result.length)
+                            lastpage.appendChild(aLink)
+                            ul.appendChild(lastpage)
+                        }else if (currentPageNumber > 3 && currentPageNumber < (result.length - 2)) {
+                            console.info('page greater than 3')
+                            for (let i = 0; i < 2; i++) {
+                                let li = document.createElement("li")
+                                let pageNumber = parseInt(i+1)
+                                li.className = "page-item"
+                                let aLink = document.createElement("a")
+                                aLink.classList.add("page-link", "numbers")
+                                if (currentURL.indexOf("page=") > -1) {
+                                    currentURL = currentURL.substring(0,currentURL.indexOf("page=")+5)
+                                    aLink.href = currentURL + pageNumber
+                                }else{
+                                    aLink.href = `${currentURL} + &page=${pageNumber}`
+                                }
+                                aLink.textContent = parseInt(i + 1)
+                                if (i === 0) $(li).addClass("pl-15")
+                                if (currentPageNumber === pageNumber) $(li).addClass("active")
+                                li.appendChild(aLink)
+                                ul.appendChild(li)
+                            }
+                            let firstTreepoint = document.createElement("li")
+                            firstTreepoint.className = "page-item"
+                            firstTreepoint.innerText = '...'
+                            ul.appendChild(firstTreepoint)
+                            // ----------
+                            let currentPaginationPage = document.createElement("li")
+                            currentPaginationPage.classList.add("page-item", "active")
+                            let aLink = document.createElement("a")
+                            aLink.classList.add("page-link", "numbers")
+                            aLink.href = `${currentURL}&page=${currentPageNumber}`
+                            aLink.textContent = parseInt(currentPageNumber)
+                            currentPaginationPage.appendChild(aLink)
+                            ul.appendChild(currentPaginationPage)
+                            // ----------
+                            let secondTreepoint = document.createElement("li")
+                            secondTreepoint.className = "page-item"
+                            secondTreepoint.innerText = '...'
+                            ul.appendChild(secondTreepoint)
+                            // ----------
+                            for (let i = result.length - 2; i < result.length; i++) {
+                                let li = document.createElement("li")
+                                let pageNumber = parseInt(i+1)
+                                li.className = "page-item"
+                                let aLink = document.createElement("a")
+                                aLink.classList.add("page-link", "numbers")
+                                if (currentURL.indexOf("page=") > -1) {
+                                    currentURL = currentURL.substring(0,currentURL.indexOf("page=")+5)
+                                    aLink.href = currentURL + pageNumber
+                                }else{
+                                    aLink.href = currentURL + '&page='+pageNumber
+                                }
+                                aLink.textContent = parseInt(i + 1)
+                                if (i === 0) $(li).addClass("pl-15")
+                                if ((parseInt(params.get("page")) === pageNumber) || (!params.get("page") && i === 0)) $(li).addClass("active")
+                                li.appendChild(aLink)
+                                ul.appendChild(li)
+                            }
+                        }else if (currentPageNumber >= (result.length - 2)) {
+                            let li = document.createElement("li")
+                            li.className = "page-item"
+                            let aLink = document.createElement("a")
+                            aLink.classList.add("page-link", "numbers", "pl-15")
+                            if (currentURL.indexOf("page=") > -1) {
+                                currentURL = currentURL.substring(0,currentURL.indexOf("page=")+5)
+                                aLink.href = currentURL + 1
+                            }else{
+                                aLink.href = currentURL + '&page=1'
+                            }
+                            aLink.textContent = parseInt(1)
+                            li.appendChild(aLink)
+                            ul.appendChild(li)
+                            // --------------
+                            let firstTreepoint = document.createElement("li")
+                            firstTreepoint.className = "page-item"
+                            firstTreepoint.innerText = '...'
+                            ul.appendChild(firstTreepoint)
+                            // --------------
+                            for (let i = result.length - 3; i < result.length; i++) {
+                                let li = document.createElement("li")
+                                let pageNumber = parseInt(i+1)
+                                li.className = "page-item"
+                                let aLink = document.createElement("a")
+                                aLink.classList.add("page-link", "numbers")
+                                if (currentURL.indexOf("page=") > -1) {
+                                    currentURL = currentURL.substring(0,currentURL.indexOf("page=")+5)
+                                    aLink.href = currentURL + pageNumber
+                                }else{
+                                    aLink.href = currentURL + '&page='+pageNumber
+                                }
+                                aLink.textContent = parseInt(i + 1)
+                                if (i === 0) $(li).addClass("pl-15")
+                                if ((parseInt(params.get("page")) === pageNumber) || (!params.get("page") && i === 0)) $(li).addClass("active")
+                                li.appendChild(aLink)
+                                ul.appendChild(li)
+                            }
+                        }
                     }else{
-                        aLink.href = currentURL + '&page='+pageNumber
+                        for (let i = 0; i < 2; i++) {
+                            let li = document.createElement("li")
+                            let pageNumber = parseInt(i+1)
+                            li.className = "page-item"
+                            let aLink = document.createElement("a")
+                            aLink.classList.add("page-link", "numbers")
+                            if (currentURL.indexOf("page=") > -1) {
+                                currentURL = currentURL.substring(0,currentURL.indexOf("page=")+5)
+                                aLink.href = currentURL + pageNumber
+                            }else{
+                                aLink.href = currentURL + '&page='+pageNumber
+                            }
+                            aLink.textContent = parseInt(i + 1)
+                            if (i === 0) $(li).addClass("pl-15")
+                            if ((parseInt(params.get("page")) === pageNumber) || (!params.get("page") && i === 0)) $(li).addClass("active")
+                            li.appendChild(aLink)
+                            ul.appendChild(li)
+                        }
                     }
-                    aLink.textContent = parseInt(i + 1)
-                    if (i === 0 || i === result.length) $(li).addClass("pl-15")
-                    if ((parseInt(params.get("page")) === pageNumber) || (!params.get("page") && i === 0)) $(li).addClass("active")
-                    li.appendChild(aLink)
-                    ul.appendChild(li)
+                    // Create the pagination numbers
+                    // for (let i = 0; i < result.length; i++) {
+                    //     let li = document.createElement("li")
+                    //     let pageNumber = parseInt(i+1)
+                    //     li.className = "page-item"
+                    //     let aLink = document.createElement("a")
+                    //     aLink.classList.add("page-link", "numbers")
+                    //     if (currentURL.indexOf("page=") > -1) {
+                    //         currentURL = currentURL.substring(0,currentURL.indexOf("page=")+5)
+                    //         aLink.href = currentURL + pageNumber
+                    //     }else{
+                    //         aLink.href = currentURL + '&page='+pageNumber
+                    //     }
+                    //     aLink.textContent = parseInt(i + 1)
+                    //     if (i === 0 || i === result.length) $(li).addClass("pl-15")
+                    //     if ((parseInt(params.get("page")) === pageNumber) || (!params.get("page") && i === 0)) $(li).addClass("active")
+                    //     li.appendChild(aLink)
+                    //     ul.appendChild(li)
+                    // }
+                    // ----------------------------------
+                    ul.append(liNext)
+                    nav.append(ul)
+                    displayPagination.append(nav)
+                    console.info('dispaly pagination')
                 }
-                // ----------------------------------
-                ul.append(liNext)
-                nav.append(ul)
-                displayPagination.append(nav)
             }
             
             $("#loader").hide()

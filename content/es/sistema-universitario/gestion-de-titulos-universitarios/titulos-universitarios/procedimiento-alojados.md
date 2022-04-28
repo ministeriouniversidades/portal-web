@@ -8,11 +8,10 @@ weight: 1
 
 Es competencia del Ministerio de Universidades la gestión de los siguientes procedimientos:
 <section>
-        <article class="calls">
-            <div class="container container-xl">
-                <div class="row">
-                        <div class="row">
-                            <div class="col-lg-12  content_collapse">
+    <article>
+        <div class="container container_xl_accoordion p-0">
+            <div class="row mt-4">
+                <div class="col-lg-12 content_collapse mb-120">
                                 <div class="accordion" id="accordionPanelsStayOpenExample">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="panelsStayOpen-headingOne">

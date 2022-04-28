@@ -5,11 +5,10 @@ weight: 9
 ---
 <b>IMPORTANTE: asegurese de que el trámite que desea realizar de Titulación Universitaria, para Homologación o Equivalencia, es el correcto antes de realizar ningún pago de tasa.</b><br><br>
 <section>
-        <article class="calls">
-            <div class="container container-xl">
-                <div class="row">
-                        <div class="row">
-                            <div class="col-lg-12  content_collapse">
+    <article>
+        <div class="container container_xl_accoordion p-0">
+            <div class="row mt-4">
+                <div class="col-lg-12 content_collapse mb-120">
                                 <div class="accordion" id="accordionPanelsStayOpenExample">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -30,7 +29,7 @@ weight: 9
 								<b>Destinatarios</b><br><br>
 								<b>Pago en España:</b> <br><br>
 								<ul>
-									<li>El abono se realizará mediante el impreso <a href="https://www.educacion.gob.es/aefpc/comun/descarga</a><i class="fas fa-external-link-alt"></i>TasasUniv.action" target="_blank">Modelo 790 (Universidades) <i class="fas fa-external-link-alt"></i></a> </li>
+									<li>El abono se realizará mediante el impreso <a href="https://www.educacion.gob.es/aefpc/comun/descarga">Modelo 790 (Universidades) <i class="fas fa-external-link-alt"></i></a> </li>
 									<li>Este impreso se presentará en cualquier Banco, Caja de Ahorros o Cooperativa de Crédito, de las que actúan como <b>entidades colaboradoras en la recaudación tributaria.</b> El importe deberá abonarse <b>en efectivo.</b></li>
 									<li>La hoja número 3 quedará en la entidad bancaria. </li>
 									<li>Las hojas números 1 y 2, con la certificación mecánica o firma autorizada de la entidad bancaria que acredite el pago, se presentarán junto con la solicitud de homologación o equivalencia, en los lugares señalados para la presentación de ésta (Registros señalados en el artículo 16.4 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas). Una vez registrados de entrada, el ejemplar número 2 se entregará al interésado como resguardo. </li>
@@ -65,7 +64,7 @@ weight: 9
 								<b>Importante:</b> <br><br>
 								En caso de acceder a internet a través de un <b>servidor proxy</b>, una vez acceda a la página de visualización del modelo 790, haga clic en el botón <b>actualizar</b> de su navegador. <br><br>
 								CADA SOLICITUD CONSTA DE 3 COPIAS Y ES UNICA E IDENTIFICADA CON UN NUMERO CONCRETO. POR TANTO, SI DESEA OBTENER ALGUNA OTRA SOLICITUD, DEBERA DESCARGARLA DE NUEVO (<b>EN NINGUN CASO HAGA FOTOCOPIAS</b>)<br><br>
-								<a href="https://www.educacion.gob.es/aefpc/comun/descarga</a><i class="fas fa-external-link-alt"></i>TasasUniv.action" target="_blank">Descarga del Modelo 790 (Universidades) <i class="fas fa-external-link-alt"></i></a><br><br>
+								<a href="https://www.educacion.gob.es/aefpc/comun/descarga" target="_blank">Descarga del Modelo 790 (Universidades) <i class="fas fa-external-link-alt"></i></a><br><br>
 								<b>Instrucciones</b><br><br>
 								Para la solictud de homologación, convalidación o equivalencia el abono de la tasa no exime de la necesidad de cumplimentar y presentar el modelo oficial de solicitud de homologación, convalidación o equivalencia, acompañado de la documentación preceptiva.  <br><br>
 								La solicitud de homologación, convalidación o equivalencia debe presentarse acompañada del Modelo 790 (con certificación mecánica o firma autorizada que acredite el pago), en la manera anteriormente descrita, o bien acompañada de justificación suficiente del ingreso o la transferencia en la cuenta restringida que se ha señalado.  <br><br>
@@ -139,19 +138,17 @@ weight: 9
                                                     <div class="container-fluid">
                                                         <div class="row">
                                                             <div class="col-12">
-                                                                <a href="{{<siteurl>}}sistema-universitario/gestion-de-titulos-universitarios/titulos-universitarios/otros-procedimientos/tasa-107/devolucion-tasa-107/">Devolución de tasa 107</a>
+                                                                <a href="{{<siteurl>}}sistema-universitario/gestion-de-titulos-universitarios/titulos-universitarios/otros-procedimientos/tasa-107/devolucion-tasa-107">Devolución de tasa 107</a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </article>
                                             </div>
                                         </div>
-                                    </div>				
-                                    </div>
-                                </div>
-                        </div>
+                        </div>         
                     </div>
                 </div>
             </div>
-        </article>
-    </section>
+        </div>
+    </article>
+</section>

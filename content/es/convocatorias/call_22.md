@@ -1,10 +1,13 @@
 ---
 title: "Certamen Jóvenes Investigadores 2020"
+name: "Premios"
 date: 2021-11-12T14:20:11+01:00
 call_desc: "Premios XXXII certamen. Convocatoria 2020 Este Certamen promueve la investigación entre los jóvenes ..."
 call_closed: "/imgs/call-closed.svg"
 call_opened: "/imgs/call-opened.svg"
 call_status: false
+call_start: 2020-08-17T00:00:00+01:00
+call_end: 2020-09-16T00:00:00+01:00
 ---
 <br><br><b>Plazos de solicitud</b><br>
 17/08/2020-16/09/2020

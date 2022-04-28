@@ -1,10 +1,13 @@
 ---
 title: "VIII centenario de la creación de la Universidad de Salamanca"
+name: "Procedimiento para que las entidades que participan en la conmemoración"
 date: 2021-11-12T14:19:49+01:00
 call_desc: "Procedimiento para que las entidades que participan en la conmemoración del VIII centenario de la creación ..."
 call_closed: "/imgs/call-closed.svg"
 call_opened: "/imgs/call-opened.svg"
 call_status: false
+call_start: 2019-04-05T00:00:00+01:00
+call_end: 2020-05-15T00:00:00+01:00
 ---
 <br><br><b>Plazos de solicitud</b><br>
 05/04/2019-15/05/2020         

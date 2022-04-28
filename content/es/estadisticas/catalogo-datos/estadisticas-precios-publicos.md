@@ -55,11 +55,11 @@ url: "/estadisticas/catalogo-datos/estadisticas-precios-publicos/"
 </section>
 <b>Últimos datos publicados : </b> Curso 2021-22<br><br>
 <b>Fecha de publicación: </b> 8 de marzo 2022 <br><br>
-<section>
-        <article">
-            <div class="container container-xl">
-                <div class="row">
-                            <div class="col-lg-12  content_collapse mb-60">
+    <section>
+        <article>
+            <div class="container container_xl_accoordion p-0">
+                <div class="row mt-4">
+                    <div class="col-lg-12 content_collapse mb-120">
                                 <div class="accordion" id="accordionPanelsStayOpenExample">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -153,7 +153,7 @@ url: "/estadisticas/catalogo-datos/estadisticas-precios-publicos/"
                                                     <div class="col-lg-12 cards_download_cnt">
                                                         <div class="row jcc_mobile">
                                                             <div class="download_card">
-                                                                <a class="card" href="{{<siteurl>}}documentos/PDF/estadisticas/Metodologia_2021_2022.pdf" target="_blank">
+                                                                <a class="card" href="{{<siteurl>}}documentos/pdf/estadisticas/Metodologia_2021_2022.pdf" target="_blank">
                                                                     <div class="card-header">
                                                                         <i class="fal fa-download"></i>
                                                                     </div>
@@ -166,7 +166,7 @@ url: "/estadisticas/catalogo-datos/estadisticas-precios-publicos/"
                                                                 </a>
                                                             </div>
 															<div class="download_card">
-                                                                <a class="card" href="{{<siteurl>}}documentos/PDF/estadisticas/Nota_2021_2022.pdf" target="_blank">
+                                                                <a class="card" href="{{<siteurl>}}documentos/pdf/estadisticas/Nota_2021_2022.pdf" target="_blank">
                                                                     <div class="card-header">
                                                                         <i class="fal fa-download"></i>
                                                                     </div>
@@ -186,7 +186,7 @@ url: "/estadisticas/catalogo-datos/estadisticas-precios-publicos/"
                                                           <div class="swiper-wrapper">
                                                             <div class="swiper-slide">
                                                                 <div class="download_card">
-                                                                    <a class="card" href="{{<siteurl>}}documentos/PDF/estadisticas/Metodologia_2021_2022.pdf" target="_blank">
+                                                                    <a class="card" href="{{<siteurl>}}documentos/pdf/estadisticas/Metodologia_2021_2022.pdf" target="_blank">
                                                                         <div class="card-header">
                                                                             <i class="fal fa-download"></i>
                                                                         </div>
@@ -200,7 +200,7 @@ url: "/estadisticas/catalogo-datos/estadisticas-precios-publicos/"
                                                                     </a>
                                                                 </div>
 																<div class="download_card">
-                                                                    <a class="card" href="{{<siteurl>}}documentos/PDF/estadisticas/Nota_2021_2022.pdf" target="_blank">
+                                                                    <a class="card" href="{{<siteurl>}}documentos/pdf/estadisticas/Nota_2021_2022.pdf" target="_blank">
                                                                         <div class="card-header">
                                                                             <i class="fal fa-download"></i>
                                                                         </div>

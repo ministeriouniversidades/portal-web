@@ -9,11 +9,11 @@ news_title: 'Pedro Duque anuncia una solución para los afectados por los "Prés
 news_date: 2018-09-19T14:20:22+01:00
 ---
 <ul>
-<li><b>El ministro de Ciencia, Innovaci&oacute;n y Universidades se reunir&aacute; con la Asociaci&oacute;n de Afectados por los &lsquo;Pr&eacute;stamos Renta Universidad&rsquo;</b></li>
+<li><b>El ministro de Ciencia, Innovación y Universidades se reunirá con la Asociación de Afectados por los &lsquo;Préstamos Renta Universidad&rsquo;</b></li>
 </ul>
-<p>El ministro de Ciencia, Innovaci&oacute;n y Universidades, Pedro Duque, ha anunciado en el Congreso de los Diputados una soluci&oacute;n para remediar la situaci&oacute;n de los estudiantes afectados por los &lsquo;Pr&eacute;stamo Renta Universidad&rsquo; entre 2008 y 2011.</p>
-<p>En el a&ntilde;o 2007, el Gobierno aprob&oacute; el programa &lsquo;Pr&eacute;stamo Renta Universidad&rsquo; para ayudar a los universitarios a costear sus estudios de postgrado. Este programa consist&iacute;a en pr&eacute;stamos financieros que permit&iacute;an sufragar el coste de los estudios universitarios y postergar el reembolso del importe concedido hasta que el titulado universitario se incorporara al mercado laboral y obtuviera unos ingresos m&iacute;nimos suficientes, establecidos entonces en 22.000 euros anuales. En 2008 y sucesivas convocatorias se elimin&oacute; esta condici&oacute;n.</p>
-<p>El ministro de Ciencia, Innovaci&oacute;n y Universidades ha se&ntilde;alado que se reunir&aacute; con representantes de la Asociaci&oacute;n de Afectados por los Pr&eacute;stamos Renta Universidad en las pr&oacute;ximas semanas. Tambi&eacute;n ha afirmado que ya ha contactado con el Instituto de Cr&eacute;dito Oficial (ICO) para buscar una soluci&oacute;n viable y justa para los afectados.</p>
+<p>El ministro de Ciencia, Innovación y Universidades, Pedro Duque, ha anunciado en el Congreso de los Diputados una solución para remediar la situación de los estudiantes afectados por los &lsquo;Préstamo Renta Universidad&rsquo; entre 2008 y 2011.</p>
+<p>En el año 2007, el Gobierno aprobó el programa &lsquo;Préstamo Renta Universidad&rsquo; para ayudar a los universitarios a costear sus estudios de postgrado. Este programa consistía en préstamos financieros que permitían sufragar el coste de los estudios universitarios y postergar el reembolso del importe concedido hasta que el titulado universitario se incorporara al mercado laboral y obtuviera unos ingresos mínimos suficientes, establecidos entonces en 22.000 euros anuales. En 2008 y sucesivas convocatorias se eliminó esta condición.</p>
+<p>El ministro de Ciencia, Innovación y Universidades ha señalado que se reunirá con representantes de la Asociación de Afectados por los Préstamos Renta Universidad en las próximas semanas. También ha afirmado que ya ha contactado con el Instituto de Crédito Oficial (ICO) para buscar una solución viable y justa para los afectados.</p>
 <section>
     <article>
         <div class="container">
@@ -34,7 +34,7 @@ news_date: 2018-09-19T14:20:22+01:00
                                                 <div class="col-lg-12 cards_download_cnt">
                                                     <div class="row jcc_mobile">
                                                         <div class="download_card">
-                                                            <a class="card flex-column" href="{{<siteurl>}}documentos/PDF/news/180919_NP_PrestamosRenta.pdf" target="_blank">
+                                                            <a class="card flex-column" href="{{<siteurl>}}documentos/pdf/news/180919_NP_PrestamosRenta.pdf" target="_blank">
                                                                 <div class="card-header">
                                                                     <i class="fal fa-download"></i>
                                                                 </div>
@@ -54,7 +54,7 @@ news_date: 2018-09-19T14:20:22+01:00
                                                         <div class="swiper-wrapper">
                                                         <div class="swiper-slide">
                                                             <div class="download_card">
-                                                                <a class="card" href="{{<siteurl>}}documentos/PDF/news/180919_NP_PrestamosRenta.pdf" target="_blank">
+                                                                <a class="card" href="{{<siteurl>}}documentos/pdf/news/180919_NP_PrestamosRenta.pdf" target="_blank">
                                                                     <div class="card-header">
                                                                         <i class="fal fa-download"></i>
                                                                     </div>

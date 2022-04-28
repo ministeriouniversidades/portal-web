@@ -19,7 +19,7 @@ url: "/estadisticas/catalogo-datos/estadisticas-euct/"
                                     </div>                                
                                 </div>
                                 <div class="col-12 box_buttons">
-                                    <a href="{{<siteurl>}}/documentos/PDF/estadisticas/Mapa_UNIVERSIDADES_2020.pdf" type="button" class="btn btn_outline_blue" target="_blank">
+                                    <a href="{{<siteurl>}}/documentos/pdf/estadisticas/Mapa_UNIVERSIDADES_2020.pdf" type="button" class="btn btn_outline_blue" target="_blank">
                                         ACCESO A LA INFOGRAFÍA 
                                         <i class="icon far fa-images"></i>
                                         <i class="hover_icon far fa-images"></i>
@@ -185,7 +185,7 @@ Fecha de publicación: 23 de marzo de 2021
                                                     <div class="col-lg-12 cards_download_cnt">
                                                         <div class="row jcc_mobile">
                                                             <div class="download_card">
-                                                                <a class="card" href="{{<siteurl>}}documentos/PDF/estadisticas/PrincipalesResultadosEUCT.pdf" target="_blank">
+                                                                <a class="card" href="{{<siteurl>}}documentos/pdf/estadisticas/PrincipalesResultadosEUCT.pdf" target="_blank">
                                                                     <div class="card-header">
                                                                         <i class="fal fa-download"></i>
                                                                     </div>
@@ -198,7 +198,7 @@ Fecha de publicación: 23 de marzo de 2021
                                                                 </a>
                                                             </div>
 															<div class="download_card">
-                                                                <a class="card" href="{{<siteurl>}}documentos/PDF/estadisticas/Metodologia.pdf" target="_blank">
+                                                                <a class="card" href="{{<siteurl>}}documentos/pdf/estadisticas/Metodologia.pdf" target="_blank">
                                                                     <div class="card-header">
                                                                         <i class="fal fa-download"></i>
                                                                     </div>
@@ -231,7 +231,7 @@ Fecha de publicación: 23 de marzo de 2021
                                                           <div class="swiper-wrapper">
                                                             <div class="swiper-slide">
                                                                 <div class="download_card">
-                                                                    <a class="card" href="{{<siteurl>}}documentos/PDF/estadisticas/PrincipalesResultadosEUCT.pdf" target="_blank">
+                                                                    <a class="card" href="{{<siteurl>}}documentos/pdf/estadisticas/PrincipalesResultadosEUCT.pdf" target="_blank">
                                                                         <div class="card-header">
                                                                             <i class="fal fa-download"></i>
                                                                         </div>
@@ -245,7 +245,7 @@ Fecha de publicación: 23 de marzo de 2021
                                                                     </a>
                                                                 </div>
 																<div class="download_card">
-                                                                    <a class="card" href="{{<siteurl>}}documentos/PDF/estadisticas/Metodologia.pdf" target="_blank">
+                                                                    <a class="card" href="{{<siteurl>}}documentos/pdf/estadisticas/Metodologia.pdf" target="_blank">
                                                                         <div class="card-header">
                                                                             <i class="fal fa-download"></i>
                                                                         </div>

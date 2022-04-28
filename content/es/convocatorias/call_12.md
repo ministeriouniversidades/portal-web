@@ -1,10 +1,13 @@
 ---
 title: "Ayudas a la movilidad para estancias breves y traslados temporales de beneficiarios FPU 2021"
+name: "Becas y ayudas para la movilidad"
 date: 2021-11-12T14:20:20+01:00
 call_desc: "Las ayudas para estancias breves y traslados temporales tienen por objeto reforzar la internacionalización de ..."
 call_closed: "/imgs/call-closed.svg"
 call_opened: "/imgs/call-opened.svg"
 call_status: false
+call_start: 2021-01-15T00:00:00+01:00
+call_end: 2020-03-02T00:00:00+01:00
 ---
 <br><br><b>Plazos de solicitud</b><br>
 15/01/2021-02/03/2021 

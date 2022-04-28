@@ -4,7 +4,6 @@
 @import "./components/custom-icons";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;500;800;900&display=swap");
 
-
 // ** CLASES GENERALES PARA ESPACIOS Y ESTILOS DE BASE
 
 * {
@@ -484,7 +483,7 @@ strong {
   }
 }
 
-// ** ESTILOS DE TAGS 
+// ** ESTILOS DE TAGS
 #section_box_tag {
   margin: 40px 0px;
   .row {
@@ -656,7 +655,7 @@ strong {
         min-height: 140px;
         padding: 15px;
         background-color: $blue;
-          // Texto de la Card Slider
+        // Texto de la Card Slider
         .card-text {
           color: white;
           font-size: 14px;
@@ -675,7 +674,7 @@ strong {
         .bold {
           font-weight: bold;
         }
-         // Estilos generales de los Iconos
+        // Estilos generales de los Iconos
         .icon_text {
           display: flex;
           flex-direction: column;
@@ -694,7 +693,7 @@ strong {
             }
           }
         }
-       // Estilos del icono "Cerrada" Slider
+        // Estilos del icono "Cerrada" Slider
         .red {
           color: $red !important;
           i {
@@ -1125,7 +1124,7 @@ strong {
 #section_box_cards_blue_slider {
   display: none;
   margin: 40px 0px;
-  // Estilo de la Card 
+  // Estilo de la Card
   .card {
     border: 1px solid $gray_border;
     border-radius: 6px;
@@ -1391,7 +1390,7 @@ strong {
   display: none;
   margin: 40px 0px;
   .item {
-     // Estilos de la card
+    // Estilos de la card
     .card {
       border: 1px solid $gray_border;
       border-radius: 6px;
@@ -1400,7 +1399,7 @@ strong {
       box-shadow: 0px 3px 6px black;
       text-decoration: none;
       color: black;
-       // Hover para icono blanco y rayado de texto
+      // Hover para icono blanco y rayado de texto
       &:hover {
         .card-body {
           .card-text {
@@ -1483,6 +1482,9 @@ strong {
   ul {
     li {
       margin-bottom: 6px;
+      .icon {
+        font-size: 14px;
+      }
     }
   }
 }
@@ -1522,6 +1524,29 @@ strong {
   .subtitle {
     h4 {
       border-bottom: 0 !important;
+    }
+  }
+}
+#section_sub_title_tex {
+  h4 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    text-transform: uppercase;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  h5 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    width: 100%;
+  }
+  #section_link {
+    margin: 15px 0px 40px 0px;
+    .btn_link_icon {
+      padding: 0px;
+      text-align: initial;
     }
   }
 }
@@ -1657,7 +1682,7 @@ strong {
           max-height: 614px;
         }
       }
-      // Estilos generales de Texto de informacion 
+      // Estilos generales de Texto de informacion
       .box_text {
         margin-bottom: 100px;
         display: flex;
@@ -1726,7 +1751,7 @@ strong {
         background-size: cover !important;
       }
     }
-     // Estilos del texto
+    // Estilos del texto
     .box_content {
       background-color: $white_submenu;
       padding: 30px;
@@ -1745,7 +1770,7 @@ strong {
           font-weight: 300;
           margin-bottom: 35px;
         }
-        // Contenido del texto que hace Scroll 
+        // Contenido del texto que hace Scroll
         .box_content_scroll {
           max-height: 300px;
           overflow-x: hidden;
@@ -1921,7 +1946,7 @@ strong {
       text-transform: none;
       list-style: none;
       text-decoration: none;
-      // Titulo de la busqueda y enlace 
+      // Titulo de la busqueda y enlace
       h5 {
         font-size: 20px;
         line-height: 22px;
@@ -2182,7 +2207,7 @@ strong {
     max-width: 858px;
     .modal-body {
       padding: 90px 112px 54px;
-      // Boton de cerrar 
+      // Boton de cerrar
       .close_button {
         color: black;
         font-size: 35px;
@@ -2203,7 +2228,7 @@ strong {
         color: $red;
         font-weight: 300;
       }
-      // Estilo para label del Input 
+      // Estilo para label del Input
       .form-label {
         color: black;
         font-size: 20px;
@@ -2226,7 +2251,7 @@ strong {
           width: 408px;
         }
       }
-       // Estilos para mensaje de error o campo vacio
+      // Estilos para mensaje de error o campo vacio
       .items_required {
         font-size: 14px;
         line-height: 20px;
@@ -2306,7 +2331,7 @@ strong {
   .mb-xl-35 {
     margin-bottom: 35px;
   }
-   // Estilos para mensaje de error o campo vacio
+  // Estilos para mensaje de error o campo vacio
   .error_color {
     color: $red;
     font-weight: 300;
@@ -2314,7 +2339,7 @@ strong {
   .input_error {
     border-color: $red !important;
   }
-  // Estilo para label del Input 
+  // Estilo para label del Input
   .form-label {
     color: black;
     font-size: 20px;
@@ -2355,7 +2380,7 @@ strong {
   .box_buttons {
     justify-content: center;
   }
-   // Estilos para mensaje de error o campo vacio
+  // Estilos para mensaje de error o campo vacio
   .items_required {
     font-size: 14px;
     line-height: 20px;
@@ -2448,7 +2473,7 @@ strong {
       }
       .card-body {
         padding: 5px 0px;
-         // Estilo del Nombre del archivo
+        // Estilo del Nombre del archivo
         p {
           color: black;
           font-size: 16px;
@@ -2459,7 +2484,7 @@ strong {
           color: $red;
           margin-right: 6px;
         }
-         // Estilo del peso del archivo
+        // Estilo del peso del archivo
         .text_file {
           display: flex;
           align-items: center;
@@ -2496,13 +2521,13 @@ strong {
   .download_card {
     padding: 0px;
     margin-bottom: 30px;
-     // Estilos de la Card
+    // Estilos de la Card
     .card {
       background-color: transparent;
       border: 0;
       color: black;
       text-decoration: none;
-        // Estilo del icono
+      // Estilo del icono
       .card-header {
         background-color: $gray_border;
         display: flex;
@@ -2516,7 +2541,7 @@ strong {
       }
       .card-body {
         padding: 5px 0px;
-         // Estilo del Nombre del archivo
+        // Estilo del Nombre del archivo
         p {
           color: black;
           font-size: 15px;
@@ -2526,7 +2551,7 @@ strong {
           color: $red;
           margin-right: 6px;
         }
-          // Estilo del peso del archivo
+        // Estilo del peso del archivo
         .text_file {
           display: flex;
           align-items: center;
@@ -2616,7 +2641,7 @@ strong {
       background-color: $red;
     }
   }
-   // Estilos para alerta en color Amarillo
+  // Estilos para alerta en color Amarillo
   .alert-warning {
     border-color: $yellow;
     .icon {
@@ -2673,7 +2698,7 @@ strong {
         line-height: 20px;
       }
     }
-    // Botones 
+    // Botones
     .box_buttons {
       width: 100%;
       display: flex;
@@ -2699,7 +2724,7 @@ strong {
   }
 }
 
-// ** MODAL DE CONFIGURACION DE COOKIES ** 
+// ** MODAL DE CONFIGURACION DE COOKIES **
 #modalCookies {
   .modal-cookies {
     max-width: 825px;
@@ -2730,7 +2755,7 @@ strong {
             display: block;
             margin-bottom: 16px;
             width: 100%;
-            // Check de Input 
+            // Check de Input
             .form-check {
               padding-left: 0;
               .form-check-label {
@@ -2860,7 +2885,7 @@ strong {
       }
       .content {
         padding: 30px;
-        // Textos 
+        // Textos
         .card-text {
           min-height: 144px;
           display: -webkit-box;
@@ -2934,7 +2959,7 @@ strong {
           color: $green;
         }
       }
-      // Icono 
+      // Icono
       .icon {
         color: $blue;
         font-size: 40px;
@@ -2966,7 +2991,7 @@ strong {
   }
 }
 
-// ** CARDS DE INFORMACION PREVIA ** 
+// ** CARDS DE INFORMACION PREVIA **
 .cards_infografia {
   .row {
     .info_prev_card {
@@ -3067,7 +3092,7 @@ strong {
   }
 }
 
-// ** ESTILOS GENERALES DE TABLAS ** 
+// ** ESTILOS GENERALES DE TABLAS **
 .tabla_custom {
   margin: 40px 0px;
   #demTable {
@@ -3093,12 +3118,12 @@ strong {
     }
   }
 }
- 
-// ** ESTILOS GENERALES DE LINKS ** 
+
+// ** ESTILOS GENERALES DE LINKS **
 .links_mapaWeb {
   .box {
     margin-bottom: 50px;
-    //Titulo de la seccion 
+    //Titulo de la seccion
     h3 {
       font-size: 22px;
       font-weight: 600;
@@ -3299,6 +3324,481 @@ a.skip-main:focus {
   text-align: center;
   z-index: 999;
   border-radius: 6px;
+}
+
+//** LEYENDA **
+
+#leyenda {
+  .card {
+    padding: 25px;
+    background-color: $white_submenu;
+    border: none;
+    h4 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 25px;
+    }
+    .box {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      .item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-right: 40px;
+        i,
+        .icon {
+          color: $blue;
+          margin-right: 10px;
+          font-size: 22px;
+        }
+        .icon {
+          font-weight: 600;
+          line-height: 30px;
+          height: 24px;
+          display: flex;
+          justify-content: center;
+          align-items: flex-end;
+        }
+        p {
+          margin: 0px;
+          font-size: 16px;
+          line-height: 18px;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}
+
+.cnt_special_spacing_org {
+  width: 1450px;
+  max-width: 1450px !important;
+}
+.organigrama {
+  overflow-x: auto;
+  ol {
+    list-style: none;
+  }
+  .box_ejemplo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 590px;
+    margin: 0 auto;
+    z-index: 2;
+  }
+  .rectangle {
+    position: relative;
+    border-radius: 6px;
+    background-color: $white_submenu !important;
+    .circle {
+      border: 5px solid white;
+      border-radius: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      padding: 10px;
+      height: 100%;
+      img {
+        max-width: 60px;
+        margin-bottom: 10px;
+      }
+      h3 {
+        font-size: 22px;
+        line-height: 22px;
+        font-weight: 600;
+        text-align: center;
+        color: white;
+      }
+      h6 {
+        font-size: 16px;
+        line-height: 16px;
+        font-weight: 300;
+        text-align: center;
+        color: white;
+        padding: 0px 5px;
+      }
+      .title_min {
+        font-size: 14px;
+        font-weight: 600;
+      }
+      h5 {
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 300;
+        text-align: center;
+        color: white;
+        padding: 0px 5px;
+      }
+      i {
+        color: white;
+      }
+    }
+    .btn_floting_top {
+      position: absolute;
+      right: 10px;
+      top: 5px;
+      i {
+        color: $blue;
+        background-color: transparent;
+        padding: 6px 8px;
+        border-radius: 50px;
+        font-size: 25px;
+      }
+      &:hover {
+        i {
+          color: white;
+          background-color: $blue;
+        }
+      }
+    }
+  }
+  .rectangle_int {
+    position: absolute;
+    right: -93px;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 43%;
+      left: -8%;
+      transform: translateX(-50%);
+      width: 35px;
+      height: 2px;
+      background: $blue;
+    }
+  }
+  .rectangle_int_left {
+    position: absolute;
+    left: -93px;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 43%;
+      left: 108%;
+      transform: translateX(-50%);
+      width: 35px;
+      height: 2px;
+      background: $blue;
+    }
+  }
+  .level-1 {
+    width: 266px;
+    height: 266px;
+    padding: 15px;
+  }
+  .level-1-top-right {
+    &::before {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 134px;
+      transform: translateX(-50%);
+      width: 2px;
+      height: 36px;
+      background: $blue;
+    }
+  }
+  .level-1-left {
+    &:before {
+      content: "";
+      position: absolute;
+      bottom: -77px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      width: 1px;
+      height: 77px;
+      border: 1px dashed $blue;
+    }
+  }
+  .level-2-interno {
+    width: 220px;
+    height: 220px;
+    padding: 15px;
+  }
+  .level-3-interno {
+    width: 220px;
+    height: 220px;
+    padding: 15px;
+  }
+  .level-2-wrapper {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 55px;
+    padding: 0px;
+    .img {
+      background-repeat: none !important;
+      background-position: center top !important;
+      background-attachment: initial;
+      background-repeat: no-repeat !important;
+      background-size: contain !important;
+      height: 260px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0px;
+      z-index: 1;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      top: -20px;
+      left: 25%;
+      width: 50%;
+      height: 2px;
+      background: $blue;
+    }
+    li {
+      position: relative;
+      margin-top: 20px;
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 2px;
+        height: 40px;
+        background: $blue;
+      }
+    }
+  }
+  .box_cards_vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: -132px;
+    .rectangle_int {
+      position: relative !important;
+      width: 220px;
+      height: 220px;
+      margin-bottom: 30px;
+      right: 0;
+      display: none;
+      &:before {
+        width: 2px;
+        height: 30px;
+        top: 100%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+      }
+    }
+  }
+  .rectangle_interno {
+    margin-bottom: 20px;
+    padding: 20px;
+    position: relative;
+    border-radius: 6px;
+    color: white;
+    width: 266px;
+    p {
+      font-size: 16px;
+      line-height: 18px;
+      margin-bottom: 15px;
+      font-weight: 600; 
+    }
+    .name {
+      font-weight: 300;
+      font-size: 14px;
+    }
+    .btn_floting_botton {
+      position: absolute;
+      right: 5px;
+      bottom: 10px;
+      i {
+        color: white;
+        font-size: 16px;
+        background-color: transparent;
+        padding: 7px 6px 7px 8px;
+        border-radius: 50px;
+      }
+      &:hover {
+        i {
+          color: #008a00;
+          background-color: white;
+        }
+      }
+    }
+    .purple {
+      &:hover {
+        i {
+          color: #822264 !important;
+        }
+      }
+    }
+  }
+  .box_3 {
+    display: flex;
+  }
+  .level-3-wrapper {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding: 0px;
+    margin-top: 60px;
+  }
+  .level-3-wrapper.wrapper-left {
+    &::before {
+      content: "";
+      position: absolute;
+      top: -41px;
+      left: calc(2% - 7px);
+      width: calc(81% + 8px);
+      height: 2px;
+      background: $blue;
+    }
+  }
+  .wrapper-right {
+    &::before {
+      content: "";
+      position: absolute;
+      top: -41px;
+      left: calc(19% - 5px);
+      width: calc(39% + 10px);
+      border: 1px dashed $blue;
+    }
+  }
+  .wrapper-left {
+    .box_1 {
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        transform: translate(-50%, -100%);
+        width: 2px;
+        height: 40px;
+        background: $blue;
+        left: 1%;
+      }
+    }
+    .box_2 {
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        transform: translate(-50%, -100%);
+        width: 2px;
+        height: 40px;
+        background: $blue;
+        left: 41%;
+      }
+    }
+    .box_3 {
+      &::before {
+        content: "";
+        left: 83%;
+        position: absolute;
+        top: 0;
+        transform: translate(-50%, -100%);
+        width: 2px;
+        height: 40px;
+        background: $blue;
+      }
+    }
+  }
+  .dashed_separador_top {
+    &::after {
+      content: "";
+      position: absolute;
+      top: -40px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      width: 1px;
+      height: 40px;
+      border: 1px dashed #154581;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: -77px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      width: 1px;
+      height: 77px;
+      border: 1px dashed #154581;
+    }
+  }
+  .dashed_separador {
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: -77px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      width: 1px;
+      height: 77px;
+      border: 1px dashed #154581;
+    }
+  }
+  .mh_185 {
+    max-height: 185px;
+  }
+  .m_h_260 {
+    height: 260px !important;
+  }
+  .m_h_310 {
+    height: 310px !important;
+  }
+  .m_h_100 {
+    height: 100px !important;
+  }
+  .m_h_460 {
+    height: 460px !important;
+  }
+  .blue {
+    background-color: $blue;
+  }
+  .purple {
+    background-color: $purple_calendar;
+  }
+  .green {
+    background-color: $green_calendar;
+  }
+  .plus {
+    &:hover {
+      color: transparent;
+    }
+    i {
+      font-size: 27px;
+    }
+    .hover_icon {
+      display: none !important;
+    }
+    &:hover {
+      .hover_icon {
+        display: initial !important;
+      }
+      .icon {
+        display: none !important;
+      }
+    }
+  }
+}
+
+.buttons_org {
+  margin: 100px 0px;
+  .btn {
+    i {
+      margin-left: 6px;
+    }
+  }
 }
 
 @import "./components/header";

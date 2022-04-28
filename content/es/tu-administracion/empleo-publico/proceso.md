@@ -42,7 +42,7 @@ Proceso selectivo para ingreso como personal laboral temporal en régimen de int
 </tr>
 <tr>
 			<td>Estado</td>
-			<td><a href="{{<siteurl>}}documentos/PDF//ListaProvAdmitColesp.pdf" target="_blank">Relación provisional de candidatos admitidos y excluidos <i class='fas fa-external-link-alt'></i></a></td>
+			<td><a href="{{<siteurl>}}documentos/pdf//ListaProvAdmitColesp.pdf" target="_blank">Relación provisional de candidatos admitidos y excluidos <i class='fas fa-external-link-alt'></i></a></td>
 		</tr>
 <tr>
 			<td>Plazo presentación solicitudes</td>
@@ -55,8 +55,8 @@ Proceso selectivo para ingreso como personal laboral temporal en régimen de int
 		</tr>
 <tr>
 			<td>Consultar en</td>
-			<td><a href="{{<siteurl>}}documentos/PDF/ValMeritosCEP.pdf" target="_blank">Valoración definitiva de la fase concurso y citación fase oposición <i class='fas fa-external-link-alt'></i></a><br/>
-			<a href="{{<siteurl>}}documentos/PDF/210726RelacAspirantesSuperan.pdf" target="_blank">Aspirantes que han superado el proceso selectivo <i class='fas fa-external-link-alt'></i></a>
+			<td><a href="{{<siteurl>}}documentos/pdf/ValMeritosCEP.pdf" target="_blank">Valoración definitiva de la fase concurso y citación fase oposición <i class='fas fa-external-link-alt'></i></a><br/>
+			<a href="{{<siteurl>}}documentos/pdf/210726RelacAspirantesSuperan.pdf" target="_blank">Aspirantes que han superado el proceso selectivo <i class='fas fa-external-link-alt'></i></a>
 </td>
 		</tr>
             </table>

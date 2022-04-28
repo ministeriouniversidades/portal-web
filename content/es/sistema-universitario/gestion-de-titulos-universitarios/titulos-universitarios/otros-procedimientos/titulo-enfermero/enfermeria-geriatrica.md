@@ -7,11 +7,10 @@ weight: 5
 <a href="https://sede.educacion.gob.es/sede/login/inicio.jjsp?idConvocatoria=821" target="_blank">Acceso al servicio online <i class="fas fa-external-link-alt"></i></a><br><br>
 <b>Plazo de presentación de solicitudes:</b> <i>FINALIZADO</i>
 <section>
-        <article class="calls">
-            <div class="container container-xl">
-                <div class="row">
-                        <div class="row">
-                            <div class="col-lg-12  content_collapse">
+    <article>
+        <div class="container container_xl_accoordion">
+            <div class="row mt-4">
+                <div class="col-lg-12 content_collapse mb-120">
                                 <div class="accordion" id="accordionPanelsStayOpenExample">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -282,17 +281,15 @@ weight: 5
 								<b>Código SIA</b>  <br><br>
 								050860  
 							</div>
-                                                        </div>
-                                                    </div>
-                                                </article>
                                             </div>
                                         </div>
-                                    </div>												
-                                    </div>
+                                    </article>
                                 </div>
-                        </div>
+                            </div>
+                        </div>         
                     </div>
                 </div>
             </div>
-        </article>
-    </section>
+        </div>
+    </article>
+</section>

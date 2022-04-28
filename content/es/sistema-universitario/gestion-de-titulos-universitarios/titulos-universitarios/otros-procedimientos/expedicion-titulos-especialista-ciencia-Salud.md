@@ -8,11 +8,10 @@ weight: 5
                                             <i class="fas fa-lock"></i>
                                         </p>
 <section>
-        <article class="calls">
-            <div class="container container-xl">
-                <div class="row">
-                        <div class="row">
-                            <div class="col-lg-12  content_collapse">
+    <article>
+        <div class="container container_xl_accoordion p-0">
+            <div class="row mt-4">
+                <div class="col-lg-12 content_collapse mb-120">
                                 <div class="accordion" id="accordionPanelsStayOpenExample">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -159,17 +158,15 @@ weight: 5
                                                                 <b>Código SIA <b><br><br>
 								202475 
                                                             </div>
-                                                        </div>
-                                                    </div>
-                                                </article>
                                             </div>
                                         </div>
-                                    </div>				
-                                    </div>
+                                    </article>
                                 </div>
-                        </div>
+                            </div>
+                        </div>         
                     </div>
                 </div>
             </div>
-        </article>
-    </section>
+        </div>
+    </article>
+</section>

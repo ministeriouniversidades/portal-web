@@ -16,34 +16,31 @@ section_contenido_1: ['Desde aquí se podrá descargar el formulario y el Regist
                         <div class="row">
 						
                             <div class="download_card">
-                                <a class="card" href="documentos/PDF/tu-administracion/proteccion-de-datos-personales/Instancia_Derechos_RGPD.pdf" target="_blank">
+                                <a class="card" href="../../documentos/pdf/tu_administracion/proteccion-de-datos-personales/Instancia_Derechos_RGPD.pdf" target="_blank">
                                     <div class="card-header">
                                         <i class="fal fa-download"></i>
                                     </div>
                                     <div class="card-body">
                                         <p class="text_body">Documento pdf Formulario Ejercicio de derechos RGPD</p>
                                         <p class="text_file">
-                                            <i class="fal fa-file-_icon"></i> 
-                                            <span class="tit">Documento pdf Formulario Ejercicio de derechos RGPD</span>  ( 121,288 KB).
+                                            <i class="fal fa-file-pdf pdf_icon"></i> (121,288 KB).
                                         </p>
                                     </div>
                                 </a>
                             </div>
-							<div class="download_card">
-                                <a class="card" href="documentos/PDF/tu-administracion/proteccion-de-datos-personales/RAT.pdf" target="_blank">
+                            <div class="download_card">
+                                <a class="card" href="../../documentos/pdf/tu_administracion/proteccion-de-datos-personales/RAT.pdf" target="_blank">
                                     <div class="card-header">
                                         <i class="fal fa-download"></i>
                                     </div>
                                     <div class="card-body">
                                         <p class="text_body">Documento Registro de Actividades de Tratamiento</p>
                                         <p class="text_file">
-                                            <i class="fal fa-file-_icon"></i> 
-                                            <span class="tit">Documento </a><i class="fas fa-external-link-alt"></i> Registro de Actividades de Tratamiento</span>  ( 514,592 KB).
+                                            <i class="fal fa-file-pdf pdf_icon"></i>  (514,592 KB).
                                         </p>
                                     </div>
                                 </a>
                             </div>
-							
                         </div>
                     </div>
 					

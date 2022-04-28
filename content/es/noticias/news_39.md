@@ -8,22 +8,22 @@ news_title: "El Ministerio de Universidades concede 76,85 millones de euros para
 news_date: 2021-07-27T14:20:22+01:00
 ---
 <ul>
-<li><b>El Consejo de Ministros ha aprobado hoy la concesi&oacute;n de 76.850.000 euros distribuidos en el per&iacute;odo 2021-2022.</b></li>
-<li><b>El denominado plan UniDigital consiste en la inversi&oacute;n dirigida a la modernizaci&oacute;n del sistema universitario espa&ntilde;ol a trav&eacute;s del impulso a proyectos e iniciativas en el &aacute;mbito de la digitalizaci&oacute;n.</b></li>
+<li><b>El Consejo de Ministros ha aprobado hoy la concesión de 76.850.000 euros distribuidos en el período 2021-2022.</b></li>
+<li><b>El denominado plan UniDigital consiste en la inversión dirigida a la modernización del sistema universitario español a través del impulso a proyectos e iniciativas en el ámbito de la digitalización.</b></li>
 </ul>
-<p>El Consejo de Ministros ha aprobado esta misma ma&ntilde;ana a propuesta del Ministerio de Universidades, la concesi&oacute;n de forma directa de subvenciones a las universidades p&uacute;blicas espa&ntilde;olas con ense&ntilde;anza oficial de grado y posgrado, por un importe total de 76,85 millones de euros distribuidos en el per&iacute;odo 2021-2022.</p>
-<p>Esta iniciativa de impulso a la modernizaci&oacute;n y digitalizaci&oacute;n del sistema universitario espa&ntilde;ol, se complementar&aacute; con un programa de inversiones singulares de 24,06 millones de euros para la Universidad Nacional de Educaci&oacute;n a Distancia (UNED) con el fin de suplir sus carencias estructurales y como palanca para poner en marcha medidas para la Espa&ntilde;a despoblada.</p>
-<p>Finalmente, se pondr&aacute; en marcha una l&iacute;nea adicional de 50 millones de euros para la mejora de infraestructuras y despliegue de servicios digitales centralizados, que gestiona el Ministerio de Asuntos Econ&oacute;micos y Transformaci&oacute;n Digital, y que completar&aacute; las dos partidas de inversi&oacute;n anteriores en el contexto de la Educaci&oacute;n Superior, alcanzando para el Plan Unidigital una cuant&iacute;a global de 150,91 millones de euros.</p>
-<p>Estas ayudas van dirigidas a fomentar la inversi&oacute;n en infraestructuras, desarrollos tecnol&oacute;gicos y proyectos de innovaci&oacute;n docente para mejorar los recursos acad&eacute;micos en digitalizaci&oacute;n; reducir la brecha digital del personal acad&eacute;mico y del estudiantado; impulsar proyectos de innovaci&oacute;n digital interuniversitarios de car&aacute;cter estrat&eacute;gico e interdisciplinar, e impulsar la formaci&oacute;n digital, con el objetivo de alcanzar un incremento en el "&Iacute;ndice de digitalizaci&oacute;n universitario&rdquo; de, al menos, un diez por ciento respecto a 2019.</p>
-<p>La prioridad del Ministerio de Universidades es la de facilitar que las universidades puedan convertirse en actores centrales en los procesos de transformaci&oacute;n digital que se est&aacute;n produciendo en nuestras sociedades.</p>
-<p>En el plan UniDigital las actuaciones a desarrollar por las universidades deber&aacute;n contribuir a:</p>
+<p>El Consejo de Ministros ha aprobado esta misma mañana a propuesta del Ministerio de Universidades, la concesión de forma directa de subvenciones a las universidades públicas españolas con enseñanza oficial de grado y posgrado, por un importe total de 76,85 millones de euros distribuidos en el período 2021-2022.</p>
+<p>Esta iniciativa de impulso a la modernización y digitalización del sistema universitario español, se complementará con un programa de inversiones singulares de 24,06 millones de euros para la Universidad Nacional de Educación a Distancia (UNED) con el fin de suplir sus carencias estructurales y como palanca para poner en marcha medidas para la España despoblada.</p>
+<p>Finalmente, se pondrá en marcha una línea adicional de 50 millones de euros para la mejora de infraestructuras y despliegue de servicios digitales centralizados, que gestiona el Ministerio de Asuntos Económicos y Transformación Digital, y que completará las dos partidas de inversión anteriores en el contexto de la Educación Superior, alcanzando para el Plan Unidigital una cuantía global de 150,91 millones de euros.</p>
+<p>Estas ayudas van dirigidas a fomentar la inversión en infraestructuras, desarrollos tecnológicos y proyectos de innovación docente para mejorar los recursos académicos en digitalización; reducir la brecha digital del personal académico y del estudiantado; impulsar proyectos de innovación digital interuniversitarios de carácter estratégico e interdisciplinar, e impulsar la formación digital, con el objetivo de alcanzar un incremento en el "índice de digitalización universitario” de, al menos, un diez por ciento respecto a 2019.</p>
+<p>La prioridad del Ministerio de Universidades es la de facilitar que las universidades puedan convertirse en actores centrales en los procesos de transformación digital que se están produciendo en nuestras sociedades.</p>
+<p>En el plan UniDigital las actuaciones a desarrollar por las universidades deberán contribuir a:</p>
 <ul>
-<li><b>La mejora, adecuaci&oacute;n y modernizaci&oacute;n del equipamiento digital y acciones que reduzcan la brecha digital.</b></li>
-<li><b>Inversiones para la mejora de los entornos de aprendizaje digital como el enriquecimiento de tecnolog&iacute;as educativas existentes que permitan el despliegue e integraci&oacute;n de herramientas de soporte a la colaboraci&oacute;n y participaci&oacute;n en clase.</b></li>
-<li><b>Financiar proyectos de desarrollo de materiales, contenidos, recursos y repositorios que mejoren la oferta digital para la comunidad estudiantil, la formaci&oacute;n del profesorado en competencias digitales u organizar programas formativos novedosos.</b></li>
+<li><b>La mejora, adecuación y modernización del equipamiento digital y acciones que reduzcan la brecha digital.</b></li>
+<li><b>Inversiones para la mejora de los entornos de aprendizaje digital como el enriquecimiento de tecnologías educativas existentes que permitan el despliegue e integración de herramientas de soporte a la colaboración y participación en clase.</b></li>
+<li><b>Financiar proyectos de desarrollo de materiales, contenidos, recursos y repositorios que mejoren la oferta digital para la comunidad estudiantil, la formación del profesorado en competencias digitales u organizar programas formativos novedosos.</b></li>
 </ul>
-<p>Todas las actuaciones realizadas por las cuant&iacute;as concedidas en este Real decreto, tienen como objetivo contribuir a un incremento del &iacute;ndice de digitalizaci&oacute;n del sistema universitario en su conjunto del 10% respecto a 2019.</p>
-<p><b>Universidades beneficiarias, cuant&iacute;as concedidas y distribuci&oacute;n anual</b></p>
+<p>Todas las actuaciones realizadas por las cuantías concedidas en este Real decreto, tienen como objetivo contribuir a un incremento del índice de digitalización del sistema universitario en su conjunto del 10% respecto a 2019.</p>
+<p><b>Universidades beneficiarias, cuantías concedidas y distribución anual</b></p>
 <div class="tabla_custom mt-1">
       <div class="container cnt_xl">
         <div class="row">
@@ -39,7 +39,7 @@ news_date: 2021-07-27T14:20:22+01:00
 <tbody>
 <tr>
 <td width="255">
-<p>A Coru&ntilde;a</p>
+<p>A Coruña</p>
 </td>
 <td width="198">
 <p>993.860,50 &euro;</p>
@@ -50,7 +50,7 @@ news_date: 2021-07-27T14:20:22+01:00
 </tr>
 <tr>
 <td width="255">
-<p>Alcal&aacute;</p>
+<p>Alcalá</p>
 </td>
 <td width="198">
 <p>1.097.143,60 &euro;</p>
@@ -72,7 +72,7 @@ news_date: 2021-07-27T14:20:22+01:00
 </tr>
 <tr>
 <td width="255">
-<p>Almer&iacute;a</p>
+<p>Almería</p>
 </td>
 <td width="198">
 <p>752.624,10 &euro;</p>
@@ -83,7 +83,7 @@ news_date: 2021-07-27T14:20:22+01:00
 </tr>
 <tr>
 <td width="255">
-<p>Aut&oacute;noma de Barcelona</p>
+<p>Autónoma de Barcelona</p>
 </td>
 <td width="198">
 <p>2.146.550,60 &euro;</p>
@@ -94,7 +94,7 @@ news_date: 2021-07-27T14:20:22+01:00
 </tr>
 <tr>
 <td width="255">
-<p>Aut&oacute;noma de Madrid</p>
+<p>Autónoma de Madrid</p>
 </td>
 <td width="198">
 <p>1.762.536,00 &euro;</p>
@@ -127,7 +127,7 @@ news_date: 2021-07-27T14:20:22+01:00
 </tr>
 <tr>
 <td width="255">
-<p>C&aacute;diz</p>
+<p>Cádiz</p>
 </td>
 <td width="198">
 <p>1.240.983,50 &euro;</p>
@@ -182,7 +182,7 @@ news_date: 2021-07-27T14:20:22+01:00
 </tr>
 <tr>
 <td width="255">
-<p>C&oacute;rdoba</p>
+<p>Córdoba</p>
 </td>
 <td width="198">
 <p>1.020.718,10 &euro;</p>
@@ -248,7 +248,7 @@ news_date: 2021-07-27T14:20:22+01:00
 </tr>
 <tr>
 <td width="255">
-<p>Ja&eacute;n</p>
+<p>Jaén</p>
 </td>
 <td width="198">
 <p>832.661,00 &euro;</p>
@@ -259,7 +259,7 @@ news_date: 2021-07-27T14:20:22+01:00
 </tr>
 <tr>
 <td width="255">
-<p>Jaume I de Castell&oacute;n</p>
+<p>Jaume I de Castellón</p>
 </td>
 <td width="198">
 <p>753.879,10 &euro;</p>
@@ -303,7 +303,7 @@ news_date: 2021-07-27T14:20:22+01:00
 </tr>
 <tr>
 <td width="255">
-<p>Le&oacute;n</p>
+<p>León</p>
 </td>
 <td width="198">
 <p>608.310,70 &euro;</p>
@@ -325,7 +325,7 @@ news_date: 2021-07-27T14:20:22+01:00
 </tr>
 <tr>
 <td width="255">
-<p>M&aacute;laga</p>
+<p>Málaga</p>
 </td>
 <td width="198">
 <p>1.978.900,10 &euro;</p>
@@ -336,7 +336,7 @@ news_date: 2021-07-27T14:20:22+01:00
 </tr>
 <tr>
 <td width="255">
-<p>Miguel Hern&aacute;ndez de Elche</p>
+<p>Miguel Hernández de Elche</p>
 </td>
 <td width="198">
 <p>746.067,90 &euro;</p>
@@ -380,7 +380,7 @@ news_date: 2021-07-27T14:20:22+01:00
 </tr>
 <tr>
 <td width="255">
-<p>Pa&iacute;s Vasco</p>
+<p>País Vasco</p>
 </td>
 <td width="198">
 <p>2.665.475,40 &euro;</p>
@@ -391,7 +391,7 @@ news_date: 2021-07-27T14:20:22+01:00
 </tr>
 <tr>
 <td width="255">
-<p>Polit&eacute;cnica de Cartagena</p>
+<p>Politécnica de Cartagena</p>
 </td>
 <td width="198">
 <p>336.733,00 &euro;</p>
@@ -402,7 +402,7 @@ news_date: 2021-07-27T14:20:22+01:00
 </tr>
 <tr>
 <td width="255">
-<p>Polit&eacute;cnica de Catalunya</p>
+<p>Politécnica de Catalunya</p>
 </td>
 <td width="198">
 <p>1.663.968,60 &euro;</p>
@@ -413,7 +413,7 @@ news_date: 2021-07-27T14:20:22+01:00
 </tr>
 <tr>
 <td width="255">
-<p>Polit&eacute;cnica de Madrid</p>
+<p>Politécnica de Madrid</p>
 </td>
 <td width="198">
 <p>2.045.114,20 &euro;</p>
@@ -446,7 +446,7 @@ news_date: 2021-07-27T14:20:22+01:00
 </tr>
 <tr>
 <td width="255">
-<p>P&uacute;blica de Navarra</p>
+<p>Pública de Navarra</p>
 </td>
 <td width="198">
 <p>510.313,50 &euro;</p>

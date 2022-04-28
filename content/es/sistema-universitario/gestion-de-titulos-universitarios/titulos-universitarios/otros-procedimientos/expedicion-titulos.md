@@ -5,25 +5,24 @@ section_img: "./images/people-ge0ac76f69_1920.jpeg"
 ---
 Plazo de presentación de solicitudes: Abierto Permanentemente
 <section>
-        <article class="calls">
-            <div class="container container-xl">
-                <div class="row">
-                        <div class="row">
-                            <div class="col-lg-12  content_collapse">
-                                <div class="accordion" id="accordionPanelsStayOpenExample">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
-                                               Información general
-                                            </button>
-                                        </h2>
-                                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse " aria-labelledby="panelsStayOpen-headingOne">
-                                            <div class="accordion-body">
-                                                <article id="section_link">
-                                                    <div class="container-fluid">
-                                                        <div class="row">
-                                                            <div class="col-12">
-                                                                <b>Descripción</b><br><br>
+    <article>
+        <div class="container container_xl_accoordion p-0">
+            <div class="row mt-4">
+                <div class="col-lg-12 content_collapse mb-120">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                                    Información general
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse " aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body">
+                                    <article id="section_link">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <b>Descripción</b><br><br>
 								Expedición de títulos universitarios    <br><br>
 								<b>Ámbito</b> <br><br>
 								Este Ministerio es el órgano competente para la expedición de los títulos universitarios de Diplomado y Licenciado correspondientes a estudios finalizados con anterioridad a enero de 1988 (Disposición Transitoria Segunda, apartado 2. Del <a href="http://www.boe.es/buscar/doc.php?id=BOE-A-1987-27706" target="_blank">Real Decreto 1496/1987, de 6 de noviembre <i class="fas fa-external-link-alt"></i></a>), así como para la expedición de títulos universitarios de Doctor cuya tesis doctoral haya sido aprobada con anterioridad a agosto de 1989 (Instrucción Octava de la <a href="http://www.boe.es/diario_boe/txt.php?id=BOE-A-1989-16992" target="_blank">Resolución de 26 de junio de 1989 <i class="fas fa-external-link-alt"></i></a>, de la Secretaría de Estado de Universidades e Investigación).  
@@ -158,18 +157,16 @@ Plazo de presentación de solicitudes: Abierto Permanentemente
 								<li> <a href="http://www.boe.es/diario_boe/txt.php?id=BOE-A-1998-10207" target="_blank">Real Decreto 778/1998, <i class="fas fa-external-link-alt"></i></a> de 30 de abril, por el que se regula el tercer ciclo de estudios universitarios, la obtención y expedición del título de Doctor y otros estudios de postgrado.</li></ul>
 								Código SIA  <br><br>
 								202484  
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </article>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>				
-                                    </div>
-                                </div>
+                                    </article>
+                                </div>				
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </article>
-    </section>
+        </div>
+    </article>
+</section>

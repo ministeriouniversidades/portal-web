@@ -38,7 +38,7 @@ layout: single
 		</tr>
 <tr>
 			<td>Estado</td>
-			<td><a href="{{<siteurl>}}documentos/PDF/LPAEconcurso_especifico_MUNI1-2021.pdf" target="_blank">	Relación provisional de admitidos y excluidos <i class='fas fa-external-link-alt'></i></a></td>
+			<td><a href="{{<siteurl>}}documentos/pdf/LPAEconcurso_especifico_MUNI1-2021.pdf" target="_blank">	Relación provisional de admitidos y excluidos <i class='fas fa-external-link-alt'></i></a></td>
 </tr>
 <tr>
 			<td>Plazo</td>
@@ -46,11 +46,11 @@ layout: single
 		</tr>
 <tr>
 			<td>Fecha constitución de la Comisión de Valoración</td>
-			<td><a href="{{<siteurl>}}documentos/PDF/fecha_constitucion_comision_valoracion.pdf" target="_blank">14-mayo-2021 <i class='fas fa-external-link-alt'></i></a></td>
+			<td><a href="{{<siteurl>}}documentos/pdf/fecha_constitucion_comision_valoracion.pdf" target="_blank">14-mayo-2021 <i class='fas fa-external-link-alt'></i></a></td>
 		</tr>
 <tr>
 			<td>Comunicación de la fecha de publicación de las valoraciones provisionales</td>
-			<td>	<a href="{{<siteurl>}}documentos/PDF/fecha_publicacionLPV.pdf"  target="_blank">25-mayo-2021 <i class='fas fa-external-link-alt'></i></a></td>
+			<td>	<a href="{{<siteurl>}}documentos/pdf/fecha_publicacionLPV.pdf"  target="_blank">25-mayo-2021 <i class='fas fa-external-link-alt'></i></a></td>
 		</tr>
 <tr>
 			<td>Publicación valoraciones provisionales</td>
@@ -58,9 +58,9 @@ layout: single
 		</tr>
 <tr>
 			<td></td>
-			<td>	<a href="{{<siteurl>}}documentos/PDF/nota_publicacion_valoracions_prov.pdf" target="_blank">Nota publicación valoraciones provisionales <i class='fas fa-external-link-alt'></i></a><br>
-<a href="{{<siteurl>}}documentos/PDF/LISTADO_PROVISIONAL_VALORACIONES.pdf" target="_blank">Listado de valoraciones provisionales <i class='fas fa-external-link-alt'></i></a><br>
-<a href="{{<siteurl>}}documentos/PDF/LISTADODEFINITIVOVALORACIONES.pdf" target="_blank">Listado de valoraciones definitivas <i class='fas fa-external-link-alt'></i></a><br>
+			<td>	<a href="{{<siteurl>}}documentos/pdf/nota_publicacion_valoracions_prov.pdf" target="_blank">Nota publicación valoraciones provisionales <i class='fas fa-external-link-alt'></i></a><br>
+<a href="{{<siteurl>}}documentos/pdf/LISTADO_PROVISIONAL_VALORACIONES.pdf" target="_blank">Listado de valoraciones provisionales <i class='fas fa-external-link-alt'></i></a><br>
+<a href="{{<siteurl>}}documentos/pdf/LISTADODEFINITIVOVALORACIONES.pdf" target="_blank">Listado de valoraciones definitivas <i class='fas fa-external-link-alt'></i></a><br>
 </td>
 		</tr>
 		 <tbody>

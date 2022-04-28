@@ -13,8 +13,36 @@
     <article id="section_box_campus">
         <div class="container">
             <div class="row">
-                {{ range where .Pages.ByDate "Section" "convocatorias" }}
-                    {{ range first 4 .Pages }}
+                {{ $callsPages := where $.Site.Pages "Section" "convocatorias"}}
+                {{ $openCallsPages := ((where $callsPages "Params.call_status" true).ByParam "call_start").Reverse}}
+                {{ $openCallsCount := len $openCallsPages}}
+                {{ range first 4 $openCallsPages }}
+                        <div class="col-md-6 box_cards">
+                            <a class="card" href="{{ .Permalink }}">
+                                <div class="card-content content_hover">
+                                    <p class="card-text text_sbold"> {{ .Params.title }}</p>
+                                </div>
+                                <div class="card-content content_gray">
+                                    <p class="card-text">{{ .Params.call_desc }}</p>
+                                    {{ if .Params.call_status }}
+                                        <p class="icon_text green">
+                                            <i class="fas fa-lock-open"></i>
+                                            ABIERTA
+                                        </p>
+                                    {{ else }}
+                                        <p class="icon_text red">
+                                            <i class="fas fa-lock"></i>
+                                            CERRADA
+                                        </p>
+                                    {{ end }}
+                                </div>
+                            </a>
+                        </div>
+                {{ end }}
+                {{if lt $openCallsCount 4}}
+                    {{ $restPages := sub 4 $openCallsCount }}
+                    {{ $closeCallsPages := ((where $callsPages "Params.call_status" false).ByParam "call_start").Reverse}}
+                    {{ range first $restPages $closeCallsPages }}
                         <div class="col-md-6 box_cards">
                             <a class="card" href="{{ .Permalink }}">
                                 <div class="card-content content_hover">
@@ -38,14 +66,14 @@
                         </div>
                     {{ end }}
                 {{ end }}
-                {{ $callsCount := len (where .Site.RegularPages "Section" "convocatorias") }}
-                {{ if gt $callsCount 4 }}
+                {{/* {{ $callsCount := len $callsPages }} */}}
+                {{/* {{ if gt $callsCount 4 }} */}}
                     <div class="row">
                         <div class="col-12 text-center box_buttons">
                             <button type="button" class="btn btn-lg btn_present" onclick="javaScript:location.href={{ .Site.BaseURL | printf "%s/convocatorias" }};">{{ i18n "Ver todas las convocatorias" | upper }}</button>
                         </div>
                     </div>
-                {{end}}
+                {{/* {{end}} */}}
             </div>
         </div>
     </article>

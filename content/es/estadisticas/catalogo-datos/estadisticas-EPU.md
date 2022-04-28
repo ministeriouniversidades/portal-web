@@ -33,143 +33,259 @@ url: "/estadisticas/catalogo-datos/estadisticas-epu/"
                     </div>
                 </div>
 				<br><br>
-				<section> 
-        <article>
-            <div class="container container-xl">
-                <div class="row">
-<div class="col-lg-12 content_coll onPanelsStayOpenExample">
-<div class="accordion-item">
-<h2 class="accordion-header" id="panelsStayOpen-headingOne">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
-Personal total en las universidades
-</button>
-</h2>
-<div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse " aria-labelledby="panelsStayOpen-headingOne">
-<div class="accordion-body">
-<article id="section_link">
-<div class="container-fluid">
-<div class="row">
-<div class="col-12">
-El personal de las universidades está compuesto por personal docente e investigador, personal de administración y servicios, personal empleado investigador y personal técnico de apoyo a la investigación.
-<b>Información relacionada
-<ul>
-<li><a href="http://estadisticas.mecd.gob.es/EducaDynPx/educabase/index.htm?type=pcaxis&path=/Universitaria/Personal/EPU19/PU&file=pcaxis&l=s0" target="_blank">Personal de Universidades total (PU Total) <i class="fas fa-external-link-alt"></i></a> </li>
-<li><a href="http://estadisticas.mecd.gob.es/EducaDynPx/educabase/index.htm?type=pcaxis&path=/Universitaria/Personal/EPU19/PU/Ratios&file=pcaxis&l=s0" target="_blank">Ratios de personal <i class="fas fa-external-link-alt"></i></a> </li>
-</ul>
-</div>
-</div>
-</div>
-</article>
-</div>
-</div>
-</div>
-<div class="accordion-item">
-<h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false">
-Personal docente e investigador
-</button>
-</h2>
-<div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-<div class="accordion-body">
-<article id="section_link">
-<div class="container-fluid">
-<div class="row">
-<div class="col-12">
-Personal docente, siendo la investigación un derecho y un deber del mismo de acuerdo con los fines generales de la universidad y dentro de los límites establecidos por el ordenamiento jurídico.<br><br>
-<b>Información relacionada<b>
-		<ul>
-			<li><a href="http://estadisticas.mecd.gob.es/EducaDynPx/educabase/index.htm?type=pcaxis&path=/Universitaria/Personal/EPU19&file=pcaxis&l=s0" target="_blank">Personal docente e investigador total (PDI Total y PDI en ETC) <i class="fas fa-external-link-alt"></i></a> </li>
-			<li><a href="http://estadisticas.mecd.gob.es/EducaDynPx/educabase/index.htm?type=pcaxis&path=/Universitaria/Personal/EPU19/Doctor&file=pcaxis&l=s0" target="_blank">Personal docente e investigador doctor (%PDI Doctor) <i class="fas fa-external-link-alt"></i></a> </li>
-			<li><a href="http://estadisticas.mecd.gob.es/EducaDynPx/educabase/index.htm?type=pcaxis&path=/Universitaria/Personal/EPU19/Permanente&file=pcaxis&l=s0" target="_blank">Personal docente e investigador permanente (%PDI Permanente) <i class="fas fa-external-link-alt"></i></a> </li>
-			<li><a href="http://estadisticas.mecd.gob.es/EducaDynPx/educabase/index.htm?type=pcaxis&path=/Universitaria/Personal/EPU19/Edad&file=pcaxis&l=s0" target="_blank">Edad de la plantilla docente <i class="fas fa-external-link-alt"></i></a> </li>
-			<li><a href="http://estadisticas.mecd.gob.es/EducaDynPx/educabase/index.htm?type=pcaxis&path=/Universitaria/Personal/EPU19/Sexenios&file=pcaxis&l=s0" target="_blank">Sexenios del cuerpo docente universitario <i class="fas fa-external-link-alt"></i></a> </li>
-			<li><a href="http://estadisticas.mecd.gob.es/EducaDynPx/educabase/index.htm?type=pcaxis&path=/Universitaria/Personal/EPU19/UnivL&file=pcaxis&l=s0" target="_blank">Personal que lee la tesis en la misma universidad en la que imparte docencia <i class="fas fa-external-link-alt"></i></a> </li>
-		</ul>
-</div>
-</div>
-</div>
-</article>
-</div>
-</div>
-</div>
-<div class="accordion-item">
-<h2 class="accordion-header" id="panelsStayOpen-headingTree">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTree" aria-expanded="false">
-Personal de administración y servicios
-</button>
-</h2>
-<div id="panelsStayOpen-collapseTree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTree">
-<div class="accordion-body">
-<article id="section_link">
-<div class="container-fluid">
-<div class="row">
-<div class="col-12">
-Personal que desempeña funciones de gestión técnica, económica y administrativa, así como el apoyo, asesoramiento y asistencia en el desarrollo de las funciones de la universidad.<br><br>
-<b>Información relacionada<b>
-<ul>
-<li><a href="http://estadisticas.mecd.gob.es/EducaDynPx/educabase/index.htm?type=pcaxis&path=/Universitaria/Personal/EPU19/PAS&file=pcaxis&l=s0" target="_blank">Personal de administración y servicios total (PAS Total y PAS en ETC) <i class="fas fa-external-link-alt"></i></a> </li>
-<li><a href="http://estadisticas.mecd.gob.es/EducaDynPx/educabase/index.htm?type=pcaxis&path=/Universitaria/Personal/EPU19/PAS/Permanente&file=pcaxis&l=s0" target="_blank">Personal de administración y servicios permanente (%PAS Permanente)  <i class="fas fa-external-link-alt"></i></a> </li>
-<li><a href="http://estadisticas.mecd.gob.es/EducaDynPx/educabase/index.htm?type=pcaxis&path=/Universitaria/Personal/EPU19/PAS/Edad&file=pcaxis&l=s0" target="_blank">Edad de la plantilla de administración y servicios <i class="fas fa-external-link-alt"></i></a> </li>
-</ul>
-</div>
-</div>
-</div>
-</article>
-</div>
-</div>
-</div>
-<div class="accordion-item">
-<h2 class="accordion-header" id="panelsStayOpen-headingFour">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false">
-Personal empleado investigador (PEI)
-</button>
-</h2>
-<div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
-<div class="accordion-body">
-<article id="section_link">
-<div class="container-fluid">
-<div class="row">
-<div class="col-12">
-Investigador de convocatorias públicas competitivas, del artículo 83 de la LOMLOU y cualquier otro investigador contratado por la universidad para el desarrollo de la actividad investigadora.<br><br>
-<b>Información relacionada</b>
-<ul>
-<li><a href="http://estadisticas.mecd.gob.es/EducaDynPx/educabase/index.htm?type=pcaxis&path=/Universitaria/Personal/EPU19/PEI&file=pcaxis&l=s0" target="_blank">Personal empleado investigador total (PEI Total) <i class="fas fa-external-link-alt"></i></a> (xls 1.144 MB)</li>
-</ul>
-</div>
-</div>
-</div>
-</article>
-</div>
-</div>
-</div>
-<div class="accordion-item">
-<h2 class="accordion-header" id="panelsStayOpen-headingFive">
-<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false">
-Personal de investigación (PI)
-</button>
-</h2>
-<div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
-<div class="accordion-body">
-<article id="section_link">
-<div class="container-fluid">
-<div class="row">
-<div class="col-12">
-Personal que participa en actividades relacionadas con la investigación. Se compone de: investigadores (docentes con tareas investigadoras y personal empleado investigador), técnicos de apoyo a la investigación y otro personal de apoyo encargado de los servicios de apoyo de gestión y de administración a la investigación.<br><br>
-<b>Información relacionada
-<ul>
-<li><a href="http://estadisticas.mecd.gob.es/EducaDynPx/educabase/index.htm?type=pcaxis&path=/Universitaria/Personal/EPU19/PI&file=pcaxis&l=s0" target="_blank">Personal de Investigación (PI Total) <i class="fas fa-external-link-alt"></i></a></li>
-</ul>
-</div>
-</div>
-</div>
-</article>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<br><br>	
+        <section>
+            <article>
+                <div class="container container_xl_accoordion p-0">
+                    <div class="row mt-4">
+                        <div class="col-lg-12 content_collapse mb-120">
+                            <div class="accordion" id="accordionPanelsStayOpenExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#panelsStayOpen-collapseOne"
+                                            aria-expanded="false"
+                                            aria-controls="panelsStayOpen-collapseOne">
+                                            Personal total en las universidades
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseOne"
+                                        class="accordion-collapse collapse "
+                                        aria-labelledby="panelsStayOpen-headingOne">
+                                        <div class="accordion-body">
+                                            <article id="section_link">
+                                                <div class="container-fluid">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            El personal de las universidades está compuesto
+                                                            por personal docente e investigador, personal de
+                                                            administración y servicios, personal empleado
+                                                            investigador y personal técnico de apoyo a la
+                                                            investigación.
+                                                            <b>Información relacionada
+                                                            <ul>
+                                                                <li><a href="http://estadisticas.mecd.gob.es/EducaDynPx/educabase/index.htm?type=pcaxis&path=/Universitaria/Personal/EPU19/PU&file=pcaxis&l=s0"
+                                                                        target="_blank">Personal de
+                                                                        Universidades total (PU Total)
+                                                                        <i
+                                                                            class="fas fa-external-link-alt"></i></a>
+                                                                </li>
+                                                                <li><a href="http://estadisticas.mecd.gob.es/EducaDynPx/educabase/index.htm?type=pcaxis&path=/Universitaria/Personal/EPU19/PU/Ratios&file=pcaxis&l=s0"
+                                                                        target="_blank">Ratios de
+                                                                        personal <i
+                                                                            class="fas fa-external-link-alt"></i></a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#panelsStayOpen-collapseTwo"
+                                            aria-expanded="false">
+                                            Personal docente e investigador
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="panelsStayOpen-headingTwo">
+                                        <div class="accordion-body">
+                                            <article id="section_link">
+                                                <div class="container-fluid">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            Personal docente, siendo la investigación un
+                                                            derecho y un deber del mismo de acuerdo con los
+                                                            fines generales de la universidad y dentro de
+                                                            los límites establecidos por el ordenamiento
+                                                            jurídico.<br><br>
+                                                            <b>Información relacionada<b>
+                                                                    <ul>
+                                                                        <li><a href="http://estadisticas.mecd.gob.es/EducaDynPx/educabase/index.htm?type=pcaxis&path=/Universitaria/Personal/EPU19&file=pcaxis&l=s0"
+                                                                                target="_blank">Personal
+                                                                                docente e investigador total
+                                                                                (PDI Total y PDI en ETC) <i
+                                                                                    class="fas fa-external-link-alt"></i></a>
+                                                                        </li>
+                                                                        <li><a href="http://estadisticas.mecd.gob.es/EducaDynPx/educabase/index.htm?type=pcaxis&path=/Universitaria/Personal/EPU19/Doctor&file=pcaxis&l=s0"
+                                                                                target="_blank">Personal
+                                                                                docente e investigador
+                                                                                doctor (%PDI Doctor) <i
+                                                                                    class="fas fa-external-link-alt"></i></a>
+                                                                        </li>
+                                                                        <li><a href="http://estadisticas.mecd.gob.es/EducaDynPx/educabase/index.htm?type=pcaxis&path=/Universitaria/Personal/EPU19/Permanente&file=pcaxis&l=s0"
+                                                                                target="_blank">Personal
+                                                                                docente e investigador
+                                                                                permanente (%PDI Permanente)
+                                                                                <i
+                                                                                    class="fas fa-external-link-alt"></i></a>
+                                                                        </li>
+                                                                        <li><a href="http://estadisticas.mecd.gob.es/EducaDynPx/educabase/index.htm?type=pcaxis&path=/Universitaria/Personal/EPU19/Edad&file=pcaxis&l=s0"
+                                                                                target="_blank">Edad de la
+                                                                                plantilla docente <i
+                                                                                    class="fas fa-external-link-alt"></i></a>
+                                                                        </li>
+                                                                        <li><a href="http://estadisticas.mecd.gob.es/EducaDynPx/educabase/index.htm?type=pcaxis&path=/Universitaria/Personal/EPU19/Sexenios&file=pcaxis&l=s0"
+                                                                                target="_blank">Sexenios del
+                                                                                cuerpo docente universitario
+                                                                                <i
+                                                                                    class="fas fa-external-link-alt"></i></a>
+                                                                        </li>
+                                                                        <li><a href="http://estadisticas.mecd.gob.es/EducaDynPx/educabase/index.htm?type=pcaxis&path=/Universitaria/Personal/EPU19/UnivL&file=pcaxis&l=s0"
+                                                                                target="_blank">Personal que
+                                                                                lee la tesis en la misma
+                                                                                universidad en la que
+                                                                                imparte docencia <i
+                                                                                    class="fas fa-external-link-alt"></i></a>
+                                                                        </li>
+                                                                    </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingTree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#panelsStayOpen-collapseTree"
+                                            aria-expanded="false">
+                                            Personal de administración y servicios
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseTree"
+                                        class="accordion-collapse collapse"
+                                        aria-labelledby="panelsStayOpen-headingTree">
+                                        <div class="accordion-body">
+                                            <article id="section_link">
+                                                <div class="container-fluid">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            Personal que desempeña funciones de gestión
+                                                            técnica, económica y administrativa, así como el
+                                                            apoyo, asesoramiento y asistencia en el
+                                                            desarrollo de las funciones de la
+                                                            universidad.<br><br>
+                                                            <b>Información relacionada<b>
+                                                                    <ul>
+                                                                        <li><a href="http://estadisticas.mecd.gob.es/EducaDynPx/educabase/index.htm?type=pcaxis&path=/Universitaria/Personal/EPU19/PAS&file=pcaxis&l=s0"
+                                                                                target="_blank">Personal de
+                                                                                administración y servicios
+                                                                                total (PAS Total y PAS en
+                                                                                ETC) <i
+                                                                                    class="fas fa-external-link-alt"></i></a>
+                                                                        </li>
+                                                                        <li><a href="http://estadisticas.mecd.gob.es/EducaDynPx/educabase/index.htm?type=pcaxis&path=/Universitaria/Personal/EPU19/PAS/Permanente&file=pcaxis&l=s0"
+                                                                                target="_blank">Personal de
+                                                                                administración y servicios
+                                                                                permanente (%PAS Permanente)
+                                                                                <i
+                                                                                    class="fas fa-external-link-alt"></i></a>
+                                                                        </li>
+                                                                        <li><a href="http://estadisticas.mecd.gob.es/EducaDynPx/educabase/index.htm?type=pcaxis&path=/Universitaria/Personal/EPU19/PAS/Edad&file=pcaxis&l=s0"
+                                                                                target="_blank">Edad de la
+                                                                                plantilla de administración
+                                                                                y servicios <i
+                                                                                    class="fas fa-external-link-alt"></i></a>
+                                                                        </li>
+                                                                    </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#panelsStayOpen-collapseFour"
+                                            aria-expanded="false">
+                                            Personal empleado investigador (PEI)
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseFour"
+                                        class="accordion-collapse collapse"
+                                        aria-labelledby="panelsStayOpen-headingFour">
+                                        <div class="accordion-body">
+                                            <article id="section_link">
+                                                <div class="container-fluid">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            Investigador de convocatorias públicas
+                                                            competitivas, del artículo 83 de la LOMLOU y
+                                                            cualquier otro investigador contratado por la
+                                                            universidad para el desarrollo de la actividad
+                                                            investigadora.<br><br>
+                                                            <b>Información relacionada</b>
+                                                            <ul>
+                                                                <li><a href="http://estadisticas.mecd.gob.es/EducaDynPx/educabase/index.htm?type=pcaxis&path=/Universitaria/Personal/EPU19/PEI&file=pcaxis&l=s0"
+                                                                        target="_blank">Personal empleado
+                                                                        investigador total (PEI Total) <i
+                                                                            class="fas fa-external-link-alt"></i></a>
+                                                                    (xls 1.144 MB)</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#panelsStayOpen-collapseFive"
+                                            aria-expanded="false">
+                                            Personal de investigación (PI)
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseFive"
+                                        class="accordion-collapse collapse"
+                                        aria-labelledby="panelsStayOpen-headingFive">
+                                        <div class="accordion-body">
+                                            <article id="section_link">
+                                                <div class="container-fluid">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            Personal que participa en actividades
+                                                            relacionadas con la investigación. Se compone
+                                                            de: investigadores (docentes con tareas
+                                                            investigadoras y personal empleado
+                                                            investigador), técnicos de apoyo a la
+                                                            investigación y otro personal de apoyo encargado
+                                                            de los servicios de apoyo de gestión y de
+                                                            administración a la investigación.<br><br>
+                                                            <b>Información relacionada
+                                                            <ul>
+                                                                <li><a href="http://estadisticas.mecd.gob.es/EducaDynPx/educabase/index.htm?type=pcaxis&path=/Universitaria/Personal/EPU19/PI&file=pcaxis&l=s0"
+                                                                        target="_blank">Personal de
+                                                                        Investigación (PI Total) <i
+                                                                            class="fas fa-external-link-alt"></i></a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
 <!-- -->
 <section>
         <article>
@@ -217,7 +333,7 @@ Personal que participa en actividades relacionadas con la investigación. Se com
                                                     <div class="col-lg-12 cards_download_cnt">
                                                         <div class="row jcc_mobile">
                                                             <div class="download_card">
-                                                                <a class="card" href="{{<siteurl>}}documentos/PDF/estadisticas/NOTA_EPU_20-21.pdf" target="_blank">
+                                                                <a class="card" href="{{<siteurl>}}documentos/pdf/estadisticas/NOTA_EPU_20-21.pdf" target="_blank">
                                                                     <div class="card-header">
                                                                         <i class="fal fa-download"></i>
                                                                     </div>
@@ -230,7 +346,7 @@ Personal que participa en actividades relacionadas con la investigación. Se com
                                                                 </a>
                                                             </div>
 															<div class="download_card">
-                                                                <a class="card" href="{{<siteurl>}}documentos/PDF/estadisticas/MetodologIaEPU20.pdf" target="_blank">
+                                                                <a class="card" href="{{<siteurl>}}documentos/pdf/estadisticas/MetodologIaEPU20.pdf" target="_blank">
                                                                     <div class="card-header">
                                                                         <i class="fal fa-download"></i>
                                                                     </div>
@@ -250,7 +366,7 @@ Personal que participa en actividades relacionadas con la investigación. Se com
                                                           <div class="swiper-wrapper">
                                                             <div class="swiper-slide">
                                                                 <div class="download_card">
-                                                                    <a class="card" href="{{<siteurl>}}documentos/PDF/estadisticas/NOTA_EPU_20-21.pdf" target="_blank">
+                                                                    <a class="card" href="{{<siteurl>}}documentos/pdf/estadisticas/NOTA_EPU_20-21.pdf" target="_blank">
                                                                         <div class="card-header">
                                                                             <i class="fal fa-download"></i>
                                                                         </div>
@@ -264,7 +380,7 @@ Personal que participa en actividades relacionadas con la investigación. Se com
                                                                     </a>
                                                                 </div>
 																<div class="download_card">
-                                                                    <a class="card" href="{{<siteurl>}}documentos/PDF/estadisticas/NOTA_EPU_20-21.pdf" target="_blank">
+                                                                    <a class="card" href="{{<siteurl>}}documentos/pdf/estadisticas/NOTA_EPU_20-21.pdf" target="_blank">
                                                                         <div class="card-header">
                                                                             <i class="fal fa-download"></i>
                                                                         </div>

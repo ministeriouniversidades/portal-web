@@ -8,11 +8,10 @@ weight: 1
 <b>NOTA:</b> Ya están disponibles los Plantillas Provisionales de Respuestas de la convocatoria de la prueba objetiva del día 11 de diciembre de 2021 en el apartado “Tramitación”. <br><br>
 El plazo para presentación de reclamaciones a las preguntas y respuestas es de tres días naturales a partir de la publicación de estas. <br><br>
 <section>
-        <article class="calls">
-            <div class="container container-xl">
-                <div class="row">
-                        <div class="row">
-                            <div class="col-lg-12  content_collapse">
+    <article>
+        <div class="container container_xl_accoordion">
+            <div class="row mt-4">
+                <div class="col-lg-12 content_collapse mb-120">
                                 <div class="accordion" id="accordionPanelsStayOpenExample">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -304,17 +303,15 @@ El plazo para presentación de reclamaciones a las preguntas y respuestas es de 
  									<li><b>Código:</b> 050860 </li>
 								</ul>
                                                             </div>
-                                                        </div>
-                                                    </div>
-                                                </article>
                                             </div>
                                         </div>
-                                    </div>						
-                                    </div>
+                                    </article>
                                 </div>
-                        </div>
+                            </div>
+                        </div>         
                     </div>
                 </div>
             </div>
-        </article>
-    </section>
+        </div>
+    </article>
+</section>

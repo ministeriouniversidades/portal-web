@@ -265,7 +265,7 @@ navigationNewWindow = true
     parent = "Prensa"
     weight = 1
 [[menu.main]]
-    name = "Agenda del ministerio"
+    name = "Agenda del Ministro"
     url = "/eventos"
     parent = "Prensa"
     weight = 2

@@ -9,12 +9,12 @@ news_title: "Presentación del informe la Universidad en cifras de la CRUE"
 news_date: 2020-02-05T14:20:22+01:00
 ---
 <ul>
-<li><b>El informe presenta datos con el objetivo de situar las cuestiones claves y estructurales de la Universidades Espa&ntilde;olas</b></li>
+<li><b>El informe presenta datos con el objetivo de situar las cuestiones claves y estructurales de la Universidades Españolas</b></li>
 </ul>
-<p>El pasado 5 de Febrero en Madrid, en el auditorio de la Fundaci&oacute;n Ram&oacute;n Areces,<span>&nbsp;</span><em>CRUE Universidades espa&ntilde;olas</em><span>&nbsp;</span>present&oacute; el informe &lsquo;La Universidad en Cifras&rsquo;. Basado en el an&aacute;lisis de m&aacute;s de un mill&oacute;n de datos, el informe pretende analizar de manera sistem&aacute;tica el sistema universitario espa&ntilde;ol.</p>
-<p>En la mesa de la presentaci&oacute;n estuvieron el presidente de<span>&nbsp;</span><em>Crue Universidades Espa&ntilde;olas</em><span>&nbsp;</span>y rector de la Universidad de C&oacute;rdoba, Jos&eacute; Carlos G&oacute;mez Villamandos; el presidente de Crue-Gerencias y rector de la Universidade da Coru&ntilde;a, Julio Abalde; y el director de Impacto Social de Santander Universidades, Javier L&oacute;pez.</p>
-<p>El informe quiere ser un ejercicio de rendici&oacute;n de cuentas y transparencia hacia la sociedad y hacia la propia comunidad universitaria, as&iacute; como arrojar luz sobre la situaci&oacute;n de elementos clave del sistema universitario espa&ntilde;ol.</p>
-<p>El ministerio de universidades estuvo presente en el acto, con la presencia del Secretario General de Universidades, Jos&eacute; Manuel Pingarr&oacute;n, as&iacute; como el coordinador de estrategia digital y datos del Gabinete del ministro, Javier Toret.</p>
+<p>El pasado 5 de Febrero en Madrid, en el auditorio de la Fundación Ramón Areces,<span>&nbsp;</span><em>CRUE Universidades españolas</em><span>&nbsp;</span>presentó el informe &lsquo;La Universidad en Cifras&rsquo;. Basado en el análisis de más de un millón de datos, el informe pretende analizar de manera sistemática el sistema universitario español.</p>
+<p>En la mesa de la presentación estuvieron el presidente de<span>&nbsp;</span><em>Crue Universidades Españolas</em><span>&nbsp;</span>y rector de la Universidad de Córdoba, José Carlos Gómez Villamandos; el presidente de Crue-Gerencias y rector de la Universidade da Coruña, Julio Abalde; y el director de Impacto Social de Santander Universidades, Javier López.</p>
+<p>El informe quiere ser un ejercicio de rendición de cuentas y transparencia hacia la sociedad y hacia la propia comunidad universitaria, así como arrojar luz sobre la situación de elementos clave del sistema universitario español.</p>
+<p>El ministerio de universidades estuvo presente en el acto, con la presencia del Secretario General de Universidades, José Manuel Pingarrón, así como el coordinador de estrategia digital y datos del Gabinete del ministro, Javier Toret.</p>
     <section>
       <article>
           <div class="container">
@@ -48,7 +48,7 @@ news_date: 2020-02-05T14:20:22+01:00
                                                 <div class="col-lg-12 cards_download_cnt">
                                                     <div class="row jcc_mobile">
                                                         <div class="download_card">
-                                                            <a class="card flex-column" href="{{<siteurl>}}documentos/PDF/news/CRUE_UEC_2017-2018.pdf" target="_blank">
+                                                            <a class="card flex-column" href="{{<siteurl>}}documentos/pdf/news/CRUE_UEC_2017-2018.pdf" target="_blank">
                                                                 <div class="card-header">
                                                                     <i class="fal fa-download"></i>
                                                                 </div>
@@ -61,7 +61,7 @@ news_date: 2020-02-05T14:20:22+01:00
                                                             </a>
                                                         </div>
 														<div class="download_card">
-                                                            <a class="card flex-column" href="{{<siteurl>}}documentos/PDF/news/Resumen_Ejecutivo_CRUE_UEC_2017-2018.pdf" target="_blank">
+                                                            <a class="card flex-column" href="{{<siteurl>}}documentos/pdf/news/Resumen_Ejecutivo_CRUE_UEC_2017-2018.pdf" target="_blank">
                                                                 <div class="card-header">
                                                                     <i class="fal fa-download"></i>
                                                                 </div>
@@ -74,7 +74,7 @@ news_date: 2020-02-05T14:20:22+01:00
                                                             </a>
                                                         </div>
 														<div class="download_card">
-                                                            <a class="card flex-column" href="{{<siteurl>}}documentos/PDF/news/Presentacion_CRUE_UEC_2017-2018.pdf" target="_blank">
+                                                            <a class="card flex-column" href="{{<siteurl>}}documentos/pdf/news/Presentacion_CRUE_UEC_2017-2018.pdf" target="_blank">
                                                                 <div class="card-header">
                                                                     <i class="fal fa-download"></i>
                                                                 </div>
@@ -94,7 +94,7 @@ news_date: 2020-02-05T14:20:22+01:00
                                                         <div class="swiper-wrapper">
                                                         <div class="swiper-slide">
                                                             <div class="download_card">
-                                                                <a class="card" href="{{<siteurl>}}documentos/PDF/news/CRUE_UEC_2017-2018.pdf" target="_blank">
+                                                                <a class="card" href="{{<siteurl>}}documentos/pdf/news/CRUE_UEC_2017-2018.pdf" target="_blank">
                                                                     <div class="card-header">
                                                                         <i class="fal fa-download"></i>
                                                                     </div>
@@ -106,8 +106,10 @@ news_date: 2020-02-05T14:20:22+01:00
                                                                     </div>
                                                                 </a>
                                                             </div>
+                                                        </div>
+                                                        <div class="swiper-slide">
 															<div class="download_card">
-                                                                <a class="card" href="{{<siteurl>}}documentos/PDF/news/Resumen_Ejecutivo_CRUE_UEC_2017-2018.pdf" target="_blank">
+                                                                <a class="card" href="{{<siteurl>}}documentos/pdf/news/Resumen_Ejecutivo_CRUE_UEC_2017-2018.pdf" target="_blank">
                                                                     <div class="card-header">
                                                                         <i class="fal fa-download"></i>
                                                                     </div>
@@ -119,8 +121,10 @@ news_date: 2020-02-05T14:20:22+01:00
                                                                     </div>
                                                                 </a>
                                                             </div>
+                                                        </div>
+                                                        <div class="swiper-slide">
 															<div class="download_card">
-                                                                <a class="card" href="{{<siteurl>}}documentos/PDF/news/Presentacion_CRUE_UEC_2017-2018.pdf" target="_blank">
+                                                                <a class="card" href="{{<siteurl>}}documentos/pdf/news/Presentacion_CRUE_UEC_2017-2018.pdf" target="_blank">
                                                                     <div class="card-header">
                                                                         <i class="fal fa-download"></i>
                                                                     </div>

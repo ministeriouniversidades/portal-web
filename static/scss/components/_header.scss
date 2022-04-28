@@ -241,7 +241,7 @@ header {
       line-height: 33px;
       font-weight: 300;
       text-transform: uppercase;
-      // imagen de Escudo 
+      // imagen de Escudo
       figure {
         margin-bottom: 33px;
         img {
@@ -254,11 +254,15 @@ header {
       margin-left: 23px;
       margin-bottom: 0px !important;
       .form-control {
-        box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25) !important;
         border-color: $blue;
         border-top-left-radius: 6px;
         border-bottom-left-radius: 6px;
         height: 45px;
+        width: 400px;
+        &:hover,
+        &:focus {
+          box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25) !important;
+        }
       }
       .input-group-text {
         background-color: $blue;
@@ -426,7 +430,7 @@ header {
       }
     }
   }
-} 
+}
 
 .menu_mobile.show {
   top: 65px;
@@ -677,10 +681,14 @@ header {
   }
 }
 
-/*@media screen and (min-width: 1680px) {
-  header {
-    .row.pr.sm_xs {
-      margin: 0;
+@media screen and (min-width: 1680px) {
+  .search_box {
+    .cnt_search {
+      .input-group {
+        .form-control {
+          width: 400px;
+        }
+      }
     }
   }
-}*/
+}

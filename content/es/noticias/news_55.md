@@ -8,24 +8,24 @@ news_title: "El Ministerio de Universidades actualiza las recomendaciones genera
 news_date: 2021-03-12T14:20:22+01:00
 ---
 <ul>
-<li><b>El documento definitivo ha sido ya enviado a la Conferencia General de Pol&iacute;tica Universitaria, Comunidades Aut&oacute;nomas, sindicados, Consejo de Estudiantes Universitario del Estado y consejos universitarios.</b></li>
-<li><b>Redactado en colaboraci&oacute;n con el Ministerio de Sanidad este nuevo documento se actualiza en consonancia con el documento de Evaluaci&oacute;n del riesgo de la trasmisi&oacute;n de SARS-Cov2 mediante aerosoles.</b></li>
+<li><b>El documento definitivo ha sido ya enviado a la Conferencia General de Política Universitaria, Comunidades Autónomas, sindicados, Consejo de Estudiantes Universitario del Estado y consejos universitarios.</b></li>
+<li><b>Redactado en colaboración con el Ministerio de Sanidad este nuevo documento se actualiza en consonancia con el documento de Evaluación del riesgo de la trasmisión de SARS-Cov2 mediante aerosoles.</b></li>
 </ul>
-<p>El Ministerio de Universidades, en el marco de sus competencias, ha enviado hoy a los diferentes actores de la comunidad universitaria entre los que se encuentran la Conferencia General de Pol&iacute;tica Universitaria, los consejos universitarios, las Comunidades Aut&oacute;nomas, sindicatos y el Consejo de Estudiantes Universitario del Estado el nuevo documento de medidas de prevenci&oacute;n, higiene y promoci&oacute;n de la salud frente a covid-19 para centros universitarios en el curso 2020-2021.</p>
-<p>Esta nueva versi&oacute;n del documento fue aprobada ayer en el seno de la Comisi&oacute;n de Salud P&uacute;blica en el que est&aacute;n presentes Ministerio de Sanidad y Comunidades Aut&oacute;nomas. La actualizaci&oacute;n del presente documento recoge la nueva evidencia sobre mecanismos de transmisi&oacute;n de la COVID-19 tras la publicaci&oacute;n del documento de Evaluaci&oacute;n del riesgo de la trasmisi&oacute;n de SARS-Cov2 mediante aerosoles.</p>
-<p>Entre las principales novedades se encuentran aquellas, reflejadas en el Anexo IV, para la prevenci&oacute;n y toma de medidas de precauci&oacute;n en caso de realizaci&oacute;n de ex&aacute;menes presenciales:</p>
-<p>As&iacute;, se debe establecer un plan por parte de las universidades que incluya medidas que faciliten evitar aglomeraciones y desplazamientos innecesarios de personas, como las siguientes:</p>
+<p>El Ministerio de Universidades, en el marco de sus competencias, ha enviado hoy a los diferentes actores de la comunidad universitaria entre los que se encuentran la Conferencia General de Política Universitaria, los consejos universitarios, las Comunidades Autónomas, sindicatos y el Consejo de Estudiantes Universitario del Estado el nuevo documento de medidas de prevención, higiene y promoción de la salud frente a covid-19 para centros universitarios en el curso 2020-2021.</p>
+<p>Esta nueva versión del documento fue aprobada ayer en el seno de la Comisión de Salud Pública en el que están presentes Ministerio de Sanidad y Comunidades Autónomas. La actualización del presente documento recoge la nueva evidencia sobre mecanismos de transmisión de la COVID-19 tras la publicación del documento de Evaluación del riesgo de la trasmisión de SARS-Cov2 mediante aerosoles.</p>
+<p>Entre las principales novedades se encuentran aquellas, reflejadas en el Anexo IV, para la prevención y toma de medidas de precaución en caso de realización de exámenes presenciales:</p>
+<p>Así, se debe establecer un plan por parte de las universidades que incluya medidas que faciliten evitar aglomeraciones y desplazamientos innecesarios de personas, como las siguientes:</p>
 <ul>
-<li>Ampliar el n&uacute;mero de sedes y aulas dispuestas para los ex&aacute;menes</li>
-<li>Redistribuir el alumnado en distintas aulas, a fin de reducir los aforos de los espacios destinados a los ex&aacute;menes, e informarlo con antelaci&amp;oacuten.</li>
+<li>Ampliar el número de sedes y aulas dispuestas para los exámenes</li>
+<li>Redistribuir el alumnado en distintas aulas, a fin de reducir los aforos de los espacios destinados a los exámenes, e informarlo con antelaci&amp;oacuten.</li>
 <li>Reducir el aforo de los aseos y servicios.</li>
-<li>Limitar la coincidencia de ex&aacute;menes en la misma zona del edificio del centro universitario</li>
+<li>Limitar la coincidencia de exámenes en la misma zona del edificio del centro universitario</li>
 <li>Escalonar las entradas y salidas a los lugares de examen.</li>
-<li>El personal de administraci&oacute;n y servicios facilitar&aacute; el cumplimiento de las medidas.</li>
-<li>Siempre que sea posible, permitir al alumnado acudir a las sedes m&aacute;s cercanas a su domicilio para reducir los desplazamientos y los contactos.</li>
-<li>Cuando sea preciso, adem&aacute;s de espacios para la realizaci&oacute;n de las pruebas, se debe tener en cuenta la disponibilidad de espacios de descanso y comida, priorizando si es posible las zonas al aire libre.</li>
+<li>El personal de administración y servicios facilitará el cumplimiento de las medidas.</li>
+<li>Siempre que sea posible, permitir al alumnado acudir a las sedes más cercanas a su domicilio para reducir los desplazamientos y los contactos.</li>
+<li>Cuando sea preciso, además de espacios para la realización de las pruebas, se debe tener en cuenta la disponibilidad de espacios de descanso y comida, priorizando si es posible las zonas al aire libre.</li>
 </ul>
-<p>Las universidades deber&aacute;n, as&iacute;, actualizar sus propios protocolos siguiendo la senda de trabajo que ya han realizado satisfactoriamente en el pasado mes de septiembre.</p>
+<p>Las universidades deberán, así, actualizar sus propios protocolos siguiendo la senda de trabajo que ya han realizado satisfactoriamente en el pasado mes de septiembre.</p>
 
 
 <section>
@@ -48,7 +48,7 @@ news_date: 2021-03-12T14:20:22+01:00
                                                 <div class="col-lg-12 cards_download_cnt">
                                                     <div class="row jcc_mobile">
                                                         <div class="download_card">
-                                                            <a class="card flex-column" href="{{<siteurl>}}documentos/PDF/news/MedidasHigienPrevencion.pdf" target="_blank">
+                                                            <a class="card flex-column" href="{{<siteurl>}}documentos/pdf/news/MedidasHigienPrevencion.pdf" target="_blank">
                                                                 <div class="card-header">
                                                                     <i class="fal fa-download"></i>
                                                                 </div>
@@ -68,7 +68,7 @@ news_date: 2021-03-12T14:20:22+01:00
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
                                                 <div class="download_card">
-                                                    <a class="card" href="{{<siteurl>}}documentos/PDF/news/MedidasHigienPrevencion.pdf" target="_blank">
+                                                    <a class="card" href="{{<siteurl>}}documentos/pdf/news/MedidasHigienPrevencion.pdf" target="_blank">
                                                         <div class="card-header">
                                                             <i class="fal fa-download"></i>
                                                         </div>

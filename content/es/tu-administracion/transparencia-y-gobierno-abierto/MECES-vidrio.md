@@ -6,11 +6,10 @@ struc_dep_pic: ""
 ---
 ## Procedimiento de correspondencia a nivel MECES del título superior de Vidrio<br><br>
 <section>
-        <article class="calls">
-            <div class="container container-xl">
-                <div class="row">
-                        <div class="row">
-                            <div class="col-lg-12  content_collapse">
+    <article>
+        <div class="container container_xl_accoordion p-0">
+            <div class="row mt-4">
+                <div class="col-lg-12 content_collapse mb-120">
                                 <div class="accordion" id="accordionPanelsStayOpenExample">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -49,43 +48,43 @@ struc_dep_pic: ""
 								<div class="col-lg-12 cards_download_cnt">  
 			<div class="row"> 
 				<div class="download_card"> 
-					<a class="card" href="{{<siteurl>}}/documentos/</a><i class="fas fa-external-link-alt"></i>/tu_administracion/Acuerdo_inicio_Vidrio.</a><i class="fas fa-external-link-alt"></i>" target="_blank"> 
+					<a class="card" href="{{<siteurl>}}/documentos/pdf/tu_administracion/Acuerdo_inicio_Vidrio.pdf" target="_blank"> 
 					<div class="card-header"> 
 						   <i class="fal fa-download"></i> 
 					</div> </a> 
 					<div class="card-body"> 
-						<p class="text_file"><a class="card" href="{{<siteurl>}}/documentos/</a><i class="fas fa-external-link-alt"></i>/tu_administracion/Acuerdo_inicio_Vidrio.</a><i class="fas fa-external-link-alt"></i>" target="_blank">  
-						<span class="tit">Acuerdo de inicio </span></a> <i class="fal fa-file-</a><i class="fas fa-external-link-alt"></i> </a><i class="fas fa-external-link-alt"></i>_icon"></i>(</a><i class="fas fa-external-link-alt"></i> 318,396 KB)
+						<p class="text_file"><a class="card" href="{{<siteurl>}}/documentos/pdf/tu_administracion/Acuerdo_inicio_Vidrio.pdf" target="_blank">  
+						<span class="tit">Acuerdo de inicio </span></a> <i class="fal fa-file-pdf pdf_icon"></i>(PDF 318,396 KB)
 					</div>
 				</div> 	
 				<div class="download_card"> 
-					<a class="card" href="{{<siteurl>}}/documentos/</a><i class="fas fa-external-link-alt"></i>/tu-administracion/200903_IC-EEAA-ANECA_Titulo_Superior_Vidrio_Firmado.</a><i class="fas fa-external-link-alt"></i>" target="_blank"> 
+					<a class="card" href="{{<siteurl>}}/documentos/pdf/tu-administracion/200903_IC-EEAA-ANECA_Titulo_Superior_Vidrio_Firmado.pdf" target="_blank"> 
 					<div class="card-header"> 
 						   <i class="fal fa-download"></i> 
 					</div> </a> 
 					<div class="card-body"> 
-						<p class="text_file"><a class="card" href="{{<siteurl>}}/documentos/</a><i class="fas fa-external-link-alt"></i>/tu_administracion/200903_IC-EEAA-ANECA_Titulo_Superior_Vidrio_Firmado.</a><i class="fas fa-external-link-alt"></i>" target="_blank">  
-						<span class="tit">Informe ANECA </span></a> <i class="fal fa-file-</a><i class="fas fa-external-link-alt"></i> </a><i class="fas fa-external-link-alt"></i>_icon"></i>(</a><i class="fas fa-external-link-alt"></i> 1,228 MB)
+						<p class="text_file"><a class="card" href="{{<siteurl>}}/documentos/pdf/tu_administracion/200903_IC-EEAA-ANECA_Titulo_Superior_Vidrio_Firmado.pdf" target="_blank">  
+						<span class="tit">Informe ANECA </span></a> <i class="fal fa-file-pdf pdf_icon"></i>(PDF 1,228 MB)
 					</div>
 				</div>
 				<div class="download_card"> 
-					<a class="card" href="{{<siteurl>}}/documentos/</a><i class="fas fa-external-link-alt"></i>/tu_administracion/Informe_CU_Vidrio_firmado.</a><i class="fas fa-external-link-alt"></i>" target="_blank"> 
+					<a class="card" href="{{<siteurl>}}/documentos/pdf/tu_administracion/Informe_CU_Vidrio_firmado.pdf" target="_blank"> 
 					<div class="card-header"> 
 						   <i class="fal fa-download"></i> 
 					</div> </a> 
 					<div class="card-body"> 
-						<p class="text_file"><a class="card" href="{{<siteurl>}}/documentos/</a><i class="fas fa-external-link-alt"></i>/tu_administracion/Informe_CU_Vidrio_firmado.</a><i class="fas fa-external-link-alt"></i>" target="_blank">  
-						<span class="tit">Informe del Consejo de Universidades </span></a> <i class="fal fa-file-</a><i class="fas fa-external-link-alt"></i> </a><i class="fas fa-external-link-alt"></i>_icon"></i>(</a><i class="fas fa-external-link-alt"></i> 167,875 KB)
+						<p class="text_file"><a class="card" href="{{<siteurl>}}/documentos/pdf/tu_administracion/Informe_CU_Vidrio_firmado.pdf" target="_blank">  
+						<span class="tit">Informe del Consejo de Universidades </span></a> <i class="fal fa-file-pdf pdf_icon"></i>(PDF 167,875 KB)
 					</div>
 				</div>
 				<div class="download_card"> 
-					<a class="card" href="{{<siteurl>}}/documentos/</a><i class="fas fa-external-link-alt"></i>/tu_administracion/BOE_B_2021_3694.</a><i class="fas fa-external-link-alt"></i>" target="_blank"> 
+					<a class="card" href="{{<siteurl>}}/documentos/pdf/tu_administracion/BOE_B_2021_3694.pdf" target="_blank"> 
 					<div class="card-header"> 
 						   <i class="fal fa-download"></i> 
 					</div> </a> 
 					<div class="card-body"> 
-						<p class="text_file"><a class="card" href="{{<siteurl>}}/documentos/</a><i class="fas fa-external-link-alt"></i>/tu_administracion/BOE_B_2021_3694.</a><i class="fas fa-external-link-alt"></i>" target="_blank">  
-						<span class="tit">Acuerdo de información pública (BOE)</span></a> <i class="fal fa-file-</a><i class="fas fa-external-link-alt"></i> </a><i class="fas fa-external-link-alt"></i>_icon"></i> (</a><i class="fas fa-external-link-alt"></i> 166,811 KB)
+						<p class="text_file"><a class="card" href="{{<siteurl>}}/documentos/pdf/tu_administracion/BOE_B_2021_3694.pdf" target="_blank">  
+						<span class="tit">Acuerdo de información pública (BOE)</span></a> <i class="fal fa-file-pdf pdf_icon"></i> (PDF 166,811 KB)
 					</div>
 				</div>
 			</div> 
@@ -120,17 +119,15 @@ struc_dep_pic: ""
 								</ul>
 								Con carácter general, las alegaciones recibidas se considerarán susceptibles de difusión pública. Las partes de la información remitida que, a juicio del interésado, deban ser tratadas con carácter confidencial y en consecuencia no proceda su libre difusión, deberán ser específicamente señaladas en el propio texto de la alegación, no considerándose a estos efectos los mensajes genéricos de confidencialidad de la información.
 								</div>
-                                                        </div>
-                                                    </div>
-                                                </article>
                                             </div>
                                         </div>
-                                    </div>										
-                                    </div>
+                                    </article>
                                 </div>
-                        </div>
+                            </div>
+                        </div>         
                     </div>
                 </div>
             </div>
-        </article>
-    </section>
+        </div>
+    </article>
+</section>

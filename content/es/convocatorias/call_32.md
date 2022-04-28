@@ -5,13 +5,15 @@ call_desc: "Convocatoria para la expedición de las certificaciones I3 del perso
 call_closed: "/imgs/call-closed.svg"
 call_opened: "/imgs/call-opened.svg"
 call_status: false
+call_start: 2019-01-29T00:00:00+01:00
+call_end: 2019-12-31T00:00:00+01:00
 ---
 <br><br><b>Plazos de solicitud</b><br>
 29/01/2019-31/12/2019
 
 <br><br><b>Descripción general</b><br>
-Convocatoria para la expedici&oacute;n de las certificaciones I3 del personal docente e investigador del sistema universitario espa&ntilde;ol.
-Dentro del l&iacute;mite de la tasa de reposici&oacute;n correspondiente a los Cuerpos de Catedr&aacute;ticos de Universidad y de Profesores Titulares de Universidad y a los profesores contratados doctores, cada Universidad estar&aacute; obligada a destinar, como m&iacute;nimo, un&nbsp;15 por ciento del total de plazas que oferte, a la incorporaci&oacute;n, en aquella categor&iacute;a para la que est&eacute; acreditado, de personal investigador doctor que haya finalizado el Programa Ram&oacute;n y Cajal y haya obtenido el certificado I3. En el supuesto de que no se utilicen todas las plazas previstas en esta reserva, estas se podr&aacute;n ofertar a otros investigadores de programas de excelencia, nacionales o internacionales y que hayan obtenido el certificado I3.
+Convocatoria para la expedición de las certificaciones I3 del personal docente e investigador del sistema universitario español.
+Dentro del límite de la tasa de reposición correspondiente a los Cuerpos de Catedráticos de Universidad y de Profesores Titulares de Universidad y a los profesores contratados doctores, cada Universidad estará obligada a destinar, como mínimo, un&nbsp;15 por ciento del total de plazas que oferte, a la incorporación, en aquella categoría para la que esté acreditado, de personal investigador doctor que haya finalizado el Programa Ramón y Cajal y haya obtenido el certificado I3. En el supuesto de que no se utilicen todas las plazas previstas en esta reserva, estas se podrán ofertar a otros investigadores de programas de excelencia, nacionales o internacionales y que hayan obtenido el certificado I3.
 <br><br><b>Órgano Instructor</b><br> 
 Secretaría General de Universidades
 <br><br><b>Tipo de financiación</b><br> 

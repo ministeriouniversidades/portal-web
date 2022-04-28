@@ -26,12 +26,12 @@ news_title: "Ayudas a la recualificación"
 </thead>
 <tbody>
 <tr style="height: 14px;">
-<td style="width: 204.203px; height: 14px;">UNIVERSIDAD DE A CORU&Ntilde;A</td>
+<td style="width: 204.203px; height: 14px;">UNIVERSIDAD DE A CORUñA</td>
 <td style="width: 587.578px; height: 14px;"><a href="https://udc.es/gl/investigacion/convocatorias_nacionais/meconomia/">https://udc.es/gl/investigacion/convocatorias_nacionais/meconomia/<i class="icon fas fa-external-link-alt"></i></a></td>
 </tr>
 <tr style="height: 14px;">
-<td style="width: 204.203px; height: 14px;">UNIVERSIDAD DE ALCAL&Aacute;</td>
-<td style="width: 587.578px; height: 14px;"><a href="https://www.uah.es/es/investigacion/servicios-para-el-investigador/financiacion-IDi/#contratos-de-personal-investigador">Becas y ayudas para la investigaci&oacute;n en la Universidad de Alcal&aacute; (Madrid) (uah.es) <i class="icon fas fa-external-link-alt"></i></a></td>
+<td style="width: 204.203px; height: 14px;">UNIVERSIDAD DE ALCALá</td>
+<td style="width: 587.578px; height: 14px;"><a href="https://www.uah.es/es/investigacion/servicios-para-el-investigador/financiacion-IDi/#contratos-de-personal-investigador">Becas y ayudas para la investigación en la Universidad de Alcalá (Madrid) (uah.es) <i class="icon fas fa-external-link-alt"></i></a></td>
 </tr>
 <tr style="height: 29px;">
 <td style="width: 204.203px; height: 29px;">UNIVERSIDAD DE ALICANTE</td>
@@ -39,20 +39,20 @@ news_title: "Ayudas a la recualificación"
 </tr>
 <tr style="height: 38px;">
 <td style="width: 204.203px; height: 38px;">
-<p>UNIVERSIDAD DE ALMER&Iacute;A</p>
+<p>UNIVERSIDAD DE ALMERíA</p>
 </td>
 <td style="width: 587.578px; height: 38px;"><a href="https://www.ual.es/recualificacionUAL">https://www.ual.es/recualificacionUAL<i class="icon fas fa-external-link-alt"> </i></a></td>
 </tr>
 <tr style="height: 14px;">
-<td style="width: 204.203px; height: 14px;">UNIVERSIDAD AUT&Oacute;NOMA DE BARCELONA</td>
+<td style="width: 204.203px; height: 14px;">UNIVERSIDAD AUTóNOMA DE BARCELONA</td>
 <td style="width: 587.578px; height: 14px;">
-<p><a href="https://tauler.seu.cat/pagDetall.do?idEdicte=310005&amp;idens=11">Resoluci&oacute;n de 2 de julio 2021, del Rector de la UAB, por la que se aprueba la convocatoria de <i class="icon fas fa-external-link-alt"></i></a></p>
-<p><a href="https://tauler.seu.cat/pagDetall.do?idEdicte=310005&amp;idens=11">Ayudas para la recualificaci&oacute;n del sistema universitario espa&ntilde;ol, para 2021-2023, en el marco del <i class="icon fas fa-external-link-alt"></i></a></p>
+<p><a href="https://tauler.seu.cat/pagDetall.do?idEdicte=310005&amp;idens=11">Resolución de 2 de julio 2021, del Rector de la UAB, por la que se aprueba la convocatoria de <i class="icon fas fa-external-link-alt"></i></a></p>
+<p><a href="https://tauler.seu.cat/pagDetall.do?idEdicte=310005&amp;idens=11">Ayudas para la recualificación del sistema universitario español, para 2021-2023, en el marco del <i class="icon fas fa-external-link-alt"></i></a></p>
 <p><a href="https://tauler.seu.cat/pagDetall.do?idEdicte=310005&amp;idens=11">RD 289/2021, de 20 de abril. - e-TAULER - Universitat Aut&ograve;noma de Barcelona (seu.cat) <i class="icon fas fa-external-link-alt"></i></a></p>
 </td>
 </tr>
 <tr style="height: 14px;">
-<td style="width: 204.203px; height: 14px;">UNIVERSIDAD AUT&Oacute;NOMA DE MADRID</td>
+<td style="width: 204.203px; height: 14px;">UNIVERSIDAD AUTóNOMA DE MADRID</td>
 <td style="width: 587.578px; height: 14px;"><a href="https://www.uam.es/uam/investigacion/programa-propio-investigacion/recualificacion">https://www.uam.es/uam/investigacion/programa-propio-investigacion/recualificacion <i class="icon fas fa-external-link-alt"></i></a></td>
 </tr>
 <tr style="height: 14px;">
@@ -64,7 +64,7 @@ news_title: "Ayudas a la recualificación"
 <td style="width: 587.578px; height: 43px;"><a href="https://www.ubu.es/te-interesa/ref-202100002001001-resolucion-de-21-de-junio-de-2021-de-la-universidad-de-burgos-por-la-que-se-convocan-ayudas-para-la-recualificacion-del-sistema-universitario">https://www.ubu.es/te-interesa/ref-202100002001001-resolucion-de-21-de-junio-de-2021-de-la-universidad-de-burgos-por-la-que-se-convocan-ayudas-para-la-recualificacion-del-sistema-universitario <i class="icon fas fa-external-link-alt"></i></a></td>
 </tr>
 <tr style="height: 14px;">
-<td style="width: 204.203px; height: 14px;">UNIVERSIDAD DE C&Aacute;DIZ</td>
+<td style="width: 204.203px; height: 14px;">UNIVERSIDAD DE CáDIZ</td>
 <td style="width: 587.578px; height: 14px;"><a href="https://ugi.uca.es/recualificacion/">https://ugi.uca.es/recualificacion/ <i class="icon fas fa-external-link-alt"></i></a></td>
 </tr>
 <tr style="height: 14px;">
@@ -81,7 +81,7 @@ news_title: "Ayudas a la recualificación"
 <tr style="height: 64px;">
 <td style="width: 204.203px; height: 64px;">UNIVERSIDAD DE CASTILLA-LA MANCHA</td>
 <td style="width: 587.578px; height: 64px;">
-<p><a href="https://www.uclm.es/es/global/promotores/organos-de-gobierno/vicerrectorado-de-investigacion-y-politica-cientifica/convocatorias-ppropio/pp-2021/recualificacion">Convocatoria de Ayudas para la Recualificaci&oacute;n del Sistema Universitario Espa&ntilde;ol, <i class="icon fas fa-external-link-alt"></i></a></p>
+<p><a href="https://www.uclm.es/es/global/promotores/organos-de-gobierno/vicerrectorado-de-investigacion-y-politica-cientifica/convocatorias-ppropio/pp-2021/recualificacion">Convocatoria de Ayudas para la Recualificación del Sistema Universitario Español, <i class="icon fas fa-external-link-alt"></i></a></p>
 <p><a href="https://www.uclm.es/es/global/promotores/organos-de-gobierno/vicerrectorado-de-investigacion-y-politica-cientifica/convocatorias-ppropio/pp-2021/recualificacion">para 2021-2023 (uclm.es) <i class="icon fas fa-external-link-alt"></i></a></p>
 </td>
 </tr>
@@ -90,7 +90,7 @@ news_title: "Ayudas a la recualificación"
 <td style="width: 587.578px; height: 14px;"><a href="https://www.ucm.es/convocatoria-ucm-recualificacion">https://www.ucm.es/convocatoria-ucm-recualificacion <i class="icon fas fa-external-link-alt"></i></a></td>
 </tr>
 <tr style="height: 14px;">
-<td style="width: 204.203px; height: 14px;">UNIVERSIDAD DE C&Oacute;RDOBA</td>
+<td style="width: 204.203px; height: 14px;">UNIVERSIDAD DE CóRDOBA</td>
 <td style="width: 587.578px; height: 14px;"><a href="https://www.uco.es/investigacion/portal/otras-convocatorias">https://www.uco.es/investigacion/portal/otras-convocatorias <i class="icon fas fa-external-link-alt"></i></a></td>
 </tr>
 <tr style="height: 14px;">
@@ -114,30 +114,30 @@ news_title: "Ayudas a la recualificación"
 <td style="width: 587.578px; height: 29px;"><a href="https://osr.uib.cat/doc/ajuts/ajutrecual_es.html">https://osr.uib.cat/doc/ajuts/ajutrecual_es.html <i class="icon fas fa-external-link-alt"></i></a></td>
 </tr>
 <tr style="height: 64px;">
-<td style="width: 204.203px; height: 64px;">UNIVERSIDAD DE JA&Eacute;N</td>
+<td style="width: 204.203px; height: 64px;">UNIVERSIDAD DE JAéN</td>
 <td style="width: 587.578px; height: 64px;">
-<p><a href="https://www.ujaen.es/investigacion-y-transferencia/convocatoria-de-ayudas-para-la-recualificacion-del-sistema-universitario-espanol">Convocatoria de Ayudas para la Recualificaci&oacute;n del Sistema Universitario Espa&ntilde;ol | <i class="icon fas fa-external-link-alt"></i></a></p>
-<p><a href="https://www.ujaen.es/investigacion-y-transferencia/convocatoria-de-ayudas-para-la-recualificacion-del-sistema-universitario-espanol">Investigaci&oacute;n y transferencia (ujaen.es) <i class="icon fas fa-external-link-alt"></i></a></p>
+<p><a href="https://www.ujaen.es/investigacion-y-transferencia/convocatoria-de-ayudas-para-la-recualificacion-del-sistema-universitario-espanol">Convocatoria de Ayudas para la Recualificación del Sistema Universitario Español | <i class="icon fas fa-external-link-alt"></i></a></p>
+<p><a href="https://www.ujaen.es/investigacion-y-transferencia/convocatoria-de-ayudas-para-la-recualificacion-del-sistema-universitario-espanol">Investigación y transferencia (ujaen.es) <i class="icon fas fa-external-link-alt"></i></a></p>
 </td>
 </tr>
 <tr>
-<td style="width: 204.203px;">UNIVERSITAT JAUME I DE CASTELL&Oacute;N</td>
+<td style="width: 204.203px;">UNIVERSITAT JAUME I DE CASTELLóN</td>
 <td style="width: 587.578px;">
 <p><a href="https://www.uji.es/seu/info-adm/tao/convocatoriesRH?pArId=40856">https://www.uji.es/seu/info-adm/tao/convocatoriesRH?pArId=40856 <i class="icon fas fa-external-link-alt"></i></a></p>
 </td>
 </tr>
 <tr style="height: 14px;">
 <td style="width: 204.203px; height: 14px;">UNIVERSIDAD DE LA LAGUNA</td>
-<td style="width: 587.578px; height: 14px;"><a href="https://www.ull.es/investigacion/convocatorias-y-ayudas-de-investigacion/recualificacion-del-sistema-universitario-espanol/">Recualificacion del sistema universitario espa&ntilde;ol | (ull.es) <i class="icon fas fa-external-link-alt"></i></a></td>
+<td style="width: 587.578px; height: 14px;"><a href="https://www.ull.es/investigacion/convocatorias-y-ayudas-de-investigacion/recualificacion-del-sistema-universitario-espanol/">Recualificacion del sistema universitario español | (ull.es) <i class="icon fas fa-external-link-alt"></i></a></td>
 </tr>
 <tr>
-<td style="width: 204.203px;">UNIVERSIDAD NACIONAL DE EDUCACI&Oacute;N A DISTANCIA (UNED)</td>
+<td style="width: 204.203px;">UNIVERSIDAD NACIONAL DE EDUCACIóN A DISTANCIA (UNED)</td>
 <td style="width: 587.578px;"><a href="http://portal.uned.es/portal/page?_pageid=93,766462,93_20526395&amp;_dad=portal&amp;_schema=PORTAL">http://portal.uned.es/portal/page?_pageid=93,766462,93_20526395&amp;_dad=portal&amp;_schema=PORTAL <i class="icon fas fa-external-link-alt"></i></a></td>
 </tr>
 <tr style="height: 64px;">
 <td style="width: 204.203px; height: 64px;">UNIVERSIDAD DE LAS PALMAS DE GRAN CANARIA</td>
 <td style="width: 587.578px; height: 64px;">
-<p><a href="https://www.ulpgc.es/vinvestigacion/convocatorias_recualificacion_ulpgc">Convocatoria de ayudas para la recualificaci&oacute;n del sistema universitario espa&ntilde;ol | <i class="icon fas fa-external-link-alt"></i></a></p>
+<p><a href="https://www.ulpgc.es/vinvestigacion/convocatorias_recualificacion_ulpgc">Convocatoria de ayudas para la recualificación del sistema universitario español | <i class="icon fas fa-external-link-alt"></i></a></p>
 <p><a href="https://www.ulpgc.es/vinvestigacion/convocatorias_recualificacion_ulpgc">ULPGC - Universidad de Las Palmas de Gran Canaria <i class="icon fas fa-external-link-alt"></i></a></p>
 </td>
 </tr>
@@ -148,7 +148,7 @@ news_title: "Ayudas a la recualificación"
 </td>
 </tr>
 <tr style="height: 38px;">
-<td style="width: 204.203px; height: 38px;">UNIVERSIDAD DE LE&Oacute;N</td>
+<td style="width: 204.203px; height: 38px;">UNIVERSIDAD DE LEóN</td>
 <td style="width: 587.578px; height: 38px;">
 <p><a href="https://www.unileon.es/investigadores/convocatoria-ayudas-recualificacion">https://www.unileon.es/investigadores/convocatoria-ayudas-recualificacion <i class="icon fas fa-external-link-alt"></i></a></p>
 </td>
@@ -158,24 +158,24 @@ news_title: "Ayudas a la recualificación"
 <td style="width: 587.578px; height: 14px;"><a href="http://www.udl.cat/ca/recerca/convoca/">http://www.udl.cat/ca/recerca/convoca/ <i class="icon fas fa-external-link-alt"></i></a>&nbsp;</td>
 </tr>
 <tr style="height: 14px;">
-<td style="width: 204.203px; height: 14px;">UNIVERSIDAD DE M&Aacute;LAGA</td>
+<td style="width: 204.203px; height: 14px;">UNIVERSIDAD DE MáLAGA</td>
 <td style="width: 587.578px; height: 14px;">
 <p><a href="https://www.uma.es/secretariageneral/newsecgen/index.php?option=com_content&amp;view=article&amp;id=536:presentacion&amp;catid=102:bouma&amp;Itemid=263">https://www.uma.es/secretariageneral/newsecgen/index.php?option=com_content&amp;view=article&amp;id= <i class="icon fas fa-external-link-alt"></i></a></p>
 <p><a href="https://www.uma.es/secretariageneral/newsecgen/index.php?option=com_content&amp;view=article&amp;id=536:presentacion&amp;catid=102:bouma&amp;Itemid=263">536:presentacion&amp;catid=102:bouma&amp;Itemid=263 <i class="icon fas fa-external-link-alt"></i></a></p>
 </td>
 </tr>
 <tr>
-<td style="width: 204.203px;">UNIVERSIDAD MIGUEL HERN&Aacute;NDEZ DE ELCHE</td>
+<td style="width: 204.203px;">UNIVERSIDAD MIGUEL HERNáNDEZ DE ELCHE</td>
 <td style="width: 587.578px;">
 <p><a href="https://ayudarecualificacion.umh.es/">https://ayudarecualificacion.umh.es/ <i class="icon fas fa-external-link-alt"></i></a></p>
 </td>
 </tr>
 <tr style="height: 14px;">
 <td style="width: 204.203px; height: 14px;">UNIVERSIDAD DE MURCIA</td>
-<td style="width: 587.578px; height: 14px;"><a href="https://www.um.es/web/investigacion/">WEB VIC. INVESTIGACI&Oacute;N E INTERNACIONALIZACI&Oacute;N <i class="icon fas fa-external-link-alt"></i></a></td>
+<td style="width: 587.578px; height: 14px;"><a href="https://www.um.es/web/investigacion/">WEB VIC. INVESTIGACIóN E INTERNACIONALIZACIóN <i class="icon fas fa-external-link-alt"></i></a></td>
 </tr>
 <tr style="height: 14px;">
-<td style="width: 204.203px; height: 14px;">UNIVERSIDAD P&Uacute;BLICA DE NAVARRA</td>
+<td style="width: 204.203px; height: 14px;">UNIVERSIDAD PúBLICA DE NAVARRA</td>
 <td style="width: 587.578px; height: 14px;"><a href="https://sedeelectronica.unavarra.es/sede/tablon-electronico/investigacion?contentId=257412">https://sedeelectronica.unavarra.es/sede/tablon-electronico/investigacion?contentId=257412  <i class="icon fas fa-external-link-alt"></i></a></td>
 </tr>
 <tr>
@@ -192,14 +192,14 @@ news_title: "Ayudas a la recualificación"
 </td>
 </tr>
 <tr>
-<td style="width: 204.203px;">UNIVERSIDAD DEL PA&Iacute;S VASCO/EUSKAL HERRIKO UNIBERTSITATEA</td>
+<td style="width: 204.203px;">UNIVERSIDAD DEL PAíS VASCO/EUSKAL HERRIKO UNIBERTSITATEA</td>
 <td style="width: 587.578px;">
 <p><a href="https://www.ehu.eus/es/web/ikerketaren-kudeaketa/-/ayudas-para-la-recualificacion-del-sistema-universitario-espanol-2021-2023">https://www.ehu.eus/es/web/ikerketaren-kudeaketa/-/ayudas-para-la-recualificacion-del-sistema-<i class="icon fas fa-external-link-alt"></i></a></p>
 <p><a href="https://www.ehu.eus/es/web/ikerketaren-kudeaketa/-/ayudas-para-la-recualificacion-del-sistema-universitario-espanol-2021-2023">universitario-espanol-2021-2023<i class="icon fas fa-external-link-alt"></i></a></p>
 </td>
 </tr>
 <tr>
-<td style="width: 204.203px;">UNIVERSIDAD POLIT&Eacute;CNICA DE CATALU&Ntilde;A</td>
+<td style="width: 204.203px;">UNIVERSIDAD POLITéCNICA DE CATALUñA</td>
 <td style="width: 587.578px;">
 <p><a href="https://rdi.upc.edu/ca/uaslr/vols-dedicar-te-a-la-recerca/ofertes-postdoctorals/convocatories-generals-postdoctorals-amb-financament-extern/Documents%20Postdoctorals/margarita-salas/m-salas">https://rdi.upc.edu/ca/uaslr/vols-dedicar-te-a-la-recerca/ofertes-postdoctorals/convocatories-<i class="icon fas fa-external-link-alt"></i></a></p>
 <p><a href="https://rdi.upc.edu/ca/uaslr/vols-dedicar-te-a-la-recerca/ofertes-postdoctorals/convocatories-generals-postdoctorals-amb-financament-extern/Documents%20Postdoctorals/margarita-salas/m-salas">generals-postdoctorals-amb-financament-extern/Documents%20Postdoctorals/margarita-salas/m-salas<i class="icon fas fa-external-link-alt"></i></a></p>
@@ -212,15 +212,15 @@ news_title: "Ayudas a la recualificación"
 </td>
 </tr>
 <tr>
-<td style="width: 204.203px;">UNIVERSIDAD POLIT&Eacute;CNICA DE MADRID</td>
+<td style="width: 204.203px;">UNIVERSIDAD POLITéCNICA DE MADRID</td>
 <td style="width: 587.578px;">
-<p><a href="https://www.upm.es/Investigacion/soporte/AyudasConvocatorias/ProyectosActividades/planEstatal2017_2020/convocatorias?id=93d7c85ebc73a710VgnVCM10000009c7648a____&amp;fmt=detail">Universidad Polit&eacute;cnica de Madrid (upm.es)<i class="icon fas fa-external-link-alt"></i></a></p>
+<p><a href="https://www.upm.es/Investigacion/soporte/AyudasConvocatorias/ProyectosActividades/planEstatal2017_2020/convocatorias?id=93d7c85ebc73a710VgnVCM10000009c7648a____&amp;fmt=detail">Universidad Politécnica de Madrid (upm.es)<i class="icon fas fa-external-link-alt"></i></a></p>
 <p><a href="https://www.upm.es/Investigacion/soporte/AyudasConvocatorias/ProyectosActividades/planEstatal2017_2020/convocatorias?id=93d7c85ebc73a710VgnVCM10000009c7648a____&amp;fmt=detail">https://www.upm.es/Investigacion/soporte/AyudasConvocatorias/ProyectosActividades/<i class="icon fas fa-external-link-alt"></i></a></p>
 <p><a href="https://www.upm.es/Investigacion/soporte/AyudasConvocatorias/ProyectosActividades/planEstatal2017_2020/convocatorias?id=93d7c85ebc73a710VgnVCM10000009c7648a____&amp;fmt=detail">planEstatal2017_2020/convocatorias?id=93d7c85ebc73a710VgnVCM10000009c7648a____&amp;fmt=detail<i class="icon fas fa-external-link-alt"></i></a></p>
 </td>
 </tr>
 <tr>
-<td style="width: 204.203px;">UNIVERSIDAD POLIT&Eacute;CNICA DE VALENCIA</td>
+<td style="width: 204.203px;">UNIVERSIDAD POLITéCNICA DE VALENCIA</td>
 <td style="width: 587.578px;"><a href="https://www.upv.es/entidades/VINV/">https://www.upv.es/entidades/VINV/<i class="icon fas fa-external-link-alt"></i></a></td>
 </tr>
 <tr>
@@ -248,8 +248,8 @@ news_title: "Ayudas a la recualificación"
 <tr>
 <td style="width: 204.203px;">UNIVERSIDAD DE SALAMANCA</td>
 <td style="width: 587.578px;">
-<p><a href="https://transferencia.usal.es/convocatoria-de-ayudas-para-la-recualificacion-del-sistema-universitario-espanol-para-2021-2023-2/">Convocatoria de ayudas para la recualificaci&oacute;n del sistema universitario espa&ntilde;ol para 2021-2023 &ndash;<i class="icon fas fa-external-link-alt"></i></a></p>
-<p><a href="https://transferencia.usal.es/convocatoria-de-ayudas-para-la-recualificacion-del-sistema-universitario-espanol-para-2021-2023-2/">Vicerrectorado de Investigaci&oacute;n y Transferencia<i class="icon fas fa-external-link-alt"></i></a><a href="https://transferencia.usal.es/convocatoria-de-ayudas-para-la-recualificacion-del-sistema-universitario-espanol-para-2021-2023-2/"> (usal.es)<i class="icon fas fa-external-link-alt"></i></a></p>
+<p><a href="https://transferencia.usal.es/convocatoria-de-ayudas-para-la-recualificacion-del-sistema-universitario-espanol-para-2021-2023-2/">Convocatoria de ayudas para la recualificación del sistema universitario español para 2021-2023 &ndash;<i class="icon fas fa-external-link-alt"></i></a></p>
+<p><a href="https://transferencia.usal.es/convocatoria-de-ayudas-para-la-recualificacion-del-sistema-universitario-espanol-para-2021-2023-2/">Vicerrectorado de Investigación y Transferencia<i class="icon fas fa-external-link-alt"></i></a><a href="https://transferencia.usal.es/convocatoria-de-ayudas-para-la-recualificacion-del-sistema-universitario-espanol-para-2021-2023-2/"> (usal.es)<i class="icon fas fa-external-link-alt"></i></a></p>
 </td>
 </tr>
 <tr>
@@ -274,8 +274,8 @@ news_title: "Ayudas a la recualificación"
 <p>UNIVERSIDAD DE VALLADOLID</p>
 </td>
 <td style="width: 587.578px; height: 38px;">
-<p><a href="https://investiga.uva.es/gestion-y-resultados/convocatorias-de-investigacion/convocatorias-bucle-de-entradas/?tipo=RSUE">Ayudas para la recualificaci&oacute;n del sistema universitario espa&ntilde;ol para 2021-2023 &ndash; UVainvestiga - <i class="icon fas fa-external-link-alt"></i></a></p>
-<p><a href="https://investiga.uva.es/gestion-y-resultados/convocatorias-de-investigacion/convocatorias-bucle-de-entradas/?tipo=RSUE">Investigaci&oacute;n en la Universidad de Valladolid<i class="icon fas fa-external-link-alt"></i></a></p>
+<p><a href="https://investiga.uva.es/gestion-y-resultados/convocatorias-de-investigacion/convocatorias-bucle-de-entradas/?tipo=RSUE">Ayudas para la recualificación del sistema universitario español para 2021-2023 &ndash; UVainvestiga - <i class="icon fas fa-external-link-alt"></i></a></p>
+<p><a href="https://investiga.uva.es/gestion-y-resultados/convocatorias-de-investigacion/convocatorias-bucle-de-entradas/?tipo=RSUE">Investigación en la Universidad de Valladolid<i class="icon fas fa-external-link-alt"></i></a></p>
 </td>
 </tr>
 <tr style="height: 38px;">
@@ -283,7 +283,7 @@ news_title: "Ayudas a la recualificación"
 <p>UNIVERSIDAD DE VIGO</p>
 </td>
 <td style="width: 587.578px; height: 38px;">
-<p><a href="https://secretaria.uvigo.gal/uv/web/convocatoria/public/show/736">Secretar&iacute;a Online Universidade de Vigo (uvigo.gal)<i class="icon fas fa-external-link-alt"></i></a></p>
+<p><a href="https://secretaria.uvigo.gal/uv/web/convocatoria/public/show/736">Secretaría Online Universidade de Vigo (uvigo.gal)<i class="icon fas fa-external-link-alt"></i></a></p>
 </td>
 </tr>
 <tr style="height: 38px;">

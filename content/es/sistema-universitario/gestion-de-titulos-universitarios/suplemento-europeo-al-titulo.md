@@ -29,15 +29,14 @@ Expedición del Suplemento Europeo al Título correspondiente a enseñanzas univ
                     <div class="col-lg-12 cards_download_cnt">
                         <div class="row">
                             <div class="download_card">
-                                <a class="card" href="{{<siteurl>}}documentos/sistema_universitario/gestion_titulos/suplemento_europeo/Resolucion_guias_expedicion_set.pdf" target="_blank">
+                                <a class="card" href="{{<siteurl>}}documentos/PDF/sistema_universitario/gestion_titulos/suplemento_europeo/Resolucion_guias_expedicion_set.pdf" target="_blank">
                                     <div class="card-header">
                                         <i class="fal fa-download"></i>
                                     </div>
                                     <div class="card-body">
                                         <p class="text_body">Resolución por la que se aprueban las guías de expedición del SET </p>
-                                        <p class="text_file">
-                                            <i class="fal fa-file-_icon"></i> 
-                                            <span class="tit">Resolución por la que se aprueban las guías de expedición del SET </span> 
+                                       <p class="text_file">
+                                            <i class="fal fa-file-pdf pdf_icon"></i>  (30,6 KB)
                                         </p>
                                     </div>
                                 </a>
@@ -50,8 +49,7 @@ Expedición del Suplemento Europeo al Título correspondiente a enseñanzas univ
                                     <div class="card-body">
                                         <p class="text_body">Guía de expedición del SET de Grado</p>
                                         <p class="text_file">
-                                            <i class="fal fa-file-_icon"></i> 
-                                            <span class="tit">Guía de expedición del SET de Grado</span>  
+                                            <i class="fal fa-file-pdf pdf_icon"></i>  (1,735 KB).
                                         </p>
                                     </div>
                                 </a>
@@ -64,8 +62,7 @@ Expedición del Suplemento Europeo al Título correspondiente a enseñanzas univ
                                     <div class="card-body">
                                         <p class="text_body">Guía de expedición del SET de Master</p>
                                         <p class="text_file">
-                                            <i class="fal fa-file-_icon"></i> 
-                                            <span class="tit">Guía de expedición del SET de Master</span>  
+                                            <i class="fal fa-file-pdf pdf_icon"></i>  (1,803 KB).
                                         </p>
                                     </div>
                                 </a>

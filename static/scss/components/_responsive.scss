@@ -962,9 +962,10 @@
       .img {
         height: 150px;
       }
-      h2 {
+      h2,
+      h1 {
         font-size: 22px;
-        line-height: 30px; 
+        line-height: 30px;
         top: 75px;
         margin: 0px 0px 40px 15px;
       }
@@ -1108,6 +1109,27 @@
   }
   #error_page {
     margin-top: 65px;
+  }
+  #leyenda {
+    .card{
+      .box {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        .item {
+          margin-right:0px;
+          margin-bottom: 15px;
+          justify-content: flex-start;
+        }
+      }
+    }
+  }
+  #section_sub_title_tex {
+    h4 {
+      font-size: 25px;
+      line-height: 28px;
+      margin-bottom: 15px;
+    }
   }
 }
 
@@ -1518,6 +1540,7 @@
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1439px) {
+  
   .cnt_special_spacing {
     max-width: 1140px !important;
   }
@@ -1585,6 +1608,7 @@
   .pl-70 {
     padding-left: 120px;
   }
+
 }
 
 @media screen and (min-width: 1680px) {
@@ -1623,6 +1647,9 @@
     .container {
       max-width: 1450px;
     }
+  }
+  .container_xl_accoordion {
+    max-width: 1450px;
   }
 }
 

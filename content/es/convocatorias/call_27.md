@@ -1,10 +1,13 @@
 ---
 title: "Cátedra Príncipe de Asturias"
+name: "La Cátedra Príncipe de Asturias"
 date: 2021-11-12T14:20:06+01:00
 call_desc: "La Cátedra Príncipe de Asturias en la Universidad de Georgetown es producto del convenio firmado entre ..."
 call_closed: "/imgs/call-closed.svg"
 call_opened: "/imgs/call-opened.svg"
 call_status: false
+call_start: 2021-01-12T00:00:00+01:00
+call_end: 2021-02-11T00:00:00+01:00
 ---
 <br><br><b>Plazos de solicitud</b><br>
 12/01/2021-11/02/2021

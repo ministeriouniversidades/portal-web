@@ -1,10 +1,13 @@
 ---
 title: "Renovación de convenios entre el MCIU y las entidades colaboradoras"
+name: "Atendiendo a la Orden CNU/695/2019"
 date: 2021-11-12T14:20:21+01:00
 call_desc: "Atendiendo a la Orden CNU/695/2019, de 20 de junio, por la que se aprueban las bases reguladoras para la concesión ..."
 call_closed: "/imgs/call-closed.svg"
 call_opened: "/imgs/call-opened.svg"
 call_status: false
+call_start: 2019-12-16T00:00:00+01:00
+call_end: 2020-12-20T00:00:00+01:00
 ---
 <br><br><b>Plazos de solicitud</b><br>
 16/12/2019-20/12/2019   
@@ -17,9 +20,9 @@ Dicha tramitación va a comenzar en enero de 2020, a través de la aplicación d
 
 Para ello, las entidades colaboradoras deberán llevar a cabo las siguientes acciones:  
 <ol>
-<li> La cumplimentación y firma del <a href="{{<siteurl>}}documentos/</a><i class="fas fa-external-link-alt"></i>/Formulario_ALTA_REPRESENTANTE_LEGAL_MCIU.</a><i class="fas fa-external-link-alt"></i>" target=_blank> FORMULARIO DE ALTA DE REPRESENTANTE LEGAL </a>, de no encontrarse actualizada dicha información en la Sede Electrónica del Ministerio.  
+<li> La cumplimentación y firma del <a href="{{<siteurl>}}documentos/Formulario_ALTA_REPRESENTANTE_LEGAL_MCIU." target=blank> FORMULARIO DE ALTA DE REPRESENTANTE LEGAL </a><i class="fas fa-external-link-alt"></i>, de no encontrarse actualizada dicha información en la Sede Electrónica del Ministerio.  
 
-<li> En caso de que resulte necesario que una persona adicional mantenga el acceso a las mismas acciones que el Representante Legal, existe la figura del usuario con categoría de “DELEGADO”. Para realizar el nombramiento como usuario con dicha categoría deben cumplimentar y firmar el <a href="{{<siteurl>}}documentos/</a><i class="fas fa-external-link-alt"></i>/Formulario_ALTA_DELEGADO_MCIU.</a><i class="fas fa-external-link-alt"></i>" target=_blank> FORMULARIO DE ALTA DE DELEGADO </a>.  
+<li> En caso de que resulte necesario que una persona adicional mantenga el acceso a las mismas acciones que el Representante Legal, existe la figura del usuario con categoría de “DELEGADO”. Para realizar el nombramiento como usuario con dicha categoría deben cumplimentar y firmar el <a href="{{<siteurl>}}documentos/Formulario_ALTA_DELEGADO_MCIU." target=_blank> FORMULARIO DE ALTA DE DELEGADO </a><i class="fas fa-external-link-alt"></i>.  
 
 Les recordamos que las acciones que el representante legal puede llevar a cabo son: la capacidad de firmar, así como gestionar los permisos de todos los usuarios de su organismo y dar altas y bajas como considere oportuno para llevar a cabo los distintos trámites.  
 

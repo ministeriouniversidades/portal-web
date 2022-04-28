@@ -74,7 +74,7 @@ struc_dep_pic: ""
         <article id="section_box_cards_blue" class="cards_box_custom mb-120">
             <div class="container container-xl">
                 <div class="row">
-                    <div class="col-lg-4 col-xl-3 mr-card-hover mb-20"> <!-- la primera carta -->
+                    <div class="col-lg-4 col-xl-3 mr-card-hover"> <!-- la primera carta -->
                         <a href="{{<siteurl>}}/estadisticas/catalogo-datos/estadisticas-estudiantes/" class="card card-img ">
                             <div class="box_icon">
                                 <div class="img" style="background-image: url('{{<siteurl>}}/images/estadisticas/istockphoto-864602884-170667a.jpg');"></div>
@@ -324,7 +324,7 @@ struc_dep_pic: ""
                     <div class="col-lg-12 cards_download_cnt">
                         <div class="row">
                             <div class="download_card"> <!-- el primer boton de descarga -->
-                                <a class="card" href="{{<siteurl>}}/documentos/PDF/estadisticas/Datos_y_Cifras_2020-21.pdf" target="_blank">
+                                <a class="card" href="{{<siteurl>}}/documentos/pdf/estadisticas/Datos_y_Cifras_2020-21.pdf" target="_blank">
                                     <div class="card-header">
                                         <i class="fal fa-download"></i>
                                     </div>
@@ -357,7 +357,7 @@ struc_dep_pic: ""
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="download_card"> <!-- el primer boton de descarga -->
-                                    <a class="card" href="{{<siteurl>}}/documentos/PDF/estadisticas/Datos_y_Cifras_2020-21.pdf" target="_blank">
+                                    <a class="card" href="{{<siteurl>}}/documentos/pdf/estadisticas/Datos_y_Cifras_2020-21.pdf" target="_blank">
                                         <div class="card-header">
                                             <i class="fal fa-download"></i>
                                         </div>

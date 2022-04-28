@@ -1,3 +1,3 @@
 ---
-title: "Agenda del ministerio"
+title: "Agenda del Ministro"
 ---

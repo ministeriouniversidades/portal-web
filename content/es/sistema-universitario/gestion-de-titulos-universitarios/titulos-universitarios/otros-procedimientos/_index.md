@@ -90,7 +90,7 @@ Es competencia del Ministerio de Universidades la gestión de los siguientes pro
                         </a>
                     </div>
 					<div class="col-12 public_info_label">
-                        <a class="card" href="{{<siteurl>}}documentos/PDF/sistema_universitario/gestion_titulos/otros_procedimientos/tasa107/apendiceICINE.pdf" target="_blank">
+                        <a class="card" href="{{<siteurl>}}documentos/pdf/sistema_universitario/gestion_titulos/otros_procedimientos/tasa107/apendiceICINE.pdf" target="_blank">
                             <div class="card-body">
                                 <h5 class="card-title">Información adicional ramas y campos específicos del conocimiento</h5>
                                 <i class="icon far fa-arrow-alt-circle-right"></i>

@@ -1,10 +1,13 @@
 ---
 title: "Certamen Jóvenes Investigadores 2021"
+name: "Premios"
 date: 2021-11-12T14:20:10+01:00
 call_desc: "Este Certamen promueve la investigación entre los jóvenes mediante la concesión de premios a trabajos ..."
 call_closed: "/imgs/call-closed.svg"
 call_opened: "/imgs/call-opened.svg"
 call_status: false
+call_start: 2021-10-03T00:00:00+01:00
+call_end: 2021-10-17T00:00:00+01:00
 ---
 <br><br><b>Plazos de solicitud</b><br>
 03/10/2021-17/10/2021

@@ -31,11 +31,10 @@
     {{ end }}
     {{ with .Params.has_sections }}
     <section>
-        <article class="calls">
-            <div class="container container-xl">
-                <div class="row">
-                        <div class="row">
-                            <div class="col-lg-12 content_collapse">
+        <article>
+            <div class="container container_xl_accoordion">
+                <div class="row mt-4">
+                    <div class="col-lg-12 content_collapse mb-120">
                                 <div class="accordion" id="accordionPanelsStayOpenExample">
                                 {{ if isset .Params "section_contenido_1"}}
                                     <div class="accordion-item">
@@ -150,14 +149,14 @@
     </section>
     {{ end }}
     <section class="mb-120">
-        <article id="section_box_cards_blue">
+        <article id="section_box_cards_blue" class="cards_box_custom mb-120">
             <div class="container container-xl">
                 <div class="row">
                     {{ $title := .Title }}
                     {{ $sectionPages := where $.Site.RegularPages "Type" "transparencia-y-gobierno-abierto" }}
                     {{ range $sectionPages }}
                             {{ if and (ge (len $sectionPages) 1) (ne .Title $title) }}
-                                <div class="col-lg-3">
+                                <div class="col-lg-4 col-xl-3 mr-card-hover">
                                     <a href="{{ .Permalink }}" class="card card-img">
                                         <div class="box_icon">
                                             <div class="img" style="background-image: url({{ if isset .Params "img" }}{{ .Params.img | absURL }}{{ else }}{{ .Params.section_img | absURL }}{{ end }});"></div>

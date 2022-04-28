@@ -10,11 +10,10 @@ La Ley Orgánica 8/2021, de 4 de junio, de protección integral a la infancia y 
 Conforme a lo dispuesto en dicha norma, <b>los títulos de especialista en Ciencias de la Salud serán expedidos por el Ministerio de Sanidad a partir del 1 de enero de 2022.</b><br><br>
 Únicamente, los procedimientos de cambio de títulos <b>iniciados con anterioridad al 1 de enero de 2022 y aún en curso,</b> seguirán siendo tramitados por el Ministerio de Universidades y, por tanto, los títulos serán expedidos por este. <br><br>
 <section>
-        <article class="calls">
-            <div class="container container-xl">
-                <div class="row">
-                        <div class="row">
-                            <div class="col-lg-12  content_collapse">
+    <article>
+        <div class="container container_xl_accoordion p-0">
+            <div class="row mt-4">
+                <div class="col-lg-12 content_collapse mb-120">
                                 <div class="accordion" id="accordionPanelsStayOpenExample">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -30,7 +29,7 @@ Conforme a lo dispuesto en dicha norma, <b>los títulos de especialista en Cienc
                                                             <div class="col-12">
                                                                 <b>Descripción</b><br><br>
 								Cambio de título de los Ayudantes Técnicos Sanitarios, Diplomados y Graduados en Enfermería que poseen un título de especialista de especialidades que han sido suprimidas y desean que se les emita un nuevo título de especialista. <br><br>
-								El <a href="{{<siteurl>}}documentos/</a><i class="fas fa-external-link-alt"></i>/sistema_universitario/gestion_titulos/otros_procedimientos/A15480-15486_RD-450-2005.</a><i class="fas fa-external-link-alt"></i>" target="_blank">Real Decreto 450/2005</a>, sobre Especialidades de Enfermería, establece las siguientes Especialidades de Enfermería: <br><br> 
+								El <a href="{{<siteurl>}}documentos/PDF/sistema_universitario/gestion_titulos/otros_procedimientos/A15480-15486_RD-450-2005.pdf" target="_blank">Real Decreto 450/2005</a>, sobre Especialidades de Enfermería, establece las siguientes Especialidades de Enfermería: <br><br> 
 								<ul>
 									<li>Enfermería Obstétrico – Ginecológica (Matrona). </li>
 									<li>Enfermería de Salud Mental </li>
@@ -88,13 +87,15 @@ Conforme a lo dispuesto en dicha norma, <b>los títulos de especialista en Cienc
 		<div class="col-lg-12 cards_download_cnt">  
 			<div class="row"> 
 				<div class="download_card"> 
-					<a class="card" href="{{<siteurl>}}/documentos/</a><i class="fas fa-external-link-alt"></i>/sistema_universitario/gestion_titulos/otros_procedimientos/A15480-15486_RD-450-2005.</a><i class="fas fa-external-link-alt"></i>" target="_blank"> 
+					<a class="card" href="{{<siteurl>}}/documentos/PDF/sistema_universitario/gestion_titulos/otros_procedimientos/A15480-15486_RD-450-2005.pdf" target="_blank"> 
 					<div class="card-header"> 
 						   <i class="fal fa-download"></i> 
 					</div> </a> 
-					<div class="card-body"> 
-						<p class="text_file"><a class="card" href="{{<siteurl>}}documentos/</a><i class="fas fa-external-link-alt"></i>/sistema_universitario/gestion_titulos/otros_procedimientos/A15480-15486_RD-450-2005.</a><i class="fas fa-external-link-alt"></i>" target="_blank">  
-						<span class="tit">Real Decreto 450/2005</span></a> <i class="fal fa-file-</a><i class="fas fa-external-link-alt"></i> </a><i class="fas fa-external-link-alt"></i>_icon"></i> (</a><i class="fas fa-external-link-alt"></i> 170,159 KB)
+					<div class="card-body">
+						<p class="text_body">Real Decreto 450/2005</p>
+						<p class="text_file">
+							<i style="color:#cc0000" class="fal fa-file-pdf pdf_icon"></i>  (170,159 KB)
+						</p>
 					</div>
 				</div> 		
 			</div> 
@@ -145,17 +146,15 @@ Conforme a lo dispuesto en dicha norma, <b>los títulos de especialista en Cienc
                                                                 <b>Código SIA</b><br><br>
 								213037
 								</div>
-                                                        </div>
-                                                    </div>
-                                                </article>
                                             </div>
                                         </div>
-                                    </div>				
-                                    </div>
+                                    </article>
                                 </div>
-                        </div>
+                            </div>
+                        </div>         
                     </div>
                 </div>
             </div>
-        </article>
-    </section>
+        </div>
+    </article>
+</section>

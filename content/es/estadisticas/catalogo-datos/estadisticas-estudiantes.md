@@ -41,7 +41,7 @@ Fecha de publicación: 9 de junio de 2021
 Última revisión 17/09/2021. Corregidos datos de Máster de la Universidad de Granada (curso 2019-2020).<br><br>
  <section> 
         <article>
-            <div class="container container-xl">
+            <div class="container container-xl p-0">
 <div class="row">
 <div class="col-lg-12 content_collapse  mb-120">
 <div class="accordion" id="accordionPanelsStayOpenExample">
@@ -215,7 +215,7 @@ Series de matriculados y egresados desde el curso 1985-1986
 													<div class="col-lg-12 cards_download_cnt">
 														<div class="row jcc_mobile">
 															<div class="download_card">
-															    <a class="card" href="{{<siteurl>}}documentos/PDF/estadisticas/PpalesResulEEU.pdf" target="_blank">
+															    <a class="card" href="{{<siteurl>}}documentos/pdf/estadisticas/PpalesResulEEU.pdf" target="_blank">
                                                                     <div class="card-header">
                                                                         <i class="fal fa-download"></i>
                                                                     </div>
@@ -228,7 +228,7 @@ Series de matriculados y egresados desde el curso 1985-1986
                                                                 </a>
 															</div>
 															<div class="download_card">
-                                                                <a class="card" href="{{<siteurl>}}documentos/PDF/estadisticas/METODOLOGEEU.pdf" target="_blank">
+                                                                <a class="card" href="{{<siteurl>}}documentos/pdf/estadisticas/METODOLOGEEU.pdf" target="_blank">
                                                                     <div class="card-header">
                                                                         <i class="fal fa-download"></i>
                                                                     </div>
@@ -254,7 +254,7 @@ Series de matriculados y egresados desde el curso 1985-1986
                                                     <div class="col-lg-12 cards_download_cnt">
                                                         <div class="row jcc_mobile">
                                                             <div class="download_card">
-                                                                <a class="card" href="{{<siteurl>}}documentos/PDF/estadisticas/PpalesResulEEU.pdf" target="_blank">
+                                                                <a class="card" href="{{<siteurl>}}documentos/pdf/estadisticas/PpalesResulEEU.pdf" target="_blank">
                                                                     <div class="card-header">
                                                                         <i class="fal fa-download"></i>
                                                                     </div>
@@ -267,7 +267,7 @@ Series de matriculados y egresados desde el curso 1985-1986
                                                                 </a>
                                                             </div>
 															<div class="download_card">
-                                                                <a class="card" href="{{<siteurl>}}documentos/PDF/estadisticas/METODOLOGEEU.pdf" target="_blank">
+                                                                <a class="card" href="{{<siteurl>}}documentos/pdf/estadisticas/METODOLOGEEU.pdf" target="_blank">
                                                                     <div class="card-header">
                                                                         <i class="fal fa-download"></i>
                                                                     </div>
@@ -288,7 +288,7 @@ Series de matriculados y egresados desde el curso 1985-1986
                                                           <div class="swiper-wrapper">
                                                             <div class="swiper-slide">
                                                                 <div class="download_card">
-                                                                    <a class="card" href="{{<siteurl>}}documentos/PDF/estadisticas/PpalesResulEEU.pdf" target="_blank">
+                                                                    <a class="card" href="{{<siteurl>}}documentos/pdf/estadisticas/PpalesResulEEU.pdf" target="_blank">
                                                                         <div class="card-header">
                                                                             <i class="fal fa-download"></i>
                                                                         </div>
@@ -302,7 +302,7 @@ Series de matriculados y egresados desde el curso 1985-1986
                                                                     </a>
                                                                 </div>
 																 <div class="download_card">
-                                                                    <a class="card" href="{{<siteurl>}}documentos/PDF/estadisticas/METODOLOGEEU.pdf" target="_blank">
+                                                                    <a class="card" href="{{<siteurl>}}documentos/pdf/estadisticas/METODOLOGEEU.pdf" target="_blank">
                                                                         <div class="card-header">
                                                                             <i class="fal fa-download"></i>
                                                                         </div>

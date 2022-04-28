@@ -1,7 +1,7 @@
 ---
 title: "Centro de documentación"
 icon: "fas fa-books"
-section_img: "./images/city-gd39d6fb8a_1920.jpeg"
+section_img: "./images/centro-de-documentacion.png"
 date: 2021-11-09T14:26:33+01:00
 type: normativa
 weight: 1

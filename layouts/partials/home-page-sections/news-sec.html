@@ -51,7 +51,7 @@
                                 <div class="col-6 col-sm-8 col-md-6 col-lg col-xl box_text">
                                     <div class="card-body">   
                                         <p class="card-text date">{{ .Params.news_date | time.Format ":date_long"  }}</p>
-                                        <h5 class="card-title">{{ .Params.news_title }}</h5>
+                                        <h5 class="card-title"><b>{{ .Params.news_title }}</b></h5>
                                         <p class="card-text">{{ substr .Params.news_desc 0 150 | safeHTML }}...</p>
                                     </div>
                                 </div>

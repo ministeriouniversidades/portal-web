@@ -86,7 +86,7 @@ struc_dep_pic: ""
                                     </div>                                
                                 </div>
                                 <div class="col-12 box_buttons">
-                                    <a href="{{<siteurl>}}/documentos/PDF/estadisticas/Infografia_becas.pdf" class="btn btn_outline_blue" target="_blank">
+                                    <a href="{{<siteurl>}}/documentos/pdf/estadisticas/Infografia_becas.pdf" class="btn btn_outline_blue" target="_blank">
                                         ACCESO A LA INFOGRAFÍA 
                                         <i class="icon far fa-images"></i>
                                         <i class="hover_icon far fa-images"></i>
@@ -168,7 +168,7 @@ struc_dep_pic: ""
                                     </div>                                
                                 </div>
                                 <div class="col-12 box_buttons">
-                                    <a href="{{<siteurl>}}/documentos/PDF/estadisticas/Mapa_UNIVERSIDADES2_2019.pdf" target="_blank" class="btn btn_outline_blue">
+                                    <a href="{{<siteurl>}}/documentos/pdf/estadisticas/Mapa_UNIVERSIDADES2_2019.pdf" target="_blank" class="btn btn_outline_blue">
                                         ACCESO A LA INFOGRAFÍA 
                                         <i class="icon far fa-images"></i>
                                         <i class="hover_icon far fa-images"></i>

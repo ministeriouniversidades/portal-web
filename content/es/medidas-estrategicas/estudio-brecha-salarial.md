@@ -25,7 +25,7 @@ La coordinación del informe ha sido llevada a cabo por la profesora titular del
             <div class="container container-xl">
                 <div class="row">
                     <div class="col-lg-4 col-xl-3 mr-card-hover">
-                        <a href="{{< siteurl >}}documentos/PDF/INFORME_BSG_WEB_MUNI.pdf" target="_blank" class="card card-img">
+                        <a href="{{< siteurl >}}documentos/pdf/INFORME_BSG_WEB_MUNI.pdf" target="_blank" class="card card-img">
                             <div class="box_icon">
                                 <div class="img" style="background-image: url('{{<siteurl>}}/images/estadisticas/istockphoto-864602884-170667a.jpg');"></div>
                             </div>
@@ -45,7 +45,7 @@ La coordinación del informe ha sido llevada a cabo por la profesora titular del
                         </a>
                     </div>
                     <div class="col-lg-4 col-xl-3 mr-card-hover">
-                        <a href="{{< siteurl >}}documentos/PDF/DossierInfoBrechaSalarial.pdf" class="card card-img" target="_blank">
+                        <a href="{{< siteurl >}}documentos/pdf/DossierInfoBrechaSalarial.pdf" class="card card-img" target="_blank">
                             <div class="box_icon">
                                 <div class="img" style="background-image: url('{{<siteurl>}}/images/estadisticas/istockphoto-1145882183-612x612.jpg');"></div>
                             </div>

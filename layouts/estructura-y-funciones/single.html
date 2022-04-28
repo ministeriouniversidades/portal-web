@@ -75,10 +75,10 @@
         </section>
     {{ end }}
     <section>
-        <article class="calls">
-            <div class="container container-xl">
-                        <div class="row">
-                            <div class="col-lg-12  content_collapse mb-60">
+        <article>
+            <div class="container container_xl_accoordion">
+                <div class="row mt-4">
+                    <div class="col-lg-12 content_collapse mb-120">
                                 <div class="accordion" id="accordionPanelsStayOpenExample">
                                 {{ if isset .Params "section_contenido_1"}}
                                     <div class="accordion-item">
@@ -235,6 +235,18 @@
                                     </a>
                                 </div>
                             {{ end }}
+                    {{ end }}
+                    {{ if not (eq .Parent.Title .FirstSection.Title) }}
+                        <div class="col-lg-4 col-xl-3 mr-card-hover">
+                            <a href="{{ .Parent.Permalink }}" class="card card-img" {{ if isset .Parent.Params "external_link" }}target="_blank"{{ end }}>
+                                <div class="box_icon">
+                                    <div class="img" style="background-image: url({{ if isset .Parent.Params "img" }}{{ .Parent.Params.img | absURL }}{{ else }}{{ .Parent.Params.section_img | absURL }}{{ end }});"></div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text card-text-blue">{{ .Parent.Title }} {{ if isset .Params "external_link" }}<i class="fal fa-file-pdf pdf_icon"></i>{{ end }}</p>
+                                </div>
+                            </a>
+                        </div>
                     {{ end }}
                 </div>
             </div>

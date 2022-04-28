@@ -56,7 +56,7 @@ url: "/estadisticas/catalogo-datos/estadisticas-tesis-doctorales/"
                                 <div class="img" style="background-image: url('{{<siteurl>}}/images/Grupo_626.png');"></div>
                             </div>
                             <div class="card-body">
-                                <p class="card-text card-text-blue">Estadística de Tesis Doctorales (ETD)</p>
+                                <p class="card-text card-text-blue">Estadística de Tesis Doctorales (ETD)</p> <i class="icon fas fa-external-link-alt"></i>
                             </div>
                         </a>
                     </div>
@@ -135,7 +135,7 @@ url: "/estadisticas/catalogo-datos/estadisticas-tesis-doctorales/"
                                                     <div class="col-lg-12 cards_download_cnt">
                                                         <div class="row jcc_mobile">
                                                             <div class="download_card">
-                                                                <a class="card" href="{{<siteurl>}}documentos/PDF/estadisticas/Metodologia_ETD_2020.pdf" target="_blank">
+                                                                <a class="card" href="{{<siteurl>}}documentos/pdf/estadisticas/Metodologia_ETD_2020.pdf" target="_blank">
                                                                     <div class="card-header">
                                                                         <i class="fal fa-download"></i>
                                                                     </div>
@@ -148,7 +148,7 @@ url: "/estadisticas/catalogo-datos/estadisticas-tesis-doctorales/"
                                                                 </a>
                                                             </div>
 															<div class="download_card">
-                                                                <a class="card" href="{{<siteurl>}}documentos/PDF/estadisticas/PrincipalesResultados_ETD2020.pdf" target="_blank">
+                                                                <a class="card" href="{{<siteurl>}}documentos/pdf/estadisticas/PrincipalesResultados_ETD2020.pdf" target="_blank">
                                                                     <div class="card-header">
                                                                         <i class="fal fa-download"></i>
                                                                     </div>
@@ -168,7 +168,7 @@ url: "/estadisticas/catalogo-datos/estadisticas-tesis-doctorales/"
                                                           <div class="swiper-wrapper">
                                                             <div class="swiper-slide">
                                                                 <div class="download_card">
-                                                                    <a class="card" href="{{<siteurl>}}documentos/PDF/estadisticas/Metodologia_2021_2022.pdf" target="_blank">
+                                                                    <a class="card" href="{{<siteurl>}}documentos/pdf/estadisticas/Metodologia_2021_2022.pdf" target="_blank">
                                                                         <div class="card-header">
                                                                             <i class="fal fa-download"></i>
                                                                         </div>
@@ -182,7 +182,7 @@ url: "/estadisticas/catalogo-datos/estadisticas-tesis-doctorales/"
                                                                     </a>
                                                                 </div>
 																<div class="download_card">
-                                                                    <a class="card" href="{{<siteurl>}}documentos/PDF/estadisticas/Nota_2021_2022.pdf" target="_blank">
+                                                                    <a class="card" href="{{<siteurl>}}documentos/pdf/estadisticas/Nota_2021_2022.pdf" target="_blank">
                                                                         <div class="card-header">
                                                                             <i class="fal fa-download"></i>
                                                                         </div>

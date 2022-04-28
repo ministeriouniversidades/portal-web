@@ -1,10 +1,13 @@
 ---
 title: "Ayudas para la formación de profesorado universitario (FPU) 2021"
+name: "Becas y ayudas para investigar"
 date: 2021-11-12T14:20:16+01:00
 call_desc: "Concesión de Ayudas para contratos predoctorales para la realización de tesis doctorales, en Universidades ..."
 call_closed: "/imgs/call-closed.svg"
 call_opened: "/imgs/call-opened.svg"
 call_status: false
+call_start: 2021-11-22T00:00:00+01:00
+call_end: 2021-12-17T00:00:00+01:00
 ---
 <br><br><b>Plazos de solicitud</b><br>
 22/11/2021-17/12/2021  
@@ -31,4 +34,4 @@ Quienes hayan obtenido el título de doctor/a, previo al inicio de la última an
 <br><br><b>Tipo de ayuda</b><br> 
 <br><br><b>Información de contacto</b><br> 
 Correo electrónico:<span>&nbsp;</span><a href="mailto:solicitantes.fpu@universidades.gob.es">solicitantes.fpu@universidades.gob.es</a>
-<a title="Información y Atención al Ciudadano" href="https://www.universidades.gob.es/portal/site/MICINN/menuitem.b153148dd6857ccd7010721001432ea0/?vgnextoid=41dbdaa8a3860210VgnVCM1000001034e20aRCRD">Informaci&oacute;n y Atenci&oacute;n al Ciudadano</a>
+<a title="Información y Atención al Ciudadano" href="https://www.universidades.gob.es/portal/site/MICINN/menuitem.b153148dd6857ccd7010721001432ea0/?vgnextoid=41dbdaa8a3860210VgnVCM1000001034e20aRCRD">Información y Atención al Ciudadano</a>

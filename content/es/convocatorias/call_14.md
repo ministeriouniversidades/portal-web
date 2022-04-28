@@ -1,10 +1,13 @@
 ---
 title: "Ayudas a la movilidad para estancias breves y traslados temporales de beneficiarios FPU. Convocatoria Extraordinaria."
+name: "Becas y ayudas para la movilidad"
 date: 2021-11-12T14:20:18+01:00
 call_desc: "Las ayudas para estancias breves y traslados temporales, adaptadas en esta convocatoria extraordinaria al Real Decreto-ley ..."
 call_closed: "/imgs/call-closed.svg"
 call_opened: "/imgs/call-opened.svg"
 call_status: false
+call_start: 2020-06-22T00:00:00+01:00
+call_end: 2020-09-30T00:00:00+01:00
 ---
 <br><br><b>Plazos de solicitud</b><br>
 22/06/2020-30/09/2020   

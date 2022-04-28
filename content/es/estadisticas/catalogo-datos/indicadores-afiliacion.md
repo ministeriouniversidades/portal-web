@@ -33,11 +33,11 @@ url: "/estadisticas/catalogo-datos/indicadores-afiliacion/"
                     </div>
                 </div>
 <br><br>
-  <section> 
+    <section>
         <article>
-            <div class="container container-xl">
-				<div class="row">
-					<div class="col-lg-12 content_collapse mb/60">
+            <div class="container container_xl_accoordion p-0">
+                <div class="row mt-4">
+                    <div class="col-lg-12 content_collapse mb-120">
 <div class="accordion" id="accordionPanelsStayOpenExample">
 <div class="accordion-item">
 <h2 class="accordion-header" id="panelsStayOpen-headingOne">

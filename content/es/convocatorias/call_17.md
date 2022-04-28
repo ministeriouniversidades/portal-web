@@ -1,10 +1,13 @@
 ---
 title: "Ayudas para la realización de estudios de Máster en Estados Unidos de América. Convocatoria curso 2021-2022"
+name: "Becas y ayudas para la movilidad"
 date: 2021-11-12T14:20:15+01:00
 call_desc: "Esta convocatoria tiene por finalidad la concesión de ayudas para la realización de estudios de Máster ..."
 call_closed: "/imgs/call-closed.svg"
 call_opened: "/imgs/call-opened.svg"
 call_status: false
+call_start: 2021-01-15T00:00:00+01:00
+call_end: 2021-02-05T00:00:00+01:00
 ---
 <br><br><b>Plazos de solicitud</b><br>
 15/01/2021-05/02/2021  
@@ -71,4 +74,4 @@ Concurrencia competitiva
 <br><br><b>Tipo de ayuda</b><br> 
 <br><br><b>Información de contacto</b><br> 
 Correo electrónico:<span>&nbsp;</span><a href="mailto:acc.internacionales@universidades.gob.es">acc.internacionales@universidades.gob.es</a>
-<a title="Información y Atención al Ciudadano" href="https://www.universidades.gob.es/portal/site/MICINN/menuitem.b153148dd6857ccd7010721001432ea0/?vgnextoid=41dbdaa8a3860210VgnVCM1000001034e20aRCRD">Informaci&oacute;n y Atenci&oacute;n al Ciudadano</a>
+<a title="Información y Atención al Ciudadano" href="https://www.universidades.gob.es/portal/site/MICINN/menuitem.b153148dd6857ccd7010721001432ea0/?vgnextoid=41dbdaa8a3860210VgnVCM1000001034e20aRCRD">Información y Atención al Ciudadano</a>

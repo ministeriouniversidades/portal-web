@@ -9,7 +9,7 @@ news_title: "El ministerio de Universidades y el ministerio de Ciencia e Innovac
 news_date: 2020-01-28T14:20:22+01:00
 ---
 <ul>
-<li><b>Este &oacute;rgano contar&aacute; con una participaci&oacute;n paritaria de ambos ministerios</b></li>
+<li><b>Este órgano contará con una participación paritaria de ambos ministerios</b></li>
 </ul>
-<p>El Consejo de Ministros ha aprobado el Real Decreto por el que se establece la estructura org&aacute;nica b&aacute;sica de los departamentos ministeriales. Esta norma incluye la creaci&oacute;n, en un plazo m&aacute;ximo de tres meses, de un &oacute;rgano de coordinaci&oacute;n entre el Ministerio de Ciencia e Innovaci&oacute;n y el Ministerio de Universidades.</p>
-<p>Este &oacute;rgano, que contar&aacute; con una participaci&oacute;n paritaria de ambos ministerios, garantizar&aacute; el funcionamiento cohesionado de la Administraci&oacute;n en materia de investigaci&oacute;n universitaria. Este mecanismo de coordinaci&oacute;n reafirma la idea que los ministros Pedro Duque y Manuel Castells han trasladado desde su toma de posesi&oacute;n, en la que ambos subrayaron la necesidad de actuar como un &uacute;nico actor a la hora de poner en marcha los cambios</p>
+<p>El Consejo de Ministros ha aprobado el Real Decreto por el que se establece la estructura orgánica básica de los departamentos ministeriales. Esta norma incluye la creación, en un plazo máximo de tres meses, de un órgano de coordinación entre el Ministerio de Ciencia e Innovación y el Ministerio de Universidades.</p>
+<p>Este órgano, que contará con una participación paritaria de ambos ministerios, garantizará el funcionamiento cohesionado de la Administración en materia de investigación universitaria. Este mecanismo de coordinación reafirma la idea que los ministros Pedro Duque y Manuel Castells han trasladado desde su toma de posesión, en la que ambos subrayaron la necesidad de actuar como un único actor a la hora de poner en marcha los cambios</p>

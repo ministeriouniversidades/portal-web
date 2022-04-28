@@ -1,3 +1,0 @@
----
-title: "Medidas Estratégicas"
----
