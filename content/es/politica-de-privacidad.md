@@ -10,7 +10,7 @@ type: medidas-estrategicas
             <div class="container container-xl">
                 <div class="row">
                     <div class="col-lg-12 box">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
 			<p>Este aviso legal es de aplicación a las páginas de los portales web y sedes electrónicas propiedad del Ministerio de Universidades. El Ministerio de Universidades actúa en calidad de responsable del tratamiento de los datos de carácter personal relativos a los usuarios de sus servicios. Los datos aportados por el interésado se utilizarán, con carácter exclusivo, para los fines previstos en cada procedimiento o actuación. <p>
 			<p>La normativa vigente en el ámbito de la protección de datos de carácter personal se compone del Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo de 27 de abril del 2016 (RGPD) y de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y Garantía de los Derechos Digitales (LOPD). De acuerdo con la normativa anteriormente citada, el Ministerio garantizará la confidencialidad de los datos personales tratados. Para ello, adoptará las medidas técnicas y organizativas necesarias. </p>
 			<h3>Recogida de datos personales</h3>
